@@ -1,0 +1,31 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "url": "https://api.worldbank.org/v2/country/ind;mex;arg;usa;aus/indicator/NY.GDP.TOTL.RT.ZS?format=json&per_page=1000",
+    "format": {"property": "[1]"}
+  },
+  "width": 500,
+  "height": 350,
+  "mark": "line",
+  "title": {
+    "text": "Total natural resources rents (% of GDP)",
+    "subtitle": "Source: World Bank"
+  },
+  "encoding": {
+    "x": {
+      "field": "date",
+      "type": "temporal",
+      "title": "year",
+      "axis": {"grid": false},
+      "scale": {"domain": [{"year": 1970}, {"year": 2021}]}
+    },
+    "y": {"field": "value", "type": "quantitative", "title": "% of GDP"},
+    "color": {
+      "field": "country.value",
+      "type": "nominal",
+      "scale": {"scheme": "tableau20"},
+      "legend": {"title": "Country", "orient": "top-right"}
+    }
+  },
+  "config": {}
+}
