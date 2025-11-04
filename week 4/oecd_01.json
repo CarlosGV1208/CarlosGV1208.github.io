@@ -1,0 +1,100 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Youth unemployment rates in OECD countries",
+    "subtitle": "April to June 2025 | Source: OECD, Data explorer, Data extracted on 04 Nov 2025",
+    "fontSize": 16,
+    "anchor": "start"
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/CarlosGV1208/CarlosGV1208.github.io/refs/heads/main/week%204/oecd_data.csv"
+  },
+  "transform": [
+    {"fold": ["2025-Q2"], "as": ["quarter", "unemployment_rate"]},
+    {
+      "filter": "datum.unemployment_rate !== null && datum.unemployment_rate !== ''"
+    },
+    {"filter": "datum.Country !== 'Euro area (20 countries)'"},
+    {
+      "calculate": "if(datum.Country === 'European Union (27 countries from 01/02/2020)', 'EU', datum.Country)",
+      "as": "Country_clean"
+    },
+    {
+      "calculate": "if(datum.Country_clean === 'United Kingdom', 'uk', if(datum.Country_clean === 'OECD', 'oecd', if(datum.Country_clean === 'EU', 'eu', 'normal')))",
+      "as": "highlight_status"
+    },
+    {
+      "calculate": "if(datum.Country_clean === 'United Kingdom' || datum.Country_clean === 'OECD' || datum.Country_clean === 'EU', round(datum.unemployment_rate * 100) / 100, null)",
+      "as": "rounded_rate"
+    },
+    {
+      "calculate": "if(datum.Country_clean === 'United Kingdom' || datum.Country_clean === 'OECD' || datum.Country_clean === 'EU', datum.rounded_rate + '%', '')",
+      "as": "value_label"
+    }
+  ],
+  "layer": [
+    {
+      "mark": {"type": "bar", "cornerRadius": 3},
+      "encoding": {
+        "y": {
+          "field": "Country_clean",
+          "type": "nominal",
+          "title": "Country",
+          "sort": {"field": "unemployment_rate", "order": "ascending"},
+          "axis": {"labelLimit": 120, "labelFontSize": 10}
+        },
+        "x": {
+          "field": "unemployment_rate",
+          "type": "quantitative",
+          "title": "Unemployment Rate (%)",
+          "axis": {"grid": true, "gridColor": "#f0f0f0"}
+        },
+        "color": {
+          "field": "highlight_status",
+          "type": "nominal",
+          "scale": {
+            "domain": ["uk", "oecd", "eu", "normal"],
+            "range": ["#FF4500", "#32CD32", "#FFA500", "#1f77b4"]
+          },
+          "legend": null,
+          "title": null
+        },
+        "tooltip": [
+          {"field": "Country_clean", "type": "nominal", "title": "Country"},
+          {
+            "field": "unemployment_rate",
+            "type": "quantitative",
+            "title": "Unemployment Rate %",
+            "format": ".2f"
+          }
+        ]
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "baseline": "middle",
+        "dx": 5,
+        "fontSize": 11,
+        "fontWeight": "bold"
+      },
+      "encoding": {
+        "y": {
+          "field": "Country_clean",
+          "type": "nominal",
+          "sort": {"field": "unemployment_rate", "order": "ascending"}
+        },
+        "x": {"field": "unemployment_rate", "type": "quantitative"},
+        "text": {"field": "value_label", "type": "nominal"},
+        "color": {"value": "#000000"}
+      }
+    }
+  ],
+  "width": 800,
+  "height": 700,
+  "config": {
+    "view": {"stroke": "transparent"},
+    "title": {"fontSize": 18, "subtitleFontSize": 12}
+  }
+}
