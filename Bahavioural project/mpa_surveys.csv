@@ -1,19 +1,25 @@
 question,survey,mean,min,max
-Q1,baseline,3.3,1,6
-Q2,baseline,3.7,1,7
-Q3,baseline,5.3,3,7
-Q4,baseline,2.3,1,5
-Q5,baseline,6.3,5,7
-Q6,baseline,2.7,1,7
-Q7,baseline,6,4,7
-Q8,baseline,4.1,3,5
-Q9,baseline,5.7,4,7
-Q1,evaluation,3,1,6
-Q2,evaluation,3,1,5
-Q3,evaluation,6,5,7
-Q4,evaluation,3.6,2,6
-Q5,evaluation,6.4,6,7
-Q6,evaluation,3,1,6
-Q7,evaluation,5.4,3,7
-Q8,evaluation,4.6,4,5
-Q9,evaluation,6,5,7
+"Q1 ""Sometimes I feel that I belong at LSE, and sometimes I feel that I don't belong""",baseline,3.3,1,6
+"Q2 ""When something bad happens (like a disappointing grade), I feel that maybe I don't belong at LSE""",baseline,3.7,1,7
+"Q3 ""When something good happens (like doing well on an assignment), I feel that I really belong at LSE""",baseline,5.3,3,7
+"Q4 When you receive a disappointing grade or struggle with coursework, what do you usually think? Rate how much you agree:
+""I'm not smart enough to be here""",baseline,2.3,1,5
+"Q5 When you receive a disappointing grade or struggle with coursework, what do you usually think? Rate how much you agree:
+""I haven't mastered this YET, but I can with practice""",baseline,6.3,5,7
+"Q6 When you receive a disappointing grade or struggle with coursework, what do you usually think? Rate how much you agree:
+""People from my background don't typically succeed in programmes like this""",baseline,2.7,1,7
+"Q7 When you receive a disappointing grade or struggle with coursework, what do you usually think? Rate how much you agree:
+""I can improve if I try different strategies or seek help""",baseline,6,4,7
+Q8 Happiness with your MPA experience so far,baseline,5.7,4,7
+"Q1 ""Sometimes I feel that I belong at LSE, and sometimes I feel that I don't belong""",evaluation,3,1,6
+"Q2 ""When something bad happens (like a disappointing grade), I feel that maybe I don't belong at LSE""",evaluation,3,1,5
+"Q3 ""When something good happens (like doing well on an assignment), I feel that I really belong at LSE""",evaluation,6,5,7
+"Q4 When you receive a disappointing grade or struggle with coursework, what do you usually think? Rate how much you agree:
+""I'm not smart enough to be here""",evaluation,3.6,2,6
+"Q5 When you receive a disappointing grade or struggle with coursework, what do you usually think? Rate how much you agree:
+""I haven't mastered this YET, but I can with practice""",evaluation,6.4,6,7
+"Q6 When you receive a disappointing grade or struggle with coursework, what do you usually think? Rate how much you agree:
+""People from my background don't typically succeed in programmes like this""",evaluation,3,1,6
+"Q7 When you receive a disappointing grade or struggle with coursework, what do you usually think? Rate how much you agree:
+""I can improve if I try different strategies or seek help""",evaluation,5.4,3,7
+Q8 Happiness with your MPA experience so far,evaluation,6,5,7
