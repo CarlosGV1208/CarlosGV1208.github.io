@@ -12,17 +12,16 @@
     <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
 
     <style>
-        /* STYLE & COLORS: Edit your theme palette here */
         :root {
             --bg-canvas: #ffffff;
-            --accent-color: #1d1d1f;      /* Deep Black */
+            --accent-color: #1d1d1f;
             --creative-orange: #E09322;   /* Your Orange */
-            --subtle-shadow: rgba(224, 147, 34, 0.2); /* Subtle orange for borders/shadows */
+            --solid-orange: #E09322;      /* Vibrant Orange for shadows */
             --creative-pink: #FF3B30;    
             --text-main: #1d1d1f;
             --text-secondary: #6e6e73;
             --card-bg: #f8f9fa;
-            --border-light: #e5e5e5;      /* Subtle border color */
+            --border-light: #e5e5e5;
         }
 
         body {
@@ -33,11 +32,9 @@
             line-height: 1.6;
         }
 
-        /* HEADER: Editorial Layout */
         header {
-            padding: 80px 5% 50px 5%;
+            padding: 80px 5% 40px 5%;
             border-bottom: 1px solid var(--border-light);
-            margin-bottom: 60px;
         }
 
         header h1 {
@@ -56,53 +53,50 @@
             text-transform: uppercase;
         }
 
-        .links {
-            margin-top: 25px;
+        /* INTRODUCTION AREA */
+        .intro-box {
+            max-width: 1150px;
+            margin: 40px auto;
+            padding: 0 25px;
         }
 
+        .intro-text {
+            font-size: 1.2rem;
+            color: var(--text-secondary);
+            border-left: 3px solid var(--creative-pink);
+            padding-left: 20px;
+            max-width: 800px;
+            font-style: italic;
+        }
+
+        .links { margin-top: 25px; }
         .links a {
             color: var(--text-main);
             text-decoration: none;
             font-weight: 600;
             margin-right: 25px;
             border-bottom: 2px solid var(--creative-pink);
-            transition: all 0.3s;
+            transition: 0.3s;
         }
+        .links a:hover { background: var(--creative-pink); color: white; }
 
-        .links a:hover {
-            background-color: var(--creative-pink);
-            color: white;
-        }
-
-        /* CONTAINER: Main width controller */
         .container {
             max-width: 1150px;
-            margin: 0 auto;
+            margin: 60px auto;
             padding: 0 25px;
         }
 
-        /* SECTIONS: Grid configuration for text + chart */
         section {
             display: grid;
             grid-template-columns: 1fr;
             gap: 40px;
-            margin-bottom: 100px;
-            /* Subtler section divider */
-            border-left: 2px solid var(--border-light);
+            margin-bottom: 120px;
+            border-left: 1px solid var(--border-light);
             padding-left: 35px;
         }
 
         @media (min-width: 900px) {
-            section {
-                grid-template-columns: 320px 1fr;
-            }
-        }
-
-        .chart-info h2 {
-            font-family: 'Playfair Display', serif;
-            font-size: 1.8rem;
-            margin: 5px 0 15px 0;
-            line-height: 1.2;
+            section { grid-template-columns: 320px 1fr; }
         }
 
         .chart-info h3 {
@@ -113,36 +107,41 @@
             margin: 0;
         }
 
-        .chart-info p {
-            color: var(--text-secondary);
-            font-size: 0.95rem;
+        .chart-info h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.8rem;
+            margin: 10px 0;
         }
 
-        /* FIGURE: Adjusted to fit chart width precisely */
+        /* DATA SOURCE STYLE */
+        .source {
+            font-size: 0.8rem;
+            color: var(--text-secondary);
+            margin-top: 15px;
+            font-family: 'Inter', sans-serif;
+        }
+
+        .source a {
+            color: var(--creative-orange);
+            text-decoration: none;
+        }
+
         figure {
             margin: 0;
             background: var(--card-bg);
-            padding: 15px;
+            padding: 20px;
             border-radius: 8px;
-            /* Box width now fits the content (the chart) */
             width: fit-content; 
             max-width: 100%;
-            /* Subtle border and shadow */
             border: 1px solid var(--border-light);
-            box-shadow: 8px 8px 0px var(--subtle-shadow); 
-            display: block;
-        }
-
-        .graphs-stack {
-            display: flex;
-            flex-direction: column;
-            gap: 25px;
+            /* VIBRANT ORANGE SHADOW: Changed opacity for less "paleness" */
+            box-shadow: 10px 10px 0px var(--solid-orange); 
         }
 
         footer {
             background: var(--accent-color);
-            color: #E09322;
-            padding: 50px 20px;
+            color: #e5e5e5;
+            padding: 60px 20px;
             text-align: center;
             font-family: 'Playfair Display', serif;
         }
@@ -153,13 +152,19 @@
 
     <header>
         <span class="subtitle">PP434 - Automated Data Visualisation for Policymaking</span>
-        <h1>Data Science<br>Portfolio tasks</h1>
+        <h1>Coding Challenges<br>Portfolio tasks</h1>
         <span class="subtitle">Candidate number: 64689</span>
         <div class="links">
             <a href="https://www.linkedin.com/in/carlos-levi-gallegos-viza-806810172/">LinkedIn</a>
             <a href="https://github.com/CarlosGV1208">GitHub</a>
         </div>
     </header>
+
+    <div class="intro-box">
+        <p class="intro-text">
+            This portfolio documents my work on coding challenges completed during the PP434 course, Automated Data Visualization for Policymaking, taught by Richard Davies at the School of Public Policy at the London School of Economics and Political Science.
+        </p>
+    </div>
 
     <div class="container">
 
@@ -169,74 +174,96 @@
                 <h2>Display charts in your own site.</h2> 
                 <p>Análisis exploratorio inicial utilizando el repositorio central de Economics Observatory para establecer una línea base de datos macroeconómicos.</p> 
             </div>
-            <figure id="Location1"></figure>
+            <div class="graph-container">
+                <figure id="Location1"></figure>
+                <p class="source">Source: <a href="https://www.economicsobservatory.com">Economics Observatory</a></p>
+            </div>
         </section>
 
         <section>
             <div class="chart-info">
                 <h3>CC2 - BUILDING</h3>
                 <h2>Create your own visualisations</h2>
-                <p>Implementación de visualizaciones personalizadas mediante el procesamiento de archivos JSON locales, optimizando la velocidad de carga.</p>
+                <p>Implementación de visualizaciones personalizadas mediante el procesamiento de archivos JSON locales.</p>
             </div>
-            <figure id="Location2"></figure>
+            <div class="graph-container">
+                <figure id="Location2"></figure>
+                <p class="source">Source: <a href="#">Your Link Here</a></p>
+            </div>
         </section>
 
         <section>
             <div class="chart-info">
                 <h3>CC3 - DEBATE</h3>
                 <h2>Use a visualisation in policy commentary</h2>
-                <p>Una comparativa visual profunda sobre cómo los conflictos bélicos han moldeado las curvas de inflación en las potencias mundiales.</p>
+                <p>Comparativa visual sobre inflación y conflictos bélicos.</p>
             </div>
-            <figure id="Location3"></figure>
+            <div class="graph-container">
+                <figure id="Location3"></figure>
+                <p class="source">Source: <a href="#">Your Link Here</a></p>
+            </div>
         </section>
 
         <section>
             <div class="chart-info">
                 <h3>CC4 - REPLICATION</h3>
-                <h2> Re-create, then improve, someone else's chart</h2>
-                <p>Visualización del impacto directo de la volatilidad del crudo en el mercado del Reino Unido durante el último periodo fiscal.</p>
+                <h2>Re-create and improve charts</h2>
+                <p>Visualización del impacto de la volatilidad del crudo en el Reino Unido.</p>
             </div>
-            <figure id="Location4"></figure>
+            <div class="graph-container">
+                <figure id="Location4"></figure>
+                <p class="source">Source: <a href="#">Your Link Here</a></p>
+            </div>
         </section>
 
         <section>
             <div class="chart-info">
                 <h3>Monetary Policy / M2</h3>
                 <h2>Oferta Monetaria</h2>
-                <p>Seguimiento de la masa monetaria M2 y su correlación con los niveles de liquidez y las tasas de interés actuales.</p>
+                <p>Seguimiento de la masa monetaria M2.</p>
             </div>
-            <figure id="LocationX"></figure>
+            <div class="graph-container">
+                <figure id="LocationX"></figure>
+                <p class="source">Source: <a href="#">Your Link Here</a></p>
+            </div>
         </section>
 
         <section>
             <div class="chart-info">
                 <h3>Theory / Grammar of Graphics</h3>
                 <h2>Ratio P/E</h2>
-                <p>Aplicación de los principios de Wilkinson sobre la gramática de gráficos para representar la relación precio-beneficio en mercados de capitales.</p>
+                <p>Relación precio-beneficio en mercados de capitales.</p>
             </div>
-            <figure id="LocationW3"></figure>
+            <div class="graph-container">
+                <figure id="LocationW3"></figure>
+                <p class="source">Source: <a href="#">Your Link Here</a></p>
+            </div>
         </section>
 
         <section>
             <div class="chart-info">
                 <h3>Advanced / Web Scraping</h3>
                 <h2>Natural Resources</h2>
-                <p>Extracción automatizada de datos del Banco Mundial. Este gráfico consolida las rentas totales de recursos naturales globales.</p>
+                <p>Datos consolidados de rentas de recursos naturales globales.</p>
             </div>
-            <div class="graphs-stack">
-                <figure id="Locationw4"></figure>
-                <figure id="Locationw4_02"></figure>
+            <div class="graph-container">
+                <div class="graphs-stack">
+                    <figure id="Locationw4"></figure>
+                    <p class="source">Source 1: <a href="#">Link 1</a></p>
+                    <div style="margin-top: 30px;"></div>
+                    <figure id="Locationw4_02"></figure>
+                    <p class="source">Source 2: <a href="#">Link 2</a></p>
+                </div>
             </div>
         </section>
 
     </div>
 
     <footer>
-        Curated by Carlos Levi Gallegos Viza - LSE-MPA-DSPP 2025
+        Created by Carlos Levi Gallegos Viza - LSE-MPA-DSPP 2025
     </footer>
 
     <script>
-        /* DATA SOURCES: Update your JSON links here */
         const spec1 = "https://raw.githubusercontent.com/EconomicsObservatory/courses/main/2/s2_chart2.json";
         const spec2 = "wk1_chart1.json";
         const spec3 = "fig4_inflation-big4.json";
@@ -246,7 +273,6 @@
         const specW4_a = "worldbank_week4.json";
         const specW4_b = "week4_02.json";
 
-        /* EMBED ENGINE: Connects JSONs to HTML locations */
         vegaEmbed('#Location1', spec1);
         vegaEmbed('#Location2', spec2);
         vegaEmbed('#Location3', spec3);
