@@ -12,15 +12,17 @@
     <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
 
     <style>
-        /* CSS VARIABLES: Edit these colors to change the global theme */
+        /* STYLE & COLORS: Edit your theme palette here */
         :root {
             --bg-canvas: #ffffff;
-            --accent-color: #000000;      /* Editorial Black */
-            --creative-blue: #E09322;    /* Orange */
-            --creative-pink: #FF3B30;    /* Accent Pink/Red */
+            --accent-color: #1d1d1f;      /* Deep Black */
+            --creative-orange: #E09322;   /* Your Orange */
+            --subtle-shadow: rgba(224, 147, 34, 0.2); /* Subtle orange for borders/shadows */
+            --creative-pink: #FF3B30;    
             --text-main: #1d1d1f;
             --text-secondary: #6e6e73;
             --card-bg: #f8f9fa;
+            --border-light: #e5e5e5;      /* Subtle border color */
         }
 
         body {
@@ -31,40 +33,38 @@
             line-height: 1.6;
         }
 
-        /* HEADER SECTION: Magazine Layout */
+        /* HEADER: Editorial Layout */
         header {
-            padding: 100px 5% 60px 5%;
-            border-bottom: 2px solid var(--accent-color);
-            margin-bottom: 50px;
+            padding: 80px 5% 50px 5%;
+            border-bottom: 1px solid var(--border-light);
+            margin-bottom: 60px;
         }
 
         header h1 {
             font-family: 'Playfair Display', serif;
-            font-size: clamp(3rem, 8vw, 5rem); /* Responsive size */
-            margin: 0;
-            line-height: 0.9;
+            font-size: clamp(2.5rem, 7vw, 4.5rem);
+            margin: 15px 0;
+            line-height: 1;
             text-transform: uppercase;
         }
 
         header .subtitle {
-            font-size: 1.2rem;
-            color: var(--creative-blue);
+            font-size: 1rem;
+            color: var(--creative-orange);
             font-weight: 600;
-            margin-top: 20px;
-            display: block;
             letter-spacing: 2px;
             text-transform: uppercase;
         }
 
         .links {
-            margin-top: 30px;
+            margin-top: 25px;
         }
 
         .links a {
             color: var(--text-main);
             text-decoration: none;
             font-weight: 600;
-            margin-right: 20px;
+            margin-right: 25px;
             border-bottom: 2px solid var(--creative-pink);
             transition: all 0.3s;
         }
@@ -74,65 +74,75 @@
             color: white;
         }
 
-        /* MAIN CONTAINER */
+        /* CONTAINER: Main width controller */
         .container {
-            max-width: 1100px;
+            max-width: 1150px;
             margin: 0 auto;
-            padding: 0 20px;
+            padding: 0 25px;
         }
 
-        /* SECTION STYLE: Editorial Card */
+        /* SECTIONS: Grid configuration for text + chart */
         section {
             display: grid;
-            grid-template-columns: 1fr; /* Stacked by default */
-            gap: 30px;
-            margin-bottom: 120px; /* Large spacing for clean look */
-            border-left: 4px solid var(--accent-color);
-            padding-left: 30px;
+            grid-template-columns: 1fr;
+            gap: 40px;
+            margin-bottom: 100px;
+            /* Subtler section divider */
+            border-left: 2px solid var(--border-light);
+            padding-left: 35px;
         }
 
-        @media (min-width: 850px) {
+        @media (min-width: 900px) {
             section {
-                grid-template-columns: 350px 1fr; /* Sidebar text + large graph */
+                grid-template-columns: 320px 1fr;
             }
         }
 
         .chart-info h2 {
             font-family: 'Playfair Display', serif;
-            font-size: 2rem;
-            margin: 0 0 10px 0;
+            font-size: 1.8rem;
+            margin: 5px 0 15px 0;
+            line-height: 1.2;
         }
 
         .chart-info h3 {
-            font-size: 0.9rem;
-            color: var(--creative-blue);
+            font-size: 0.85rem;
+            color: var(--creative-orange);
             text-transform: uppercase;
-            letter-spacing: 1px;
-            margin-bottom: 20px;
+            letter-spacing: 1.5px;
+            margin: 0;
         }
 
         .chart-info p {
             color: var(--text-secondary);
-            font-size: 1rem;
+            font-size: 0.95rem;
         }
 
-        /* FIGURE STYLE: The Graph Container */
+        /* FIGURE: Adjusted to fit chart width precisely */
         figure {
             margin: 0;
             background: var(--card-bg);
-            padding: 20px;
-            border-radius: 4px;
-            box-shadow: 10px 10px 0px var(--creative-blue); /* Brutalist shadow */
+            padding: 15px;
+            border-radius: 8px;
+            /* Box width now fits the content (the chart) */
+            width: fit-content; 
+            max-width: 100%;
+            /* Subtle border and shadow */
+            border: 1px solid var(--border-light);
+            box-shadow: 8px 8px 0px var(--subtle-shadow); 
+            display: block;
+        }
+
+        .graphs-stack {
             display: flex;
-            justify-content: center;
-            align-items: center;
-            overflow-x: auto;
+            flex-direction: column;
+            gap: 25px;
         }
 
         footer {
             background: var(--accent-color);
             color: white;
-            padding: 60px 20px;
+            padding: 50px 20px;
             text-align: center;
             font-family: 'Playfair Display', serif;
             font-style: italic;
@@ -143,8 +153,9 @@
 <body>
 
     <header>
-        <span class="subtitle">Data & Economics Edition 2025</span>
-        <h1>Visual<br>Intelligence</h1>
+        <span class="subtitle">PP434 - Automated Data Visualisation for Policymaking</span>
+        <h1>Data Science<br>Portfolio tasks</h1>
+        <span class="subtitle">Candidate number: 64689</span>
         <div class="links">
             <a href="https://www.linkedin.com/in/carlos-levi-gallegos-viza-806810172/">LinkedIn</a>
             <a href="https://github.com/CarlosGV1208">GitHub</a>
@@ -155,14 +166,17 @@
 
         <section>
             <div class="chart-info">
-                <h3>Week 01 / Fundamentals</h3> <h2>Semana 1: Gráfico Base</h2> <p>Análisis exploratorio inicial utilizando el repositorio central de Economics Observatory para establecer una línea base de datos macroeconómicos.</p> </div>
+                <h3>CC1 - HOSTING</h3> 
+                <h2>Display charts in your own site.</h2> 
+                <p>Análisis exploratorio inicial utilizando el repositorio central de Economics Observatory para establecer una línea base de datos macroeconómicos.</p> 
+            </div>
             <figure id="Location1"></figure>
         </section>
 
         <section>
             <div class="chart-info">
-                <h3>Week 01 / Local Data</h3>
-                <h2>Análisis Local</h2>
+                <h3>CC2 - BUILDING</h3>
+                <h2>Create your own visualisations</h2>
                 <p>Implementación de visualizaciones personalizadas mediante el procesamiento de archivos JSON locales, optimizando la velocidad de carga.</p>
             </div>
             <figure id="Location2"></figure>
@@ -170,8 +184,8 @@
 
         <section>
             <div class="chart-info">
-                <h3>Special Report / Inflation</h3>
-                <h2>Tiempos de Guerra</h2>
+                <h3>CC3 - DEBATE</h3>
+                <h2>Use a visualisation in policy commentary</h2>
                 <p>Una comparativa visual profunda sobre cómo los conflictos bélicos han moldeado las curvas de inflación en las potencias mundiales.</p>
             </div>
             <figure id="Location3"></figure>
@@ -179,8 +193,8 @@
 
         <section>
             <div class="chart-info">
-                <h3>Energy Market / UK</h3>
-                <h2>Precios del Petróleo</h2>
+                <h3>CC4 - REPLICATION</h3>
+                <h2> Re-create, then improve, someone else's chart</h2>
                 <p>Visualización del impacto directo de la volatilidad del crudo en el mercado del Reino Unido durante el último periodo fiscal.</p>
             </div>
             <figure id="Location4"></figure>
@@ -211,7 +225,7 @@
                 <p>Extracción automatizada de datos del Banco Mundial. Este gráfico consolida las rentas totales de recursos naturales globales.</p>
             </div>
             <div class="graphs-stack">
-                <figure id="Locationw4" style="margin-bottom: 20px;"></figure>
+                <figure id="Locationw4"></figure>
                 <figure id="Locationw4_02"></figure>
             </div>
         </section>
@@ -223,7 +237,7 @@
     </footer>
 
     <script>
-        /* GRAPH CONFIGURATION: Edit the URLs or file names here */
+        /* DATA SOURCES: Update your JSON links here */
         const spec1 = "https://raw.githubusercontent.com/EconomicsObservatory/courses/main/2/s2_chart2.json";
         const spec2 = "wk1_chart1.json";
         const spec3 = "fig4_inflation-big4.json";
@@ -233,7 +247,7 @@
         const specW4_a = "worldbank_week4.json";
         const specW4_b = "week4_02.json";
 
-        /* RENDERING ENGINE */
+        /* EMBED ENGINE: Connects JSONs to HTML locations */
         vegaEmbed('#Location1', spec1);
         vegaEmbed('#Location2', spec2);
         vegaEmbed('#Location3', spec3);
