@@ -5,111 +5,137 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Carlos | Data Portfolio</title>
 
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
     
     <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
 
     <style>
+        /* CSS VARIABLES: Edit these colors to change the global theme */
         :root {
-            --apple-gray: #f5f5f7;
-            --apple-blue: #0071e3;
-            --text-dark: #1d1d1f;
-            --text-gray: #86868b;
-            --white: #ffffff;
+            --bg-canvas: #ffffff;
+            --accent-color: #000000;      /* Editorial Black */
+            --creative-blue: #0047FF;    /* Avant-garde Blue */
+            --creative-pink: #FF3B30;    /* Accent Pink/Red */
+            --text-main: #1d1d1f;
+            --text-secondary: #6e6e73;
+            --card-bg: #f8f9fa;
         }
 
         body {
-            font-family: 'Inter', -apple-system, sans-serif;
-            background-color: var(--apple-gray);
-            color: var(--text-dark);
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg-canvas);
+            color: var(--text-main);
             margin: 0;
-            padding: 0;
-            line-height: 1.5;
+            line-height: 1.6;
         }
 
-        /* Hero Section (Apple Style) */
+        /* HEADER SECTION: Magazine Layout */
         header {
-            background-color: var(--white);
-            padding: 80px 20px;
-            text-align: center;
-            border-bottom: 1px solid #d2d2d7;
+            padding: 100px 5% 60px 5%;
+            border-bottom: 2px solid var(--accent-color);
+            margin-bottom: 50px;
         }
 
         header h1 {
-            font-size: 48px;
-            font-weight: 600;
-            letter-spacing: -0.5px;
-            margin-bottom: 10px;
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(3rem, 8vw, 5rem); /* Responsive size */
+            margin: 0;
+            line-height: 0.9;
+            text-transform: uppercase;
         }
 
-        header p {
-            font-size: 21px;
-            color: var(--text-gray);
-            max-width: 600px;
-            margin: 0 auto 20px auto;
+        header .subtitle {
+            font-size: 1.2rem;
+            color: var(--creative-blue);
+            font-weight: 600;
+            margin-top: 20px;
+            display: block;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+
+        .links {
+            margin-top: 30px;
         }
 
         .links a {
-            color: var(--apple-blue);
+            color: var(--text-main);
             text-decoration: none;
-            margin: 0 10px;
-            font-weight: 400;
+            font-weight: 600;
+            margin-right: 20px;
+            border-bottom: 2px solid var(--creative-pink);
+            transition: all 0.3s;
         }
 
         .links a:hover {
-            text-decoration: underline;
+            background-color: var(--creative-pink);
+            color: white;
         }
 
-        /* Grid Layout */
+        /* MAIN CONTAINER */
         .container {
-            max-width: 1000px;
-            margin: 40px auto;
+            max-width: 1100px;
+            margin: 0 auto;
             padding: 0 20px;
         }
 
+        /* SECTION STYLE: Editorial Card */
         section {
-            background: var(--white);
-            border-radius: 20px;
-            padding: 40px;
-            margin-bottom: 40px;
-            box-shadow: 0 4px 20px rgba(0,0,0,0.05);
-            transition: transform 0.3s ease;
+            display: grid;
+            grid-template-columns: 1fr; /* Stacked by default */
+            gap: 30px;
+            margin-bottom: 120px; /* Large spacing for clean look */
+            border-left: 4px solid var(--accent-color);
+            padding-left: 30px;
         }
 
-        section:hover {
-            transform: translateY(-5px);
+        @media (min-width: 850px) {
+            section {
+                grid-template-columns: 350px 1fr; /* Sidebar text + large graph */
+            }
         }
 
-        .chart-description h2 {
-            font-size: 24px;
-            font-weight: 600;
-            margin-top: 0;
+        .chart-info h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2rem;
+            margin: 0 0 10px 0;
         }
 
-        .chart-description p {
-            color: var(--text-gray);
-            font-size: 16px;
-            margin-bottom: 30px;
+        .chart-info h3 {
+            font-size: 0.9rem;
+            color: var(--creative-blue);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 20px;
         }
 
-        /* Estilo para los contenedores de Vega-Lite */
+        .chart-info p {
+            color: var(--text-secondary);
+            font-size: 1rem;
+        }
+
+        /* FIGURE STYLE: The Graph Container */
         figure {
             margin: 0;
-            width: 100%;
+            background: var(--card-bg);
+            padding: 20px;
+            border-radius: 4px;
+            box-shadow: 10px 10px 0px var(--creative-blue); /* Brutalist shadow */
             display: flex;
             justify-content: center;
-            background-color: #fafafa;
-            padding: 20px;
-            border-radius: 12px;
+            align-items: center;
+            overflow-x: auto;
         }
 
         footer {
+            background: var(--accent-color);
+            color: white;
+            padding: 60px 20px;
             text-align: center;
-            padding: 40px;
-            color: var(--text-gray);
-            font-size: 14px;
+            font-family: 'Playfair Display', serif;
+            font-style: italic;
         }
     </style>
 </head>
@@ -117,8 +143,8 @@
 <body>
 
     <header>
-        <h1>Data Visualization Portfolio</h1>
-        <p>Explorando tendencias económicas a través de datos y diseño.</p>
+        <span class="subtitle">Data & Economics Edition 2025</span>
+        <h1>Visual<br>Intelligence</h1>
         <div class="links">
             <a href="https://www.linkedin.com/in/carlos-levi-gallegos-viza-806810172/">LinkedIn</a>
             <a href="https://github.com/CarlosGV1208">GitHub</a>
@@ -128,71 +154,76 @@
     <div class="container">
 
         <section>
-            <div class="chart-description">
-                <h2>Semana 1: Gráfico Base</h2>
-                <p>Organización de datos inicial usando un repositorio remoto de Economics Observatory.</p>
-            </div>
+            <div class="chart-info">
+                <h3>Week 01 / Fundamentals</h3> <h2>Semana 1: Gráfico Base</h2> <p>Análisis exploratorio inicial utilizando el repositorio central de Economics Observatory para establecer una línea base de datos macroeconómicos.</p> </div>
             <figure id="Location1"></figure>
         </section>
 
         <section>
-            <div class="chart-description">
-                <h2>Semana 1: Análisis Local</h2>
-                <p>Visualización basada en archivos locales JSON para control de datos.</p>
+            <div class="chart-info">
+                <h3>Week 01 / Local Data</h3>
+                <h2>Análisis Local</h2>
+                <p>Implementación de visualizaciones personalizadas mediante el procesamiento de archivos JSON locales, optimizando la velocidad de carga.</p>
             </div>
             <figure id="Location2"></figure>
         </section>
 
         <section>
-            <div class="chart-description">
-                <h2>Inflación en Tiempos de Guerra</h2>
-                <p>Comparativa histórica de la inflación en las principales potencias económicas.</p>
+            <div class="chart-info">
+                <h3>Special Report / Inflation</h3>
+                <h2>Tiempos de Guerra</h2>
+                <p>Una comparativa visual profunda sobre cómo los conflictos bélicos han moldeado las curvas de inflación en las potencias mundiales.</p>
             </div>
             <figure id="Location3"></figure>
         </section>
 
         <section>
-            <div class="chart-description">
-                <h2>Precios del Petróleo (UK)</h2>
-                <p>Impacto de los precios del crudo en la economía británica.</p>
+            <div class="chart-info">
+                <h3>Energy Market / UK</h3>
+                <h2>Precios del Petróleo</h2>
+                <p>Visualización del impacto directo de la volatilidad del crudo en el mercado del Reino Unido durante el último periodo fiscal.</p>
             </div>
             <figure id="Location4"></figure>
         </section>
 
         <section>
-            <div class="chart-description">
-                <h2>Oferta Monetaria M2</h2>
-                <p>Seguimiento de la masa monetaria y su relación con la liquidez del mercado.</p>
+            <div class="chart-info">
+                <h3>Monetary Policy / M2</h3>
+                <h2>Oferta Monetaria</h2>
+                <p>Seguimiento de la masa monetaria M2 y su correlación con los niveles de liquidez y las tasas de interés actuales.</p>
             </div>
             <figure id="LocationX"></figure>
         </section>
 
         <section>
-            <div class="chart-description">
-                <h2>Grammar of Graphics</h2>
-                <p>Gráfico de ratio P/E creado durante el seminario de la semana 3.</p>
+            <div class="chart-info">
+                <h3>Theory / Grammar of Graphics</h3>
+                <h2>Ratio P/E</h2>
+                <p>Aplicación de los principios de Wilkinson sobre la gramática de gráficos para representar la relación precio-beneficio en mercados de capitales.</p>
             </div>
             <figure id="LocationW3"></figure>
         </section>
 
         <section>
-            <div class="chart-description">
-                <h2>Web Scraping: World Bank</h2>
-                <p>Datos obtenidos mediante scraping sobre rentas de recursos naturales totales (suma de petróleo, gas, carbón y bosques).</p>
+            <div class="chart-info">
+                <h3>Advanced / Web Scraping</h3>
+                <h2>Natural Resources</h2>
+                <p>Extracción automatizada de datos del Banco Mundial. Este gráfico consolida las rentas totales de recursos naturales globales.</p>
             </div>
-            <figure id="Locationw4"></figure>
-            <div style="margin-top: 20px;"></div>
-            <figure id="Locationw4_02"></figure>
+            <div class="graphs-stack">
+                <figure id="Locationw4" style="margin-bottom: 20px;"></figure>
+                <figure id="Locationw4_02"></figure>
+            </div>
         </section>
 
     </div>
 
     <footer>
-        &copy; 2024 Carlos Gallegos Viza - Visualización de Datos
+        Curated by Carlos Gallegos Viza &copy; 2025
     </footer>
 
     <script>
-        // Definición de las rutas de los archivos
+        /* GRAPH CONFIGURATION: Edit the URLs or file names here */
         const spec1 = "https://raw.githubusercontent.com/EconomicsObservatory/courses/main/2/s2_chart2.json";
         const spec2 = "wk1_chart1.json";
         const spec3 = "fig4_inflation-big4.json";
@@ -202,7 +233,7 @@
         const specW4_a = "worldbank_week4.json";
         const specW4_b = "week4_02.json";
 
-        // Renderizado de gráficos
+        /* RENDERING ENGINE */
         vegaEmbed('#Location1', spec1);
         vegaEmbed('#Location2', spec2);
         vegaEmbed('#Location3', spec3);
