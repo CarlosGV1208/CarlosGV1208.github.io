@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carlos | Data Portfolio</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    
+    <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+
+    <style>
+        :root {
+            --apple-gray: #f5f5f7;
+            --apple-blue: #0071e3;
+            --text-dark: #1d1d1f;
+            --text-gray: #86868b;
+            --white: #ffffff;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, sans-serif;
+            background-color: var(--apple-gray);
+            color: var(--text-dark);
+            margin: 0;
+            padding: 0;
+            line-height: 1.5;
+        }
+
+        /* Hero Section (Apple Style) */
+        header {
+            background-color: var(--white);
+            padding: 80px 20px;
+            text-align: center;
+            border-bottom: 1px solid #d2d2d7;
+        }
+
+        header h1 {
+            font-size: 48px;
+            font-weight: 600;
+            letter-spacing: -0.5px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 21px;
+            color: var(--text-gray);
+            max-width: 600px;
+            margin: 0 auto 20px auto;
+        }
+
+        .links a {
+            color: var(--apple-blue);
+            text-decoration: none;
+            margin: 0 10px;
+            font-weight: 400;
+        }
+
+        .links a:hover {
+            text-decoration: underline;
+        }
+
+        /* Grid Layout */
+        .container {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        section {
+            background: var(--white);
+            border-radius: 20px;
+            padding: 40px;
+            margin-bottom: 40px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+            transition: transform 0.3s ease;
+        }
+
+        section:hover {
+            transform: translateY(-5px);
+        }
+
+        .chart-description h2 {
+            font-size: 24px;
+            font-weight: 600;
+            margin-top: 0;
+        }
+
+        .chart-description p {
+            color: var(--text-gray);
+            font-size: 16px;
+            margin-bottom: 30px;
+        }
+
+        /* Estilo para los contenedores de Vega-Lite */
+        figure {
+            margin: 0;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            background-color: #fafafa;
+            padding: 20px;
+            border-radius: 12px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 40px;
+            color: var(--text-gray);
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Data Visualization Portfolio</h1>
+        <p>Explorando tendencias económicas a través de datos y diseño.</p>
+        <div class="links">
+            <a href="https://www.linkedin.com/in/carlos-levi-gallegos-viza-806810172/">LinkedIn</a>
+            <a href="https://github.com/CarlosGV1208">GitHub</a>
+        </div>
+    </header>
+
+    <div class="container">
+
+        <section>
+            <div class="chart-description">
+                <h2>Semana 1: Gráfico Base</h2>
+                <p>Organización de datos inicial usando un repositorio remoto de Economics Observatory.</p>
+            </div>
+            <figure id="Location1"></figure>
+        </section>
+
+        <section>
+            <div class="chart-description">
+                <h2>Semana 1: Análisis Local</h2>
+                <p>Visualización basada en archivos locales JSON para control de datos.</p>
+            </div>
+            <figure id="Location2"></figure>
+        </section>
+
+        <section>
+            <div class="chart-description">
+                <h2>Inflación en Tiempos de Guerra</h2>
+                <p>Comparativa histórica de la inflación en las principales potencias económicas.</p>
+            </div>
+            <figure id="Location3"></figure>
+        </section>
+
+        <section>
+            <div class="chart-description">
+                <h2>Precios del Petróleo (UK)</h2>
+                <p>Impacto de los precios del crudo en la economía británica.</p>
+            </div>
+            <figure id="Location4"></figure>
+        </section>
+
+        <section>
+            <div class="chart-description">
+                <h2>Oferta Monetaria M2</h2>
+                <p>Seguimiento de la masa monetaria y su relación con la liquidez del mercado.</p>
+            </div>
+            <figure id="LocationX"></figure>
+        </section>
+
+        <section>
+            <div class="chart-description">
+                <h2>Grammar of Graphics</h2>
+                <p>Gráfico de ratio P/E creado durante el seminario de la semana 3.</p>
+            </div>
+            <figure id="LocationW3"></figure>
+        </section>
+
+        <section>
+            <div class="chart-description">
+                <h2>Web Scraping: World Bank</h2>
+                <p>Datos obtenidos mediante scraping sobre rentas de recursos naturales totales (suma de petróleo, gas, carbón y bosques).</p>
+            </div>
+            <figure id="Locationw4"></figure>
+            <div style="margin-top: 20px;"></div>
+            <figure id="Locationw4_02"></figure>
+        </section>
+
+    </div>
+
+    <footer>
+        &copy; 2024 Carlos Gallegos Viza - Visualización de Datos
+    </footer>
+
+    <script>
+        // Definición de las rutas de los archivos
+        const spec1 = "https://raw.githubusercontent.com/EconomicsObservatory/courses/main/2/s2_chart2.json";
+        const spec2 = "wk1_chart1.json";
+        const spec3 = "fig4_inflation-big4.json";
+        const spec4 = "fig3_uk-oil-prices.json";
+        const specX = "m2_money_supply.json";
+        const specW3 = "wk3_pe_ratio_chart.json";
+        const specW4_a = "worldbank_week4.json";
+        const specW4_b = "week4_02.json";
+
+        // Renderizado de gráficos
+        vegaEmbed('#Location1', spec1);
+        vegaEmbed('#Location2', spec2);
+        vegaEmbed('#Location3', spec3);
+        vegaEmbed('#Location4', spec4);
+        vegaEmbed('#LocationX', specX);
+        vegaEmbed('#LocationW3', specW3);
+        vegaEmbed('#Locationw4', specW4_a);
+        vegaEmbed('#Locationw4_02', specW4_b);
+    </script>
+
+</body>
+</html>
