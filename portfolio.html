@@ -172,11 +172,12 @@
             <div class="chart-info">
                 <h3>CC1 - HOSTING</h3> 
                 <h2>Display charts in your own site.</h2> 
-                <p>Análisis exploratorio inicial utilizando el repositorio central de Economics Observatory para establecer una línea base de datos macroeconómicos.</p> 
+                <p>Setting up a personal website using GitHub and embedding existing charts into the live webpage.</p> 
             </div>
             <div class="graph-container">
-                <figure id="Location1"></figure>
-                <p class="source">Source: <a href="https://www.economicsobservatory.com">Economics Observatory</a></p>
+                <figure id="Location1a"></figure>
+                <figure id="Location1b"></figure>
+                <p class="source">Source: <a href="https://rdeconomist.github.io/library">Prof. Richard Davies' Chart Library</a></p>
             </div>
         </section>
 
@@ -184,11 +185,12 @@
             <div class="chart-info">
                 <h3>CC2 - BUILDING</h3>
                 <h2>Create your own visualisations</h2>
-                <p>Implementación de visualizaciones personalizadas mediante el procesamiento de archivos JSON locales.</p>
+                <p>Creating charts using the Economics Observatory Data Hub and embedding them into the website.</p>
             </div>
             <div class="graph-container">
-                <figure id="Location2"></figure>
-                <p class="source">Source: <a href="#">Your Link Here</a></p>
+                <figure id="Location2a"></figure>
+                <figure id="Location2b"></figure>
+                <p class="source">Source: <a href="https://www.economicsobservatory.com/explore">Economic Observatory Data Hub</a></p>
             </div>
         </section>
 
@@ -264,8 +266,10 @@
     </footer>
 
     <script>
-        const spec1 = "https://raw.githubusercontent.com/EconomicsObservatory/courses/main/2/s2_chart2.json";
-        const spec2 = "wk1_chart1.json";
+        const spec1a = "portfolio_cc/cc1_a.json";
+        const spec1b = "portfolio_cc/cc1_b.json";
+        const spec2a = "portfolio_cc/cc2_a.json";
+        const spec2b = "portfolio_cc/cc2_b.json";
         const spec3 = "fig4_inflation-big4.json";
         const spec4 = "fig3_uk-oil-prices.json";
         const specX = "m2_money_supply.json";
@@ -273,8 +277,10 @@
         const specW4_a = "worldbank_week4.json";
         const specW4_b = "week4_02.json";
 
-        vegaEmbed('#Location1', spec1);
-        vegaEmbed('#Location2', spec2);
+        vegaEmbed('#Location1a', spec1a);
+        vegaEmbed('#Location1b', spec1b);
+        vegaEmbed('#Location2a', spec2a);
+        vegaEmbed('#Location2b', spec2b);
         vegaEmbed('#Location3', spec3);
         vegaEmbed('#Location4', spec4);
         vegaEmbed('#LocationX', specX);
