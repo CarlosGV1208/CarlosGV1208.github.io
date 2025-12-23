@@ -1,0 +1,52 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "NEET Population in England",
+    "subtitle": [
+      "Percentage of youth (16-24) not in education, employment or training, 2020-2024",
+      ""
+    ],
+    "anchor": "start",
+    "fontSize": 20,
+    "color": "#914DAB",
+    "subtitleFontSize": 14,
+    "subtitleColor": "#6e6e73"
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/CarlosGV1208/CarlosGV1208.github.io/refs/heads/main/portfolio_cc/neet_england.csv"
+  },
+  "transform": [
+    {"filter": "datum.time_period >= 2000"},
+    {"filter": "datum.time_period <= 2024"}
+  ],
+  "width": 800,
+  "height": 400,
+  "config": {"view": {"stroke": null}, "axis": {"gridColor": "#f0f0f0"}},
+  "encoding": {
+    "x": {
+      "field": "time_period",
+      "type": "ordinal",
+      "title": "Year",
+      "axis": {"labelAngle": 0}
+    },
+    "y": {
+      "field": "percent_NEET",
+      "type": "quantitative",
+      "title": "NEET Rate (%)",
+      "scale": {"domain": [5, 16]}
+    },
+    "color": {
+      "field": "sex",
+      "type": "nominal",
+      "scale": {"domain": ["Male", "Female"], "range": ["#7f7f7f", "#914DAB"]},
+      "legend": {
+        "title": null,
+        "orient": "bottom-right",
+        "symbolType": "circle",
+        "symbolSize": 150,
+        "labelFontSize": 14
+      }
+    }
+  },
+  "layer": [{"mark": {"type": "line", "point": true, "strokeWidth": 3}}]
+}
