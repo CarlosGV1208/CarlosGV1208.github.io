@@ -198,11 +198,15 @@
             <div class="chart-info">
                 <h3>CC3 - DEBATE</h3>
                 <h2>Use a visualisation in policy commentary</h2>
-                <p>Comparativa visual sobre inflación y conflictos bélicos.</p>
+                <p>Producing charts linked to a policy topic and adding short written commentary alongside the visual evidence.</p>
+                <h1>The NEET problem in The UK</h1>
+                <p>The United Kingdom has one of the highest rates of youth unemployment among OECD countries, despite efforts to address this problem.</p>
             </div>
             <div class="graph-container">
-                <figure id="Location3"></figure>
-                <p class="source">Source: <a href="#">Your Link Here</a></p>
+                <figure id="Location3a"></figure>
+                <p class="source">Source: <a href="https://www.oecd.org/en/data/indicators/youth-unemployment-rate.html">OECD Youth Unemployment Rate</a></p>
+                <figure id="Location3b"></figure>
+                <p class="source">Source: <a href="https://explore-education-statistics.service.gov.uk/find-statistics/neet-statistics-annual-brief/2024">Labor Force Survey 2024, GovUK</a></p>
             </div>
         </section>
 
@@ -270,7 +274,8 @@
         const spec1b = "portfolio_cc/cc1_b.json";
         const spec2a = "portfolio_cc/cc2_a.json";
         const spec2b = "portfolio_cc/cc2_b.json";
-        const spec3 = "fig4_inflation-big4.json";
+        const spec3a = "portfolio_cc/cc3_a.json";
+        const spec3b = "portfolio_cc/cc3_b.json";
         const spec4 = "fig3_uk-oil-prices.json";
         const specX = "m2_money_supply.json";
         const specW3 = "wk3_pe_ratio_chart.json";
@@ -281,7 +286,8 @@
         vegaEmbed('#Location1b', spec1b);
         vegaEmbed('#Location2a', spec2a);
         vegaEmbed('#Location2b', spec2b);
-        vegaEmbed('#Location3', spec3);
+        vegaEmbed('#Location3a', spec3a);
+        vegaEmbed('#Location3b', spec3b);
         vegaEmbed('#Location4', spec4);
         vegaEmbed('#LocationX', specX);
         vegaEmbed('#LocationW3', specW3);
