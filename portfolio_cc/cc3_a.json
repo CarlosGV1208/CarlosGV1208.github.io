@@ -1,0 +1,90 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Youth Unemployment Rate",
+    "subtitle": [
+      "Percentage of youth labour force by gender, 15-24 year-olds, OECD 2024",
+      ""
+    ],
+    "anchor": "start",
+    "fontSize": 20,
+    "color": "#914DAB",
+    "subtitleFontSize": 14,
+    "subtitleColor": "#6e6e73"
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/CarlosGV1208/CarlosGV1208.github.io/refs/heads/main/portfolio_cc/oecd.csv"
+  },
+  "width": 800,
+  "height": 400,
+  "config": {"view": {"stroke": null}, "axis": {"gridColor": "#f0f0f0"}},
+  "encoding": {
+    "x": {
+      "field": "Category",
+      "type": "nominal",
+      "title": null,
+      "sort": null,
+      "axis": {"labelAngle": -45, "labelFontSize": 11}
+    }
+  },
+  "layer": [
+    {
+      "mark": {"type": "rule", "color": "#d1d1d6", "strokeWidth": 1},
+      "encoding": {
+        "y": {"field": "Male", "type": "quantitative"},
+        "y2": {"field": "Female"}
+      }
+    },
+    {
+      "mark": {"type": "point", "size": 100, "filled": true, "opacity": 1},
+      "encoding": {
+        "y": {
+          "field": "Male",
+          "type": "quantitative",
+          "title": "Unemployment Rate (%)",
+          "scale": {"domain": [0, 30]}
+        },
+        "color": {
+          "condition": [
+            {"test": "datum.Category == 'OECD'", "value": "#7f7f7f"},
+            {"test": "datum.Category == 'UK'", "value": "#7f7f7f"}
+          ],
+          "value": "#E0DEDE"
+        }
+      }
+    },
+    {
+      "mark": {"type": "point", "size": 100, "filled": true, "opacity": 1},
+      "encoding": {
+        "y": {"field": "Female", "type": "quantitative"},
+        "color": {
+          "condition": [
+            {"test": "datum.Category == 'OECD'", "value": "#914DAB"},
+            {"test": "datum.Category == 'UK'", "value": "#914DAB"}
+          ],
+          "value": "#DFD1E8"
+        }
+      }
+    },
+    {
+      "mark": {"type": "point", "opacity": 5},
+      "encoding": {
+        "color": {
+          "field": "Gender",
+          "type": "nominal",
+          "scale": {
+            "domain": ["Male", "Female"],
+            "range": ["#7f7f7f", "#914DAB"]
+          },
+          "legend": {
+            "title": null,
+            "orient": "top-right",
+            "symbolSize": 150,
+            "labelFontSize": 14,
+            "symbolOpacity": 5
+          }
+        }
+      }
+    }
+  ]
+}
