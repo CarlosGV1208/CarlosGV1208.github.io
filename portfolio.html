@@ -236,13 +236,31 @@
 
         <section>
             <div class="chart-info">
-                <h3>Monetary Policy / M2</h3>
-                <h2>Oferta Monetaria</h2>
-                <p>Seguimiento de la masa monetaria M2.</p>
+                <h3>CC5 - ACCESING DATA</h3>
+                <h2>Scraper and API.</h2>
+                <p>Collecting data through a live API and web scraping, cleaning and visualising.</p>
             </div>
             <div class="graph-container">
-                <figure id="LocationX"></figure>
-                <p class="source">Source: <a href="#">Your Link Here</a></p>
+                <figure id="Location5a"></figure>
+                <div class="api-details" style="margin-top: 20px; font-size: 0.9em; color: #000000; line-height: 1.6;">
+            <p>This chart uses data from the <strong>World Bank API</strong>.</p>
+            <p>The base URL is: <br>
+                <code>https://api.worldbank.org/v2/country/{countries}/indicator/{indicator}</code>
+            </p>
+            <p>To get the data, the API call specifies:</p>
+            <ul style="margin-bottom: 15px;">
+                <li>A list of countries: <code>ind; mex; arg; usa; aus</code></li>
+                <li>The indicator code: <code>NY.GDP.TOTL.RT.ZS</code> (Total natural resources rents as a % of GDP)</li>
+                <li>The output format: <code>format=json</code></li>
+                <li>Observations per page: <code>per_page=1000</code></li>
+            </ul>
+            <p><strong>Full API request:</strong><br>
+                <a href="https://api.worldbank.org/v2/country/ind;mex;arg;usa;aus/indicator/NY.GDP.TOTL.RT.ZS?format=json&per_page=1000" target="_blank" style="word-break: break-all; color: #002b7a;">
+                    https://api.worldbank.org/v2/country/ind;mex;arg;usa;aus/indicator/NY.GDP.TOTL.RT.ZS?format=json&per_page=1000
+                </a>
+            </p>
+            </div>
+                <p class="source">Source: <a href="https://data.worldbank.org/indicator/NY.GDP.TOTL.RT.ZS">World Bank, Total Natural Resources Rents (% of GDP)</a></p>
             </div>
         </section>
 
@@ -290,7 +308,7 @@
         const spec3b = "portfolio_cc/cc3_b.json";
         const spec4b = "portfolio_cc/cc4_b.json";
         const spec4c = "portfolio_cc/cc4_c.json";
-        const specX = "m2_money_supply.json";
+        const spec5a = "portfolio_cc/cc5_a.json";
         const specW3 = "wk3_pe_ratio_chart.json";
         const specW4_a = "worldbank_week4.json";
         const specW4_b = "week4_02.json";
@@ -303,7 +321,7 @@
         vegaEmbed('#Location3b', spec3b);
         vegaEmbed('#Location4b', spec4b);
         vegaEmbed('#Location4c', spec4c);
-        vegaEmbed('#LocationX', specX);
+        vegaEmbed('#Location5a', spec5a);
         vegaEmbed('#LocationW3', specW3);
         vegaEmbed('#Locationw4', specW4_a);
         vegaEmbed('#Locationw4_02', specW4_b);
