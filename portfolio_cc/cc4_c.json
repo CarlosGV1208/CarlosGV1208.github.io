@@ -1,0 +1,134 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/CarlosGV1208/CarlosGV1208.github.io/refs/heads/main/portfolio_cc/dw.csv"
+  },
+  "title": {
+    "text": "Germany had the biggest jump in reported anti-Black discrimination",
+    "subtitle": "Changes in reported racial discrimination against people of African descent between 2016 and 2022 surveys",
+    "anchor": "start",
+    "color": "#002b7a",
+    "fontSize": 20,
+    "fontWeight": "bold",
+    "subtitleColor": "#002b7a",
+    "subtitleFontSize": 14,
+    "subtitlePadding": 10
+  },
+  "width": 600,
+  "height": 600,
+  "transform": [
+    {"filter": "datum.Country != 'EU Average'"},
+    {"fold": ["y2016", "y2022"], "as": ["year", "value"]},
+    {"calculate": "datum.year == 'y2016' ? 2016 : 2022", "as": "year_num"},
+    {
+      "calculate": "datum.Change > 0.15 ? 'Over 15 pp increase' : datum.Change > 0 ? '1 to 15 pp increase' : 'Decrease'",
+      "as": "Category"
+    },
+    {
+      "calculate": "datum.Country + ' ' + format(datum.value, '.0%')",
+      "as": "label_text"
+    },
+    {
+      "calculate": "datum.year_num == 2022 && datum.Country == 'Austria' ? 20 : datum.year_num == 2022 && datum.Country == 'Ireland' ? 20 : 0",
+      "as": "label_dy"
+    }
+  ],
+  "encoding": {
+    "x": {
+      "field": "year_num",
+      "type": "quantitative",
+      "scale": {"domain": [2013.5, 2024.5]},
+      "axis": {
+        "title": null,
+        "values": [2016, 2022],
+        "format": "d",
+        "grid": false,
+        "ticks": false,
+        "domain": false,
+        "labelFontSize": 18,
+        "labelFontWeight": "bold",
+        "labelColor": "#002b7a",
+        "labelPadding": 10,
+        "orient": "top"
+      }
+    },
+    "y": {
+      "field": "value",
+      "type": "quantitative",
+      "scale": {"domain": [0.1, 0.7]},
+      "axis": {
+        "format": "%",
+        "title": null,
+        "grid": false,
+        "ticks": false,
+        "domain": false,
+        "labelColor": "#002b7a",
+        "values": [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7]
+      }
+    },
+    "color": {
+      "field": "Category",
+      "type": "nominal",
+      "scale": {
+        "domain": ["Over 15 pp increase", "1 to 15 pp increase", "Decrease"],
+        "range": ["#a51e36", "#f4a683", "#00adef"]
+      },
+      "legend": {
+        "orient": "top",
+        "direction": "horizontal",
+        "title": null,
+        "labelColor": "#002b7a",
+        "labelFontSize": 12,
+        "symbolType": "square",
+        "padding": 15
+      }
+    }
+  },
+  "layer": [
+    {
+      "name": "LINES",
+      "mark": {"type": "line", "strokeWidth": 3, "interpolate": "linear"},
+      "encoding": {"detail": {"field": "Country"}}
+    },
+    {
+      "name": "POINTS",
+      "mark": {"type": "point", "filled": true, "size": 100, "opacity": 1},
+      "encoding": {"detail": {"field": "Country"}}
+    },
+    {
+      "name": "LABELS_LEFT",
+      "transform": [{"filter": "datum.year_num == 2016"}],
+      "mark": {
+        "type": "text",
+        "align": "right",
+        "dx": -15,
+        "fontSize": 12,
+        "fontWeight": "normal"
+      },
+      "encoding": {
+        "text": {"field": "label_text"},
+        "color": {"value": "#002b7a"}
+      }
+    },
+    {
+      "name": "LABELS_RIGHT",
+      "transform": [{"filter": "datum.year_num == 2022"}],
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "dx": 15,
+        "fontSize": 12,
+        "fontWeight": "normal"
+      },
+      "encoding": {
+        "text": {"field": "label_text"},
+        "color": {"value": "#002b7a"},
+        "dy": {"field": "label_dy", "type": "quantitative"}
+      }
+    }
+  ],
+  "config": {
+    "view": {"stroke": "#d1d9e6", "strokeWidth": 2, "fill": "#fcfdfe"},
+    "font": "Arial, sans-serif"
+  }
+}
