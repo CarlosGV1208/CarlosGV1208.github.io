@@ -1,0 +1,194 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/CarlosGV1208/CarlosGV1208.github.io/refs/heads/main/portfolio_cc/dw.csv"
+  },
+  "title": {
+    "text": "Germany had the biggest jump in reported anti-Black discrimination",
+    "subtitle": "Changes in reported racial discrimination against people of African descent between 2016 and 2022 surveys",
+    "anchor": "start",
+    "color": "#002b7a",
+    "fontSize": 20,
+    "fontWeight": "bold",
+    "subtitleColor": "#002b7a",
+    "subtitleFontSize": 14,
+    "subtitlePadding": 25
+  },
+  "transform": [{"filter": "datum.Country != 'EU Average'"}],
+  "columns": 5,
+  "facet": {
+    "field": "Country",
+    "type": "nominal",
+    "header": {
+      "title": null,
+      "labelOrient": "top",
+      "labelAnchor": "start",
+      "labelFontSize": 13,
+      "labelFontWeight": "bold",
+      "labelColor": "#002b7a",
+      "labelPadding": 10
+    },
+    "sort": [
+      "Austria",
+      "Germany",
+      "Finland",
+      "Denmark",
+      "Ireland",
+      "Luxemburg",
+      "Italy",
+      "France",
+      "Sweden",
+      "Portugal"
+    ]
+  },
+  "spec": {
+    "width": 140,
+    "height": 100,
+    "layer": [
+      {
+        "name": "EU_AVG_LAYER",
+        "data": {
+          "url": "https://raw.githubusercontent.com/CarlosGV1208/CarlosGV1208.github.io/refs/heads/main/portfolio_cc/dw.csv"
+        },
+        "transform": [
+          {"filter": "datum.Country == 'EU Average'"},
+          {"fold": ["y2016", "y2022"], "as": ["year", "avg_val"]},
+          {"calculate": "datum.year == 'y2016' ? 2016 : 2022", "as": "year_num"}
+        ],
+        "mark": {
+          "type": "line",
+          "stroke": "#a0aab4",
+          "strokeDash": [4, 2],
+          "point": {"fill": "white", "stroke": "#a0aab4", "size": 30}
+        },
+        "encoding": {
+          "x": {"field": "year_num", "type": "quantitative", "axis": null},
+          "y": {
+            "field": "avg_val",
+            "type": "quantitative",
+            "scale": {"domain": [0, 0.7]}
+          }
+        }
+      },
+      {
+        "name": "MAIN_CHART_LAYER",
+        "transform": [
+          {"fold": ["y2016", "y2022"], "as": ["year", "value"]},
+          {
+            "calculate": "datum.year == 'y2016' ? 2016 : 2022",
+            "as": "year_num"
+          },
+          {
+            "calculate": "datum.Change > 0.15 ? 'Over 15 percent points increase' : datum.Change > 0 ? '1 to 15 percent point increase' : 'Decrease'",
+            "as": "Category"
+          }
+        ],
+        "layer": [
+          {
+            "mark": {"type": "area", "opacity": 0.25},
+            "encoding": {
+              "x": {"field": "year_num", "type": "quantitative", "axis": null},
+              "y": {
+                "field": "value",
+                "type": "quantitative",
+                "scale": {"domain": [0, 0.7]},
+                "axis": null
+              },
+              "color": {
+                "field": "Category",
+                "type": "nominal",
+                "scale": {
+                  "domain": [
+                    "Over 15 percent points increase",
+                    "1 to 15 percent point increase",
+                    "Decrease"
+                  ],
+                  "range": ["#a51e36", "#f4a683", "#00adef"]
+                },
+                "legend": {
+                  "orient": "top",
+                  "direction": "vertical",
+                  "title": null,
+                  "labelColor": "#002b7a",
+                  "labelFontSize": 11,
+                  "symbolType": "square",
+                  "padding": 10
+                }
+              }
+            }
+          },
+          {
+            "mark": {
+              "type": "line",
+              "point": {"fill": "white", "size": 45},
+              "strokeWidth": 2.5
+            },
+            "encoding": {
+              "x": {
+                "field": "year_num",
+                "type": "quantitative",
+                "axis": {
+                  "values": [2016, 2022],
+                  "format": "d",
+                  "grid": false,
+                  "ticks": false,
+                  "domain": true,
+                  "domainColor": "#333",
+                  "title": null,
+                  "labelPadding": 10,
+                  "labelFlush": false
+                }
+              },
+              "y": {
+                "field": "value",
+                "type": "quantitative",
+                "axis": {
+                  "values": [0, 0.5],
+                  "labelExpr": "datum.value == 0.5 ? '50%' : datum.value == 0 ? '0' : ''",
+                  "grid": false,
+                  "ticks": false,
+                  "domain": false,
+                  "title": null
+                }
+              },
+              "color": {"field": "Category", "type": "nominal"}
+            }
+          }
+        ]
+      },
+      {
+        "name": "ANNOTATION_GROUP",
+        "transform": [{"filter": "datum.Country == 'Austria'"}],
+        "layer": [
+          {
+            "mark": {
+              "type": "text",
+              "align": "left",
+              "baseline": "middle",
+              "dx": 15,
+              "dy": 40,
+              "fontSize": 10,
+              "color": "#002b7a",
+              "text": "This line is the EU average"
+            },
+            "encoding": {"x": {"datum": 2016}, "y": {"datum": 0.35}}
+          },
+          {
+            "mark": {
+              "type": "point",
+              "shape": "arrow",
+              "angle": 330,
+              "size": 60,
+              "color": "#002b7a",
+              "xOffset": 12,
+              "yOffset": 25
+            },
+            "encoding": {"x": {"datum": 2016}, "y": {"datum": 0.35}}
+          }
+        ]
+      }
+    ]
+  },
+  "resolve": {"scale": {"color": "shared"}},
+  "config": {"view": {"stroke": "transparent"}, "font": "Arial, sans-serif"}
+}
