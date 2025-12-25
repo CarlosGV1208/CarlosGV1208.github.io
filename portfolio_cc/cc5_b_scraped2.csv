@@ -1,0 +1,962 @@
+Country,Year,Index_value
+Belize,1990,0.495
+Bolivia (Plurinational State of),1990,0.528
+Botswana,1990,0.461
+Brazil,1990,0.463
+Colombia,1990,0.433
+Congo,1990,0.455
+Costa Rica,1990,0.505
+Croatia,1990,0.498
+Dominican Republic,1990,0.485
+Gabon,1990,0.473
+Guyana,1990,0.507
+Jamaica,1990,0.509
+Jordan,1990,0.496
+Kuwait,1990,0.476
+Libya,1990,0.516
+Malaysia,1990,0.488
+Mauritius,1990,0.481
+Mexico,1990,0.48
+Mongolia,1990,0.539
+Namibia,1990,0.495
+Panama,1990,0.538
+Paraguay,1990,0.431
+Philippines,1990,0.519
+Portugal,1990,0.536
+Qatar,1990,0.507
+Saudi Arabia,1990,0.489
+Singapore,1990,0.488
+South Africa,1990,0.532
+United Arab Emirates,1990,0.474
+Venezuela (Bolivarian Republic of),1990,0.444
+Zimbabwe,1990,0.423
+Belize,1991,0.498
+Bolivia (Plurinational State of),1991,0.537
+Botswana,1991,0.478
+Brazil,1991,0.475
+Colombia,1991,0.438
+Congo,1991,0.455
+Costa Rica,1991,0.515
+Croatia,1991,0.508
+Dominican Republic,1991,0.493
+Gabon,1991,0.48
+Guyana,1991,0.512
+Jamaica,1991,0.513
+Jordan,1991,0.527
+Kuwait,1991,0.429
+Libya,1991,0.527
+Malaysia,1991,0.499
+Mauritius,1991,0.489
+Mexico,1991,0.481
+Mongolia,1991,0.527
+Namibia,1991,0.496
+Panama,1991,0.543
+Paraguay,1991,0.442
+Philippines,1991,0.523
+Portugal,1991,0.55
+Qatar,1991,0.503
+Saudi Arabia,1991,0.495
+Singapore,1991,0.503
+South Africa,1991,0.552
+United Arab Emirates,1991,0.493
+Venezuela (Bolivarian Republic of),1991,0.457
+Zimbabwe,1991,0.441
+Belize,1992,0.505
+Bolivia (Plurinational State of),1992,0.546
+Botswana,1992,0.486
+Brazil,1992,0.487
+Colombia,1992,0.457
+Congo,1992,0.457
+Costa Rica,1992,0.526
+Croatia,1992,0.519
+Dominican Republic,1992,0.501
+Gabon,1992,0.487
+Guyana,1992,0.517
+Jamaica,1992,0.519
+Jordan,1992,0.561
+Kuwait,1992,0.382
+Libya,1992,0.537
+Malaysia,1992,0.511
+Mauritius,1992,0.497
+Mexico,1992,0.487
+Mongolia,1992,0.504
+Namibia,1992,0.508
+Panama,1992,0.552
+Paraguay,1992,0.451
+Philippines,1992,0.527
+Portugal,1992,0.573
+Qatar,1992,0.502
+Saudi Arabia,1992,0.502
+Singapore,1992,0.519
+South Africa,1992,0.581
+United Arab Emirates,1992,0.499
+Venezuela (Bolivarian Republic of),1992,0.466
+Zimbabwe,1992,0.437
+Belize,1993,0.512
+Bolivia (Plurinational State of),1993,0.555
+Botswana,1993,0.493
+Brazil,1993,0.499
+Colombia,1993,0.466
+Congo,1993,0.458
+Costa Rica,1993,0.534
+Croatia,1993,0.529
+Dominican Republic,1993,0.509
+Gabon,1993,0.494
+Guyana,1993,0.523
+Jamaica,1993,0.524
+Jordan,1993,0.588
+Kuwait,1993,0.417
+Libya,1993,0.548
+Malaysia,1993,0.518
+Mauritius,1993,0.504
+Mexico,1993,0.491
+Mongolia,1993,0.474
+Namibia,1993,0.52
+Panama,1993,0.562
+Paraguay,1993,0.463
+Philippines,1993,0.53
+Portugal,1993,0.606
+Qatar,1993,0.523
+Saudi Arabia,1993,0.508
+Singapore,1993,0.535
+South Africa,1993,0.603
+United Arab Emirates,1993,0.509
+Venezuela (Bolivarian Republic of),1993,0.471
+Zimbabwe,1993,0.443
+Belize,1994,0.519
+Bolivia (Plurinational State of),1994,0.565
+Botswana,1994,0.499
+Brazil,1994,0.511
+Colombia,1994,0.474
+Congo,1994,0.459
+Costa Rica,1994,0.542
+Croatia,1994,0.553
+Dominican Republic,1994,0.517
+Gabon,1994,0.501
+Guyana,1994,0.528
+Jamaica,1994,0.529
+Jordan,1994,0.613
+Kuwait,1994,0.464
+Libya,1994,0.558
+Malaysia,1994,0.527
+Mauritius,1994,0.512
+Mexico,1994,0.5
+Mongolia,1994,0.473
+Namibia,1994,0.532
+Panama,1994,0.565
+Paraguay,1994,0.471
+Philippines,1994,0.533
+Portugal,1994,0.621
+Qatar,1994,0.545
+Saudi Arabia,1994,0.515
+Singapore,1994,0.551
+South Africa,1994,0.617
+United Arab Emirates,1994,0.528
+Venezuela (Bolivarian Republic of),1994,0.475
+Zimbabwe,1994,0.45
+Belize,1995,0.526
+Bolivia (Plurinational State of),1995,0.574
+Botswana,1995,0.519
+Brazil,1995,0.523
+Colombia,1995,0.48
+Congo,1995,0.46
+Costa Rica,1995,0.55
+Croatia,1995,0.558
+Dominican Republic,1995,0.525
+Gabon,1995,0.509
+Guyana,1995,0.533
+Jamaica,1995,0.534
+Jordan,1995,0.644
+Kuwait,1995,0.515
+Libya,1995,0.568
+Malaysia,1995,0.536
+Mauritius,1995,0.52
+Mexico,1995,0.512
+Mongolia,1995,0.474
+Namibia,1995,0.528
+Panama,1995,0.577
+Paraguay,1995,0.48
+Philippines,1995,0.536
+Portugal,1995,0.632
+Qatar,1995,0.562
+Saudi Arabia,1995,0.522
+Singapore,1995,0.566
+South Africa,1995,0.636
+United Arab Emirates,1995,0.544
+Venezuela (Bolivarian Republic of),1995,0.48
+Zimbabwe,1995,0.456
+Belize,1996,0.533
+Bolivia (Plurinational State of),1996,0.581
+Botswana,1996,0.531
+Brazil,1996,0.535
+Colombia,1996,0.498
+Congo,1996,0.459
+Costa Rica,1996,0.559
+Croatia,1996,0.575
+Dominican Republic,1996,0.531
+Gabon,1996,0.516
+Guyana,1996,0.539
+Jamaica,1996,0.54
+Jordan,1996,0.65
+Kuwait,1996,0.566
+Libya,1996,0.579
+Malaysia,1996,0.555
+Mauritius,1996,0.524
+Mexico,1996,0.516
+Mongolia,1996,0.486
+Namibia,1996,0.523
+Panama,1996,0.586
+Paraguay,1996,0.488
+Philippines,1996,0.549
+Portugal,1996,0.644
+Qatar,1996,0.588
+Saudi Arabia,1996,0.529
+Singapore,1996,0.583
+South Africa,1996,0.639
+United Arab Emirates,1996,0.545
+Venezuela (Bolivarian Republic of),1996,0.484
+Zimbabwe,1996,0.463
+Belize,1997,0.54
+Bolivia (Plurinational State of),1997,0.574
+Botswana,1997,0.542
+Brazil,1997,0.547
+Colombia,1997,0.512
+Congo,1997,0.458
+Costa Rica,1997,0.567
+Croatia,1997,0.592
+Dominican Republic,1997,0.537
+Gabon,1997,0.523
+Guyana,1997,0.545
+Jamaica,1997,0.545
+Jordan,1997,0.655
+Kuwait,1997,0.572
+Libya,1997,0.589
+Malaysia,1997,0.574
+Mauritius,1997,0.527
+Mexico,1997,0.521
+Mongolia,1997,0.495
+Namibia,1997,0.517
+Panama,1997,0.596
+Paraguay,1997,0.499
+Philippines,1997,0.552
+Portugal,1997,0.652
+Qatar,1997,0.596
+Saudi Arabia,1997,0.535
+Singapore,1997,0.6
+South Africa,1997,0.643
+United Arab Emirates,1997,0.545
+Venezuela (Bolivarian Republic of),1997,0.487
+Zimbabwe,1997,0.469
+Belize,1998,0.548
+Bolivia (Plurinational State of),1998,0.594
+Botswana,1998,0.559
+Brazil,1998,0.559
+Colombia,1998,0.526
+Congo,1998,0.456
+Costa Rica,1998,0.576
+Croatia,1998,0.616
+Dominican Republic,1998,0.542
+Gabon,1998,0.531
+Guyana,1998,0.55
+Jamaica,1998,0.55
+Jordan,1998,0.66
+Kuwait,1998,0.583
+Libya,1998,0.6
+Malaysia,1998,0.594
+Mauritius,1998,0.535
+Mexico,1998,0.526
+Mongolia,1998,0.508
+Namibia,1998,0.514
+Panama,1998,0.607
+Paraguay,1998,0.509
+Philippines,1998,0.556
+Portugal,1998,0.661
+Qatar,1998,0.604
+Saudi Arabia,1998,0.542
+Singapore,1998,0.616
+South Africa,1998,0.646
+United Arab Emirates,1998,0.548
+Venezuela (Bolivarian Republic of),1998,0.492
+Zimbabwe,1998,0.475
+Belize,1999,0.555
+Bolivia (Plurinational State of),1999,0.616
+Botswana,1999,0.577
+Brazil,1999,0.572
+Colombia,1999,0.529
+Congo,1999,0.455
+Costa Rica,1999,0.584
+Croatia,1999,0.639
+Dominican Republic,1999,0.548
+Gabon,1999,0.538
+Guyana,1999,0.556
+Jamaica,1999,0.555
+Jordan,1999,0.666
+Kuwait,1999,0.595
+Libya,1999,0.61
+Malaysia,1999,0.603
+Mauritius,1999,0.542
+Mexico,1999,0.532
+Mongolia,1999,0.518
+Namibia,1999,0.506
+Panama,1999,0.617
+Paraguay,1999,0.52
+Philippines,1999,0.565
+Portugal,1999,0.652
+Qatar,1999,0.611
+Saudi Arabia,1999,0.549
+Singapore,1999,0.633
+South Africa,1999,0.649
+United Arab Emirates,1999,0.561
+Venezuela (Bolivarian Republic of),1999,0.502
+Zimbabwe,1999,0.481
+Belize,2000,0.563
+Bolivia (Plurinational State of),2000,0.63
+Botswana,2000,0.589
+Brazil,2000,0.584
+Colombia,2000,0.534
+Congo,2000,0.454
+Costa Rica,2000,0.593
+Croatia,2000,0.656
+Dominican Republic,2000,0.554
+Gabon,2000,0.545
+Guyana,2000,0.561
+Jamaica,2000,0.548
+Jordan,2000,0.671
+Kuwait,2000,0.595
+Libya,2000,0.621
+Malaysia,2000,0.619
+Mauritius,2000,0.546
+Mexico,2000,0.544
+Mongolia,2000,0.534
+Namibia,2000,0.51
+Panama,2000,0.627
+Paraguay,2000,0.524
+Philippines,2000,0.572
+Portugal,2000,0.661
+Qatar,2000,0.613
+Saudi Arabia,2000,0.555
+Singapore,2000,0.649
+South Africa,2000,0.652
+United Arab Emirates,2000,0.573
+Venezuela (Bolivarian Republic of),2000,0.503
+Zimbabwe,2000,0.488
+Belize,2001,0.57
+Bolivia (Plurinational State of),2001,0.631
+Botswana,2001,0.597
+Brazil,2001,0.597
+Colombia,2001,0.537
+Congo,2001,0.452
+Costa Rica,2001,0.597
+Croatia,2001,0.677
+Dominican Republic,2001,0.56
+Gabon,2001,0.551
+Guyana,2001,0.565
+Jamaica,2001,0.576
+Jordan,2001,0.679
+Kuwait,2001,0.592
+Libya,2001,0.631
+Malaysia,2001,0.613
+Mauritius,2001,0.561
+Mexico,2001,0.553
+Mongolia,2001,0.557
+Namibia,2001,0.521
+Panama,2001,0.637
+Paraguay,2001,0.546
+Philippines,2001,0.573
+Portugal,2001,0.669
+Qatar,2001,0.616
+Saudi Arabia,2001,0.563
+Singapore,2001,0.657
+South Africa,2001,0.609
+United Arab Emirates,2001,0.582
+Venezuela (Bolivarian Republic of),2001,0.518
+Zimbabwe,2001,0.502
+Belize,2002,0.583
+Bolivia (Plurinational State of),2002,0.641
+Botswana,2002,0.596
+Brazil,2002,0.61
+Colombia,2002,0.54
+Congo,2002,0.449
+Costa Rica,2002,0.601
+Croatia,2002,0.685
+Dominican Republic,2002,0.566
+Gabon,2002,0.557
+Guyana,2002,0.568
+Jamaica,2002,0.586
+Jordan,2002,0.666
+Kuwait,2002,0.598
+Libya,2002,0.642
+Malaysia,2002,0.611
+Mauritius,2002,0.569
+Mexico,2002,0.566
+Mongolia,2002,0.57
+Namibia,2002,0.517
+Panama,2002,0.645
+Paraguay,2002,0.568
+Philippines,2002,0.584
+Portugal,2002,0.669
+Qatar,2002,0.625
+Saudi Arabia,2002,0.572
+Singapore,2002,0.67
+South Africa,2002,0.644
+United Arab Emirates,2002,0.591
+Venezuela (Bolivarian Republic of),2002,0.549
+Zimbabwe,2002,0.493
+Belize,2003,0.596
+Bolivia (Plurinational State of),2003,0.644
+Botswana,2003,0.603
+Brazil,2003,0.595
+Colombia,2003,0.533
+Congo,2003,0.445
+Costa Rica,2003,0.605
+Croatia,2003,0.693
+Dominican Republic,2003,0.573
+Gabon,2003,0.563
+Guyana,2003,0.554
+Jamaica,2003,0.569
+Jordan,2003,0.675
+Kuwait,2003,0.603
+Libya,2003,0.646
+Malaysia,2003,0.62
+Mauritius,2003,0.583
+Mexico,2003,0.572
+Mongolia,2003,0.593
+Namibia,2003,0.52
+Panama,2003,0.651
+Paraguay,2003,0.57
+Philippines,2003,0.589
+Portugal,2003,0.681
+Qatar,2003,0.642
+Saudi Arabia,2003,0.58
+Singapore,2003,0.681
+South Africa,2003,0.651
+United Arab Emirates,2003,0.6
+Venezuela (Bolivarian Republic of),2003,0.556
+Zimbabwe,2003,0.483
+Belize,2004,0.608
+Bolivia (Plurinational State of),2004,0.637
+Botswana,2004,0.608
+Brazil,2004,0.593
+Colombia,2004,0.56
+Congo,2004,0.453
+Costa Rica,2004,0.609
+Croatia,2004,0.702
+Dominican Republic,2004,0.579
+Gabon,2004,0.569
+Guyana,2004,0.561
+Jamaica,2004,0.611
+Jordan,2004,0.681
+Kuwait,2004,0.598
+Libya,2004,0.644
+Malaysia,2004,0.621
+Mauritius,2004,0.595
+Mexico,2004,0.589
+Mongolia,2004,0.612
+Namibia,2004,0.518
+Panama,2004,0.655
+Paraguay,2004,0.579
+Philippines,2004,0.611
+Portugal,2004,0.686
+Qatar,2004,0.646
+Saudi Arabia,2004,0.594
+Singapore,2004,0.688
+South Africa,2004,0.653
+United Arab Emirates,2004,0.609
+Venezuela (Bolivarian Republic of),2004,0.569
+Zimbabwe,2004,0.485
+Belize,2005,0.596
+Bolivia (Plurinational State of),2005,0.631
+Botswana,2005,0.613
+Brazil,2005,0.593
+Colombia,2005,0.565
+Congo,2005,0.46
+Costa Rica,2005,0.613
+Croatia,2005,0.71
+Dominican Republic,2005,0.585
+Gabon,2005,0.575
+Guyana,2005,0.57
+Jamaica,2005,0.618
+Jordan,2005,0.705
+Kuwait,2005,0.583
+Libya,2005,0.642
+Malaysia,2005,0.608
+Mauritius,2005,0.614
+Mexico,2005,0.604
+Mongolia,2005,0.639
+Namibia,2005,0.516
+Panama,2005,0.658
+Paraguay,2005,0.581
+Philippines,2005,0.611
+Portugal,2005,0.692
+Qatar,2005,0.657
+Saudi Arabia,2005,0.604
+Singapore,2005,0.739
+South Africa,2005,0.655
+United Arab Emirates,2005,0.622
+Venezuela (Bolivarian Republic of),2005,0.591
+Zimbabwe,2005,0.488
+Belize,2006,0.619
+Bolivia (Plurinational State of),2006,0.635
+Botswana,2006,0.622
+Brazil,2006,0.589
+Colombia,2006,0.577
+Congo,2006,0.468
+Costa Rica,2006,0.619
+Croatia,2006,0.717
+Dominican Republic,2006,0.59
+Gabon,2006,0.58
+Guyana,2006,0.565
+Jamaica,2006,0.625
+Jordan,2006,0.704
+Kuwait,2006,0.594
+Libya,2006,0.64
+Malaysia,2006,0.615
+Mauritius,2006,0.623
+Mexico,2006,0.62
+Mongolia,2006,0.652
+Namibia,2006,0.513
+Panama,2006,0.661
+Paraguay,2006,0.569
+Philippines,2006,0.61
+Portugal,2006,0.683
+Qatar,2006,0.648
+Saudi Arabia,2006,0.619
+Singapore,2006,0.741
+South Africa,2006,0.656
+United Arab Emirates,2006,0.631
+Venezuela (Bolivarian Republic of),2006,0.611
+Zimbabwe,2006,0.495
+Belize,2007,0.626
+Bolivia (Plurinational State of),2007,0.624
+Botswana,2007,0.625
+Brazil,2007,0.588
+Colombia,2007,0.602
+Congo,2007,0.476
+Costa Rica,2007,0.628
+Croatia,2007,0.733
+Dominican Republic,2007,0.595
+Gabon,2007,0.585
+Guyana,2007,0.561
+Jamaica,2007,0.645
+Jordan,2007,0.704
+Kuwait,2007,0.592
+Libya,2007,0.639
+Malaysia,2007,0.64
+Mauritius,2007,0.632
+Mexico,2007,0.621
+Mongolia,2007,0.668
+Namibia,2007,0.519
+Panama,2007,0.665
+Paraguay,2007,0.568
+Philippines,2007,0.619
+Portugal,2007,0.684
+Qatar,2007,0.652
+Saudi Arabia,2007,0.634
+Singapore,2007,0.736
+South Africa,2007,0.66
+United Arab Emirates,2007,0.641
+Venezuela (Bolivarian Republic of),2007,0.642
+Zimbabwe,2007,0.502
+Belize,2008,0.633
+Bolivia (Plurinational State of),2008,0.636
+Botswana,2008,0.628
+Brazil,2008,0.608
+Colombia,2008,0.614
+Congo,2008,0.484
+Costa Rica,2008,0.642
+Croatia,2008,0.742
+Dominican Republic,2008,0.598
+Gabon,2008,0.589
+Guyana,2008,0.565
+Jamaica,2008,0.697
+Jordan,2008,0.704
+Kuwait,2008,0.595
+Libya,2008,0.637
+Malaysia,2008,0.664
+Mauritius,2008,0.642
+Mexico,2008,0.627
+Mongolia,2008,0.685
+Namibia,2008,0.521
+Panama,2008,0.663
+Paraguay,2008,0.582
+Philippines,2008,0.624
+Portugal,2008,0.688
+Qatar,2008,0.663
+Saudi Arabia,2008,0.649
+Singapore,2008,0.751
+South Africa,2008,0.681
+United Arab Emirates,2008,0.65
+Venezuela (Bolivarian Republic of),2008,0.662
+Zimbabwe,2008,0.509
+Belize,2009,0.635
+Bolivia (Plurinational State of),2009,0.639
+Botswana,2009,0.632
+Brazil,2009,0.61
+Colombia,2009,0.617
+Congo,2009,0.492
+Costa Rica,2009,0.65
+Croatia,2009,0.746
+Dominican Republic,2009,0.601
+Gabon,2009,0.594
+Guyana,2009,0.565
+Jamaica,2009,0.694
+Jordan,2009,0.697
+Kuwait,2009,0.596
+Libya,2009,0.635
+Malaysia,2009,0.676
+Mauritius,2009,0.655
+Mexico,2009,0.637
+Mongolia,2009,0.701
+Namibia,2009,0.528
+Panama,2009,0.665
+Paraguay,2009,0.576
+Philippines,2009,0.615
+Portugal,2009,0.702
+Qatar,2009,0.657
+Saudi Arabia,2009,0.664
+Singapore,2009,0.754
+South Africa,2009,0.694
+United Arab Emirates,2009,0.659
+Venezuela (Bolivarian Republic of),2009,0.667
+Zimbabwe,2009,0.516
+Belize,2010,0.663
+Bolivia (Plurinational State of),2010,0.642
+Botswana,2010,0.636
+Brazil,2010,0.619
+Colombia,2010,0.634
+Congo,2010,0.5
+Costa Rica,2010,0.65
+Croatia,2010,0.753
+Dominican Republic,2010,0.606
+Gabon,2010,0.599
+Guyana,2010,0.575
+Jamaica,2010,0.691
+Jordan,2010,0.685
+Kuwait,2010,0.599
+Libya,2010,0.634
+Malaysia,2010,0.687
+Mauritius,2010,0.664
+Mexico,2010,0.634
+Mongolia,2010,0.721
+Namibia,2010,0.538
+Panama,2010,0.665
+Paraguay,2010,0.599
+Philippines,2010,0.622
+Portugal,2010,0.712
+Qatar,2010,0.637
+Saudi Arabia,2010,0.691
+Singapore,2010,0.788
+South Africa,2010,0.696
+United Arab Emirates,2010,0.669
+Venezuela (Bolivarian Republic of),2010,0.674
+Zimbabwe,2010,0.523
+Belize,2011,0.65
+Bolivia (Plurinational State of),2011,0.642
+Botswana,2011,0.641
+Brazil,2011,0.622
+Colombia,2011,0.638
+Congo,2011,0.5
+Costa Rica,2011,0.679
+Croatia,2011,0.772
+Dominican Republic,2011,0.611
+Gabon,2011,0.604
+Guyana,2011,0.591
+Jamaica,2011,0.689
+Jordan,2011,0.68
+Kuwait,2011,0.601
+Libya,2011,0.625
+Malaysia,2011,0.694
+Mauritius,2011,0.681
+Mexico,2011,0.649
+Mongolia,2011,0.734
+Namibia,2011,0.549
+Panama,2011,0.662
+Paraguay,2011,0.604
+Philippines,2011,0.633
+Portugal,2011,0.721
+Qatar,2011,0.651
+Saudi Arabia,2011,0.719
+Singapore,2011,0.796
+South Africa,2011,0.674
+United Arab Emirates,2011,0.678
+Venezuela (Bolivarian Republic of),2011,0.705
+Zimbabwe,2011,0.526
+Belize,2012,0.665
+Bolivia (Plurinational State of),2012,0.644
+Botswana,2012,0.645
+Brazil,2012,0.628
+Colombia,2012,0.644
+Congo,2012,0.5
+Costa Rica,2012,0.686
+Croatia,2012,0.777
+Dominican Republic,2012,0.616
+Gabon,2012,0.608
+Guyana,2012,0.591
+Jamaica,2012,0.685
+Jordan,2012,0.685
+Kuwait,2012,0.608
+Libya,2012,0.616
+Malaysia,2012,0.696
+Mauritius,2012,0.699
+Mexico,2012,0.658
+Mongolia,2012,0.738
+Namibia,2012,0.557
+Panama,2012,0.668
+Paraguay,2012,0.605
+Philippines,2012,0.644
+Portugal,2012,0.73
+Qatar,2012,0.682
+Saudi Arabia,2012,0.747
+Singapore,2012,0.808
+South Africa,2012,0.685
+United Arab Emirates,2012,0.687
+Venezuela (Bolivarian Republic of),2012,0.708
+Zimbabwe,2012,0.549
+Belize,2013,0.665
+Bolivia (Plurinational State of),2013,0.656
+Botswana,2013,0.649
+Brazil,2013,0.668
+Colombia,2013,0.644
+Congo,2013,0.511
+Costa Rica,2013,0.694
+Croatia,2013,0.785
+Dominican Republic,2013,0.619
+Gabon,2013,0.612
+Guyana,2013,0.593
+Jamaica,2013,0.681
+Jordan,2013,0.669
+Kuwait,2013,0.601
+Libya,2013,0.613
+Malaysia,2013,0.701
+Mauritius,2013,0.707
+Mexico,2013,0.652
+Mongolia,2013,0.742
+Namibia,2013,0.562
+Panama,2013,0.674
+Paraguay,2013,0.624
+Philippines,2013,0.655
+Portugal,2013,0.739
+Qatar,2013,0.651
+Saudi Arabia,2013,0.77
+Singapore,2013,0.813
+South Africa,2013,0.695
+United Arab Emirates,2013,0.697
+Venezuela (Bolivarian Republic of),2013,0.724
+Zimbabwe,2013,0.55
+Belize,2014,0.669
+Bolivia (Plurinational State of),2014,0.66
+Botswana,2014,0.653
+Brazil,2014,0.674
+Colombia,2014,0.664
+Congo,2014,0.522
+Costa Rica,2014,0.712
+Croatia,2014,0.797
+Dominican Republic,2014,0.641
+Gabon,2014,0.618
+Guyana,2014,0.597
+Jamaica,2014,0.681
+Jordan,2014,0.672
+Kuwait,2014,0.612
+Libya,2014,0.609
+Malaysia,2014,0.708
+Mauritius,2014,0.729
+Mexico,2014,0.661
+Mongolia,2014,0.746
+Namibia,2014,0.565
+Panama,2014,0.681
+Paraguay,2014,0.624
+Philippines,2014,0.661
+Portugal,2014,0.751
+Qatar,2014,0.634
+Saudi Arabia,2014,0.787
+Singapore,2014,0.843
+South Africa,2014,0.705
+United Arab Emirates,2014,0.711
+Venezuela (Bolivarian Republic of),2014,0.725
+Zimbabwe,2014,0.557
+Belize,2015,0.674
+Bolivia (Plurinational State of),2015,0.666
+Botswana,2015,0.657
+Brazil,2015,0.677
+Colombia,2015,0.664
+Congo,2015,0.533
+Costa Rica,2015,0.71
+Croatia,2015,0.802
+Dominican Republic,2015,0.652
+Gabon,2015,0.623
+Guyana,2015,0.598
+Jamaica,2015,0.687
+Jordan,2015,0.674
+Kuwait,2015,0.623
+Libya,2015,0.606
+Malaysia,2015,0.713
+Mauritius,2015,0.721
+Mexico,2015,0.672
+Mongolia,2015,0.752
+Namibia,2015,0.569
+Panama,2015,0.681
+Paraguay,2015,0.635
+Philippines,2015,0.665
+Portugal,2015,0.767
+Qatar,2015,0.642
+Saudi Arabia,2015,0.802
+Singapore,2015,0.875
+South Africa,2015,0.72
+United Arab Emirates,2015,0.735
+Venezuela (Bolivarian Republic of),2015,0.724
+Zimbabwe,2015,0.56
+Belize,2016,0.696
+Bolivia (Plurinational State of),2016,0.67
+Botswana,2016,0.659
+Brazil,2016,0.684
+Colombia,2016,0.673
+Congo,2016,0.539
+Costa Rica,2016,0.714
+Croatia,2016,0.802
+Dominican Republic,2016,0.655
+Gabon,2016,0.628
+Guyana,2016,0.6
+Jamaica,2016,0.687
+Jordan,2016,0.672
+Kuwait,2016,0.629
+Libya,2016,0.602
+Malaysia,2016,0.718
+Mauritius,2016,0.728
+Mexico,2016,0.677
+Mongolia,2016,0.731
+Namibia,2016,0.571
+Panama,2016,0.692
+Paraguay,2016,0.631
+Philippines,2016,0.663
+Portugal,2016,0.763
+Qatar,2016,0.655
+Saudi Arabia,2016,0.803
+Singapore,2016,0.892
+South Africa,2016,0.718
+United Arab Emirates,2016,0.743
+Venezuela (Bolivarian Republic of),2016,0.722
+Zimbabwe,2016,0.565
+Belize,2017,0.691
+Bolivia (Plurinational State of),2017,0.686
+Botswana,2017,0.664
+Brazil,2017,0.689
+Colombia,2017,0.678
+Congo,2017,0.539
+Costa Rica,2017,0.717
+Croatia,2017,0.802
+Dominican Republic,2017,0.657
+Gabon,2017,0.633
+Guyana,2017,0.601
+Jamaica,2017,0.692
+Jordan,2017,0.662
+Kuwait,2017,0.635
+Libya,2017,0.607
+Malaysia,2017,0.724
+Mauritius,2017,0.73
+Mexico,2017,0.681
+Mongolia,2017,0.733
+Namibia,2017,0.581
+Panama,2017,0.697
+Paraguay,2017,0.634
+Philippines,2017,0.665
+Portugal,2017,0.763
+Qatar,2017,0.662
+Saudi Arabia,2017,0.784
+Singapore,2017,0.913
+South Africa,2017,0.718
+United Arab Emirates,2017,0.783
+Venezuela (Bolivarian Republic of),2017,0.7
+Zimbabwe,2017,0.568
+Belize,2018,0.691
+Bolivia (Plurinational State of),2018,0.69
+Botswana,2018,0.666
+Brazil,2018,0.689
+Colombia,2018,0.678
+Congo,2018,0.539
+Costa Rica,2018,0.724
+Croatia,2018,0.803
+Dominican Republic,2018,0.66
+Gabon,2018,0.639
+Guyana,2018,0.602
+Jamaica,2018,0.691
+Jordan,2018,0.664
+Kuwait,2018,0.638
+Libya,2018,0.607
+Malaysia,2018,0.719
+Mauritius,2018,0.733
+Mexico,2018,0.694
+Mongolia,2018,0.734
+Namibia,2018,0.582
+Panama,2018,0.697
+Paraguay,2018,0.635
+Philippines,2018,0.667
+Portugal,2018,0.763
+Qatar,2018,0.653
+Saudi Arabia,2018,0.789
+Singapore,2018,0.921
+South Africa,2018,0.721
+United Arab Emirates,2018,0.802
+Venezuela (Bolivarian Republic of),2018,0.7
+Zimbabwe,2018,0.57
+Belize,2019,0.695
+Bolivia (Plurinational State of),2019,0.695
+Botswana,2019,0.676
+Brazil,2019,0.694
+Colombia,2019,0.682
+Congo,2019,0.543
+Costa Rica,2019,0.726
+Croatia,2019,0.805
+Dominican Republic,2019,0.666
+Gabon,2019,0.65
+Guyana,2019,0.601
+Jamaica,2019,0.689
+Jordan,2019,0.667
+Kuwait,2019,0.638
+Libya,2019,0.61
+Malaysia,2019,0.726
+Mauritius,2019,0.736
+Mexico,2019,0.703
+Mongolia,2019,0.736
+Namibia,2019,0.584
+Panama,2019,0.7
+Paraguay,2019,0.638
+Philippines,2019,0.678
+Portugal,2019,0.768
+Qatar,2019,0.659
+Saudi Arabia,2019,0.789
+Singapore,2019,0.924
+South Africa,2019,0.724
+United Arab Emirates,2019,0.802
+Venezuela (Bolivarian Republic of),2019,0.7
+Zimbabwe,2019,0.587
+Belize,distance_to_mex_1990,0.015000000000000013
+Bolivia (Plurinational State of),distance_to_mex_1990,0.04800000000000004
+Botswana,distance_to_mex_1990,0.01899999999999996
+Brazil,distance_to_mex_1990,0.01699999999999996
+Colombia,distance_to_mex_1990,0.046999999999999986
+Congo,distance_to_mex_1990,0.024999999999999967
+Costa Rica,distance_to_mex_1990,0.025000000000000022
+Croatia,distance_to_mex_1990,0.018000000000000016
+Dominican Republic,distance_to_mex_1990,0.0050000000000000044
+Gabon,distance_to_mex_1990,0.007000000000000006
+Guyana,distance_to_mex_1990,0.027000000000000024
+Jamaica,distance_to_mex_1990,0.029000000000000026
+Jordan,distance_to_mex_1990,0.016000000000000014
+Kuwait,distance_to_mex_1990,0.0040000000000000036
+Libya,distance_to_mex_1990,0.03600000000000003
+Malaysia,distance_to_mex_1990,0.008000000000000007
+Mauritius,distance_to_mex_1990,0.0010000000000000009
+Mexico,distance_to_mex_1990,0.0
+Mongolia,distance_to_mex_1990,0.05900000000000005
+Namibia,distance_to_mex_1990,0.015000000000000013
+Panama,distance_to_mex_1990,0.05800000000000005
+Paraguay,distance_to_mex_1990,0.04899999999999999
+Philippines,distance_to_mex_1990,0.039000000000000035
+Portugal,distance_to_mex_1990,0.05600000000000005
+Qatar,distance_to_mex_1990,0.027000000000000024
+Saudi Arabia,distance_to_mex_1990,0.009000000000000008
+Singapore,distance_to_mex_1990,0.008000000000000007
+South Africa,distance_to_mex_1990,0.052000000000000046
+United Arab Emirates,distance_to_mex_1990,0.006000000000000005
+Venezuela (Bolivarian Republic of),distance_to_mex_1990,0.035999999999999976
+Zimbabwe,distance_to_mex_1990,0.056999999999999995
