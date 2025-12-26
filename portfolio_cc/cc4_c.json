@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "data": {
-    "url": "https://raw.githubusercontent.com/CarlosGV1208/CarlosGV1208.github.io/refs/heads/main/portfolio_cc/dw.csv"
+    "url": "https://raw.githubusercontent.com/CarlosGV1208/CarlosGV1208.github.io/refs/heads/main/portfolio_cc/cc4.csv"
   },
   "title": {
     "text": "Germany had the biggest jump in reported anti-Black discrimination",
@@ -15,7 +15,7 @@
     "subtitlePadding": 10
   },
   "width": 600,
-  "height": 600,
+  "height": 800,
   "transform": [
     {"filter": "datum.Country != 'EU Average'"},
     {"fold": ["y2016", "y2022"], "as": ["year", "value"]},
@@ -78,7 +78,7 @@
         "direction": "horizontal",
         "title": null,
         "labelColor": "#002b7a",
-        "labelFontSize": 12,
+        "labelFontSize": 14,
         "symbolType": "square",
         "padding": 15
       }
@@ -102,7 +102,7 @@
         "type": "text",
         "align": "right",
         "dx": -15,
-        "fontSize": 12,
+        "fontSize": 15,
         "fontWeight": "normal"
       },
       "encoding": {
@@ -117,7 +117,7 @@
         "type": "text",
         "align": "left",
         "dx": 15,
-        "fontSize": 12,
+        "fontSize": 15,
         "fontWeight": "normal"
       },
       "encoding": {
