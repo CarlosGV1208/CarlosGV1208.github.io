@@ -237,8 +237,7 @@
         <section>
             <div class="chart-info">
                 <h3>CC5 - ACCESING DATA</h3>
-                <h2>Scraper and API.</h2>
-                <p>Collecting data through a live API and web scraping, cleaning and visualising.</p>
+                <h2>Accesing data using an API</h2>
             </div>
             <div class="graph-container">
                 <figure id="Location5a"></figure>
@@ -261,6 +260,15 @@
             </p>
             </div>
                 <p class="source">Source: <a href="https://data.worldbank.org/indicator/NY.GDP.TOTL.RT.ZS">World Bank, Total Natural Resources Rents (% of GDP)</a></p>
+            </div>
+            <div class="chart-info">
+                <h2>Accesing data vía scraping</h2>
+                <p>CI scraped a Wikipedia table on the education index, focused on Mexico, and compared countries with similar 1990 values to analyze trends over time, using the data available through 2019.</p>
+            </div>
+            <div class="graph-container">
+                <figure id="Location5b"></figure>
+                <p class="source">Source: <a href="https://en.wikipedia.org/wiki/Education_Index">Education Index, Wikipedia</a></p>
+                <p class="source">Colab Notebook: <a href="https://drive.google.com/file/d/16_YknhAT5Q9eTrr61wOsRwuxL70LBtYW/view?usp=sharing">Scraping and cleaning data</a></p>
             </div>
         </section>
 
@@ -309,6 +317,7 @@
         const spec4b = "portfolio_cc/cc4_b.json";
         const spec4c = "portfolio_cc/cc4_c.json";
         const spec5a = "portfolio_cc/cc5_a.json";
+        const spec5b = "portfolio_cc/cc5_b.json";
         const specW3 = "wk3_pe_ratio_chart.json";
         const specW4_a = "worldbank_week4.json";
         const specW4_b = "week4_02.json";
@@ -322,6 +331,7 @@
         vegaEmbed('#Location4b', spec4b);
         vegaEmbed('#Location4c', spec4c);
         vegaEmbed('#Location5a', spec5a);
+        vegaEmbed('#Location5b', spec5b);
         vegaEmbed('#LocationW3', specW3);
         vegaEmbed('#Locationw4', specW4_a);
         vegaEmbed('#Locationw4_02', specW4_b);
