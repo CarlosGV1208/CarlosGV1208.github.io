@@ -1,0 +1,98 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/CarlosGV1208/CarlosGV1208.github.io/refs/heads/main/portfolio_cc/cc5_b_scraped2.csv"
+  },
+  "title": {
+    "text": "Trends of Countries with a Similar Education Index to Mexico in 1990",
+    "subtitle": "Source: UNDP Human Development Report, UNESCO Institute for Statistics",
+    "anchor": "start",
+    "fontSize": 18,
+    "subtitleFontSize": 14,
+    "offset": 20
+  },
+  "width": 500,
+  "height": 300,
+  "transform": [
+    {
+      "window": [{"op": "rank", "as": "rank_top_2019"}],
+      "sort": [{"field": "Index_value", "order": "descending"}],
+      "groupby": ["Year"]
+    },
+    {
+      "window": [{"op": "rank", "as": "rank_bottom_1990"}],
+      "sort": [{"field": "Index_value", "order": "ascending"}],
+      "groupby": ["Year"]
+    },
+    {
+      "calculate": "(datum.Year == 2019 && datum.rank_top_2019 <= 4) || (datum.Year == 1990 && datum.rank_bottom_1990 <= 2) || datum.Country == 'Mexico'",
+      "as": "target_selection"
+    },
+    {
+      "joinaggregate": [
+        {"op": "max", "field": "target_selection", "as": "keep_country"}
+      ],
+      "groupby": ["Country"]
+    },
+    {"filter": "datum.keep_country == 1"}
+  ],
+  "encoding": {
+    "x": {
+      "field": "Year",
+      "type": "quantitative",
+      "axis": {"format": "d", "title": "Year", "grid": false}
+    },
+    "y": {
+      "field": "Index_value",
+      "type": "quantitative",
+      "scale": {"domain": [0.45, 1]},
+      "axis": {"title": "Education Index (%)", "format": "%", "grid": true}
+    },
+    "color": {
+      "field": "Country",
+      "type": "nominal",
+      "legend": null,
+      "scale": {"scheme": "category20b"}
+    }
+  },
+  "layer": [
+    {
+      "name": "TREND_LINES",
+      "mark": {"type": "line", "interpolate": "monotone"},
+      "encoding": {
+        "strokeWidth": {
+          "condition": {"test": "datum.Country == 'Mexico'", "value": 2.2},
+          "value": 2
+        },
+        "opacity": {
+          "condition": {"test": "datum.Country == 'Mexico'", "value": 1},
+          "value": 0.25
+        }
+      }
+    },
+    {
+      "name": "END_POINTS",
+      "mark": {"type": "point", "filled": true},
+      "transform": [{"filter": "datum.Year == 2019"}],
+      "encoding": {
+        "size": {
+          "condition": {"test": "datum.Country == 'Mexico'", "value": 70},
+          "value": 40
+        }
+      }
+    },
+    {
+      "name": "LABELS",
+      "transform": [{"filter": "datum.Year == 2019"}],
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "dx": 12,
+        "fontSize": 8,
+        "fontWeight": ""
+      },
+      "encoding": {"text": {"field": "Country"}}
+    }
+  ],
+  "config": {"view": {"stroke": "transparent"}, "font": "Arial, sans-serif"}
+}
