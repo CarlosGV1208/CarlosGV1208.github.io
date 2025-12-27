@@ -1,0 +1,92 @@
+[
+    {
+        "date": "2000",
+        "value": 4.94007778507734,
+        "country": "United Kingdom",
+        "indicator": "Real interest rate (%)"
+    },
+    {
+        "date": "2001",
+        "value": 3.35276851534879,
+        "country": "United Kingdom",
+        "indicator": "Real interest rate (%)"
+    },
+    {
+        "date": "2002",
+        "value": 1.87229360848,
+        "country": "United Kingdom",
+        "indicator": "Real interest rate (%)"
+    },
+    {
+        "date": "2003",
+        "value": 1.28051509830497,
+        "country": "United Kingdom",
+        "indicator": "Real interest rate (%)"
+    },
+    {
+        "date": "2004",
+        "value": 1.60543979164839,
+        "country": "United Kingdom",
+        "indicator": "Real interest rate (%)"
+    },
+    {
+        "date": "2005",
+        "value": 1.73498971863596,
+        "country": "United Kingdom",
+        "indicator": "Real interest rate (%)"
+    },
+    {
+        "date": "2006",
+        "value": 1.51610423583348,
+        "country": "United Kingdom",
+        "indicator": "Real interest rate (%)"
+    },
+    {
+        "date": "2007",
+        "value": 3.44659213990367,
+        "country": "United Kingdom",
+        "indicator": "Real interest rate (%)"
+    },
+    {
+        "date": "2008",
+        "value": 1.32675740896323,
+        "country": "United Kingdom",
+        "indicator": "Real interest rate (%)"
+    },
+    {
+        "date": "2009",
+        "value": -1.33576903136853,
+        "country": "United Kingdom",
+        "indicator": "Real interest rate (%)"
+    },
+    {
+        "date": "2010",
+        "value": -0.817511776035438,
+        "country": "United Kingdom",
+        "indicator": "Real interest rate (%)"
+    },
+    {
+        "date": "2011",
+        "value": -1.92821635664364,
+        "country": "United Kingdom",
+        "indicator": "Real interest rate (%)"
+    },
+    {
+        "date": "2012",
+        "value": -1.03179878401941,
+        "country": "United Kingdom",
+        "indicator": "Real interest rate (%)"
+    },
+    {
+        "date": "2013",
+        "value": -1.62209771601829,
+        "country": "United Kingdom",
+        "indicator": "Real interest rate (%)"
+    },
+    {
+        "date": "2014",
+        "value": -1.0787978449774,
+        "country": "United Kingdom",
+        "indicator": "Real interest rate (%)"
+    }
+]
