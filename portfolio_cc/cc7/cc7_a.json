@@ -1,0 +1,43 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Choropleth map of Wales showing the number of active enterprises by Local Authority District in 2024.",
+  "title": "Active Enterprises by Local Authority District in Wales (2024)",
+  "width": 350,
+  "height": 450,
+  "data": {
+    "url": "https://raw.githubusercontent.com/jhellingsdata/RADataHub/refs/heads/main/MappingWorkshop/geo_data/LAD_WLS_2025_05.topojson",
+    "format": {"type": "topojson", "feature": "object_name"}
+  },
+  "transform": [
+    {
+      "lookup": "properties.LAD25CD",
+      "from": {
+        "data": {
+          "url": "https://raw.githubusercontent.com/CarlosGV1208/CarlosGV1208.github.io/main/portfolio_cc/cc7/wales_business.csv"
+        },
+        "key": "geo_id",
+        "fields": ["Data values", "Area"]
+      }
+    }
+  ],
+  "mark": {"type": "geoshape", "stroke": "ghostwhite", "strokeWidth": 1},
+  "encoding": {
+    "color": {
+      "field": "Data values",
+      "type": "quantitative",
+      "scale": {"scheme": "tealblues"},
+      "title": "Active Enterprises"
+    },
+    "tooltip": [
+      {"field": "Area", "type": "nominal", "title": "Local Authority District"},
+      {
+        "field": "Data values",
+        "type": "quantitative",
+        "title": "Active Enterprises",
+        "format": ","
+      }
+    ]
+  },
+  "projection": {"type": "mercator"},
+  "config": {}
+}
