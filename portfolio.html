@@ -275,7 +275,7 @@
 
         <section>
             <div class="chart-info">
-                <h3>CC6. LOOPS.</h3>
+                <h3>CC6. LOOPS</h3>
                 <h2>Build a dashboard</h2>
                 <p>
                     Using JavaScript loops and Vega-Lite to automatically generate 
@@ -431,17 +431,14 @@
 
         <section>
             <div class="chart-info">
-                <h3>Advanced / Web Scraping</h3>
-                <h2>Natural Resources</h2>
-                <p>Datos consolidados de rentas de recursos naturales globales.</p>
+                <h3>CC7. MAPS</h3>
+                <h2>Base maps and choropleths</h2>
+                <p>The choropleth map links business data from StatsWales to official ONS Local Authority District boundaries using LAD geographic identifiers, ensuring consistency between statistical and spatial units.</p>
             </div>
             <div class="graph-container">
                 <div class="graphs-stack">
-                    <figure id="Locationw4"></figure>
-                    <p class="source">Source 1: <a href="#">Link 1</a></p>
-                    <div style="margin-top: 30px;"></div>
-                    <figure id="Locationw4_02"></figure>
-                    <p class="source">Source 2: <a href="#">Link 2</a></p>
+                    <figure id="Location7a"></figure>
+                       <p class="source">Source: <a href="https://stats.gov.wales/en-GB/f2dc5994-cf29-4cb7-b692-360b87a85c71">Stats Wales, Business demography by area and year</a></p>
                 </div>
             </div>
         </section>
@@ -463,9 +460,8 @@
         const spec4c = "portfolio_cc/cc4_c.json";
         const spec5a = "portfolio_cc/cc5_a.json";
         const spec5b = "portfolio_cc/cc5_b.json";
-        const specW3 = "wk3_pe_ratio_chart.json";
-        const specW4_a = "worldbank_week4.json";
-        const specW4_b = "week4_02.json";
+        const spec7a = "portfolio_cc/cc7_a.json";
+
 
         vegaEmbed('#Location1a', spec1a);
         vegaEmbed('#Location1b', spec1b);
@@ -477,9 +473,8 @@
         vegaEmbed('#Location4c', spec4c);
         vegaEmbed('#Location5a', spec5a);
         vegaEmbed('#Location5b', spec5b);
-        vegaEmbed('#LocationW3', specW3);
-        vegaEmbed('#Locationw4', specW4_a);
-        vegaEmbed('#Locationw4_02', specW4_b);
+        vegaEmbed('#Location7a', spec7a);
+
     </script>
 
 </body>
