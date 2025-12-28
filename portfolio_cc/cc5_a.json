@@ -1,14 +1,14 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "data": {
-    "url": "https://api.worldbank.org/v2/country/ind;mex;arg;usa;aus/indicator/NY.GDP.TOTL.RT.ZS?format=json&per_page=1000",
+    "url": "https://api.worldbank.org/v2/country/col;mex;arg;usa;bra/indicator/NY.GDP.TOTL.RT.ZS?format=json&per_page=1000",
     "format": {"property": "[1]"}
   },
   "width": 500,
   "height": 350,
   "mark": "line",
   "title": {
-    "text": "Total natural resources rents (% of GDP)",
+    "text": "Americas countries total natural resources rents (% of GDP)",
     "subtitle": "Source: World Bank"
   },
   "encoding": {
@@ -23,8 +23,8 @@
     "color": {
       "field": "country.value",
       "type": "nominal",
-      "scale": {"scheme": "tableau20"},
-      "legend": {"title": "Country", "orient": "top-right"}
+      "scale": {"scheme": "observable10"},
+      "legend": {"title": "Country", "orient": ""}
     }
   },
   "config": {}

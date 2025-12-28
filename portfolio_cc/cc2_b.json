@@ -6,7 +6,7 @@
     "subtitle": "All items, % | Source: ONS through ECO API",
     "fontSize": "18",
     "subtitleFontSize": "12",
-    "color": "#6e2782",
+    "color": "#319f78",
     "subtitleColor": "#000000"
   },
   "height": "400",
@@ -18,7 +18,7 @@
     "url": "https://api.economicsobservatory.com/gbr/infl?vega",
     "format": {"type": "json"}
   },
-  "mark": {"type": "line", "color": "#902aac", "strokeWidth": "1"},
+  "mark": {"type": "line", "color": "#319f78", "strokeWidth": "1"},
   "encoding": {
     "x": {
       "field": "date",
