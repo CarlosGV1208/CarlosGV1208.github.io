@@ -3,7 +3,7 @@
   "description": "Choropleth map of Wales showing the number of active enterprises by Local Authority District in 2024.",
   "title": "Active Enterprises by Local Authority District in Wales (2024)",
   "width": 350,
-  "height": 450,
+  "height": 550,
   "data": {
     "url": "https://raw.githubusercontent.com/jhellingsdata/RADataHub/refs/heads/main/MappingWorkshop/geo_data/LAD_WLS_2025_05.topojson",
     "format": {"type": "topojson", "feature": "object_name"}

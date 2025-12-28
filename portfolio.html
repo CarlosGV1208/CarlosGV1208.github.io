@@ -201,15 +201,13 @@
                 <h3>CC3 - DEBATE</h3>
                 <h2>Use a visualisation in policy commentary</h2>
                 <p>Producing charts linked to a policy topic and adding short written commentary alongside the visual evidence.</p>
-                <h1>The UK NEET problem</h1>
-                <p>The unemployment rate refers to the number of people of a working age who do not have a job. Participation in employment, education or training is important for youth to become established in the labour market and achieve self-sufficiency. This indicator is measured as a percentage of the youth labour force by gender.</p>
-                <p>The United Kingdom has one of the highest rates of youth unemployment among OECD countries, despite efforts to address this problem.</p>
-                <p>The gap has widened in the latest year between the male and female NEET rate at age 16-24. Since the pandemic male rates have been higher than females, changing the trend which historically saw higher rates for females.</p>
             </div>
             <div class="graph-container">
                 <figure id="Location3a"></figure>
+                <p>The United Kingdom has one of the highest rates of youth unemployment among OECD countries, despite efforts to address this problem.</p>
                 <p class="source">Source: <a href="https://www.oecd.org/en/data/indicators/youth-unemployment-rate.html">OECD Youth Unemployment Rate</a></p>
                 <figure id="Location3b"></figure>
+                <p>The gap has widened in the latest year between the male and female NEET rate at age 16-24. Since the pandemic male rates have been higher than females, changing the trend which historically saw higher rates for females.</p>
                 <p class="source">Source: <a href="https://explore-education-statistics.service.gov.uk/find-statistics/neet-statistics-annual-brief/2024">Labor Force Survey 2024, GovUK</a></p>
             </div>
         </section>
@@ -238,6 +236,7 @@
             <div class="chart-info">
                 <h3>CC5 - ACCESING DATA</h3>
                 <h2>Accesing data using an API</h2>
+                <p>Collecting data through a live API and web scraping, cleaning the data, and visualising it on the website.</p>
             </div>
             <div class="graph-container">
                 <figure id="Location5a"></figure>
@@ -433,12 +432,16 @@
             <div class="chart-info">
                 <h3>CC7. MAPS</h3>
                 <h2>Base maps and choropleths</h2>
-                <p>The choropleth map links business data from StatsWales to official ONS Local Authority District boundaries using LAD geographic identifiers, ensuring consistency between statistical and spatial units.</p>
+                <p>Creating coordinate maps and choropleths for Scotland and Wales using geographic data.</p>
             </div>
             <div class="graph-container">
                 <div class="graphs-stack">
                     <figure id="Location7a"></figure>
+                <p>This choropleth map links business data from StatsWales to official ONS Local Authority District boundaries using LAD geographic identifiers, ensuring consistency between statistical and spatial units.</p>
                        <p class="source">Source: <a href="https://stats.gov.wales/en-GB/f2dc5994-cf29-4cb7-b692-360b87a85c71">Stats Wales, Business demography by area and year</a></p>
+                    <figure id="Location7b"></figure>
+                <p>Coordinate map showing drug-related deaths by council area in Scotland, using binned colors and sizes to highlight regional disparities and mortality intensity.</p>
+                       <p class="source">Source: <a href="https://www.nrscotland.gov.uk/publications/drug-related-deaths-in-scotland-2024/#">National Records of Scotland, Drug-related deaths in Scotland, 2024</a></p>
                 </div>
             </div>
         </section>
@@ -461,6 +464,7 @@
         const spec5a = "portfolio_cc/cc5_a.json";
         const spec5b = "portfolio_cc/cc5_b.json";
         const spec7a = "portfolio_cc/cc7/cc7_a.json";
+        const spec7b = "portfolio_cc/cc7/cc7_b.json";
 
 
         vegaEmbed('#Location1a', spec1a);
@@ -474,6 +478,7 @@
         vegaEmbed('#Location5a', spec5a);
         vegaEmbed('#Location5b', spec5b);
         vegaEmbed('#Location7a', spec7a);
+        vegaEmbed('#Location7b', spec7b);
 
     </script>
 
