@@ -1,0 +1,88 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Is men's or women's clothing more expensive?",
+    "subtitle": [
+      "Monthly average prices per item and gender (Gap Analysis)",
+      ""
+    ],
+    "anchor": "start",
+    "fontSize": 20,
+    "color": "#86AD7B",
+    "subtitleFontSize": 14,
+    "subtitleColor": "#6e6e73"
+  },
+  "width": "700",
+  "height": 400,
+  "config": {"view": {"stroke": null}, "axis": {"gridColor": "#f0f0f0"}},
+  "data": {
+    "url": "https://raw.githubusercontent.com/CarlosGV1208/CarlosGV1208.github.io/refs/heads/main/portfolio_cc/cc8/gender_prices.csv"
+  },
+  "params": [
+    {
+      "name": "Product_Selection",
+      "value": "Jacket",
+      "bind": {
+        "input": "select",
+        "options": ["Jacket", "Jumper", "Trousers", "Sweatshirt"],
+        "name": "Review product: "
+      }
+    }
+  ],
+  "transform": [
+    {"filter": "datum.product == Product_Selection"},
+    {"pivot": "gender", "value": "price", "groupby": ["date"], "op": "mean"},
+    {"fold": ["Men", "Women"], "as": ["Gender_Key", "Price_Value"]}
+  ],
+  "encoding": {
+    "x": {
+      "field": "date",
+      "type": "temporal",
+      "title": null,
+      "axis": {"format": "%Y", "labelFontSize": 11}
+    }
+  },
+  "layer": [
+    {
+      "mark": {"type": "rule", "color": "#d1d1d6", "strokeWidth": 1},
+      "encoding": {
+        "y": {"field": "Men", "type": "quantitative"},
+        "y2": {"field": "Women"}
+      }
+    },
+    {
+      "mark": {"type": "point", "size": 30, "filled": true, "opacity": 1},
+      "encoding": {
+        "y": {
+          "field": "Price_Value",
+          "type": "quantitative",
+          "title": "Price (£)"
+        },
+        "color": {
+          "field": "Gender_Key",
+          "type": "nominal",
+          "scale": {
+            "domain": ["Men", "Women"],
+            "range": ["#86AD7B", "#AB7BAD"]
+          },
+          "legend": {
+            "title": null,
+            "orient": "top-left",
+            "symbolSize": 100,
+            "labelFontSize": 12
+          }
+        },
+        "tooltip": [
+          {
+            "field": "date",
+            "type": "temporal",
+            "format": "%Y-%m-%d",
+            "title": "Date"
+          },
+          {"field": "Gender_Key", "title": "Gender"},
+          {"field": "Price_Value", "format": ".2f", "title": "Price (£)"}
+        ]
+      }
+    }
+  ]
+}
