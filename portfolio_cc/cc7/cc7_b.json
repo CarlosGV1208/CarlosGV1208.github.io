@@ -1,0 +1,64 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Drug misuse deaths in Scotland by Council Area",
+    "subtitle": "Total deaths recorded in 2024",
+    "anchor": "start"
+  },
+  "width": 350,
+  "height": 550,
+  "layer": [
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/jhellingsdata/RADataHub/refs/heads/main/MappingWorkshop/geo_data/LAD_SCT_2025_05.topojson",
+        "format": {"type": "topojson", "feature": "object_name"}
+      },
+      "projection": {"type": "mercator"},
+      "mark": {
+        "type": "geoshape",
+        "fill": "#eccaca",
+        "stroke": "white",
+        "strokeWidth": 0.6
+      }
+    },
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/CarlosGV1208/CarlosGV1208.github.io/refs/heads/main/portfolio_cc/cc7/deaths_drugs_scotland.csv"
+      },
+      "projection": {"type": "mercator"},
+      "mark": {
+        "type": "circle",
+        "opacity": 0.6,
+        "stroke": "white",
+        "strokeWidth": 0.5
+      },
+      "encoding": {
+        "longitude": {"field": "lon", "type": "quantitative"},
+        "latitude": {"field": "lat", "type": "quantitative"},
+        "size": {
+          "field": "deaths",
+          "type": "quantitative",
+          "bin": {"maxbins": 7},
+          "scale": {"range": [100, 1500]},
+          "legend": {
+            "title": "Deaths (Range)",
+            "format": "d",
+            "symbolFillColor": "lightgray"
+          }
+        },
+        "color": {
+          "field": "deaths",
+          "type": "quantitative",
+          "bin": {"maxbins": 7},
+          "scale": {"scheme": "inferno"},
+          "legend": {"title": "Deaths in 2024", "offset": 10}
+        },
+        "tooltip": [
+          {"field": "Council area", "title": "Council Area"},
+          {"field": "deaths", "title": "Total Deaths", "format": ","}
+        ]
+      }
+    }
+  ],
+  "config": {}
+}
