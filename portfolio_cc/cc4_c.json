@@ -55,7 +55,7 @@
     "y": {
       "field": "value",
       "type": "quantitative",
-      "scale": {"domain": [0.1, 0.7]},
+      "scale": {"domain": [0.15, 0.68]},
       "axis": {
         "format": "%",
         "title": null,

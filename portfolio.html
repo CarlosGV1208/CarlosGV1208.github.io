@@ -311,9 +311,7 @@
             </div>
         </section>
 
-        <!-- =========================================================
-            DASHBOARD GRID STYLES (3x2 layout)
-        ========================================================= -->
+        <!-- DASHBOARD GRID STYLES (3x2 layout)-->
         <style>
             #charts {
                 display: grid;
@@ -328,17 +326,13 @@
             }
         </style>
 
-        <!-- =========================================================
-            VEGA & VEGA-LITE LIBRARIES
-        ========================================================= -->
+        <!-- VEGA & VEGA-LITE LIBRARIES -->
         <script src="https://cdn.jsdelivr.net/npm/vega@6"></script>
         <script src="https://cdn.jsdelivr.net/npm/vega-lite@6"></script>
         <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
 
         <script>
-            // =========================================================
-            // 1. BASE TEMPLATE FOR ALL CHARTS
-            // =========================================================
+            // BASE TEMPLATE FOR ALL CHARTS // 
             let templateSpec = {
                 "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
 
@@ -390,9 +384,7 @@
                 }
             };
 
-            // =========================================================
-            // 2. LIST OF DATA FILES
-            // =========================================================
+            // LIST OF DATA FILES //
             let chartFiles = [
                 "wb_data_exports.json",
                 "wb_data_gdp.json",
@@ -402,14 +394,10 @@
                 "wb_data_unemployment.json"
             ];
 
-            // =========================================================
-            // 3. BASE URL WHERE JSON FILES ARE STORED
-            // =========================================================
+            // BASE URL WHERE JSON FILES ARE STORED // 
             let baseUrl = "https://raw.githubusercontent.com/CarlosGV1208/CarlosGV1208.github.io/refs/heads/main/portfolio_cc/cc6/";
 
-            // =========================================================
-            // 4. LOOP: AUTOMATICALLY GENERATE ALL CHARTS
-            // =========================================================
+            // LOOP: AUTOMATICALLY GENERATE ALL CHARTS //
             for (let i = 0; i < chartFiles.length; i++) {
 
                 let spec = JSON.parse(JSON.stringify(templateSpec));
