@@ -1,4 +1,4 @@
-datum.guiness_price{
+{
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "width": 250,
   "height": 500,
