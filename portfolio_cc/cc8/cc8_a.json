@@ -77,8 +77,8 @@
       "description": "CAPA DE EVENTOS (Líneas verticales y texto)",
       "data": {
         "values": [
-          {"date": "2008-09-15", "event": "Financial crisis"},
-          {"date": "2012-07-27", "event": "London Olimpic games"},
+          {"date": "2008-02-01", "event": "2008 Global Food Crisis"},
+          {"date": "2013-01-15", "event": "Horsemeat Scandal"},
           {"date": "2016-06-23", "event": "Brexit Referendum"},
           {"date": "2020-01-01", "event": "Covid-19"},
           {"date": "2022-02-24", "event": "Ukraine war"},
