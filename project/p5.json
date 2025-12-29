@@ -1,0 +1,152 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "National Savings Capacity vs. Financial Inclusion",
+    "subtitle": "Analysis of Gross National Savings and Account Ownership (2024). Source: World Bank.",
+    "anchor": "start",
+    "fontSize": 16,
+    "subtitleFontSize": 12
+  },
+  "width": 450,
+  "height": 450,
+  "data": {
+    "url": "https://raw.githubusercontent.com/CarlosGV1208/CarlosGV1208.github.io/refs/heads/main/project/ownership_savings.csv"
+  },
+  "transform": [
+    {
+      "calculate": "if(datum.region == 'LCN', 'Latin America & Caribbean', if(datum.region == 'NAC', 'North America', if(datum.region == 'SAS', 'South Asia', if(datum.region == 'ECS', 'Europe & C. Asia', if(datum.region == 'MEA', 'Middle East & North Africa', if(datum.region == 'SSF', 'Sub-Saharan Africa', if(datum.region == 'EAS', 'East Asia & Pacific', datum.region)))))))",
+      "as": "region_clean"
+    }
+  ],
+  "layer": [
+    {
+      "mark": {"type": "rule", "color": "#e74c3c", "strokeDash": [4, 4]},
+      "encoding": {
+        "y": {
+          "aggregate": "mean",
+          "field": "gross_savings_GDP",
+          "type": "quantitative"
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "baseline": "bottom",
+        "dx": -210,
+        "dy": -3,
+        "color": "#343333",
+        "fontSize": 10,
+        "fontWeight": "bold"
+      },
+      "encoding": {
+        "y": {
+          "aggregate": "mean",
+          "field": "gross_savings_GDP",
+          "type": "quantitative"
+        },
+        "text": {"value": "Global Mean"}
+      }
+    },
+    {
+      "mark": {"type": "rule", "color": "#e74c3c", "strokeDash": [4, 4]},
+      "encoding": {
+        "x": {
+          "aggregate": "mean",
+          "field": "account_ownership",
+          "type": "quantitative"
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "angle": 270,
+        "align": "right",
+        "baseline": "left",
+        "dx": -5,
+        "dy": -3,
+        "color": "#343333",
+        "fontSize": 10,
+        "fontWeight": "bold"
+      },
+      "encoding": {
+        "x": {
+          "aggregate": "mean",
+          "field": "account_ownership",
+          "type": "quantitative"
+        },
+        "y": {"value": 0},
+        "text": {"value": "Global mean"}
+      }
+    },
+    {
+      "mark": {"type": "circle", "stroke": "white", "strokeWidth": 1},
+      "encoding": {
+        "x": {
+          "field": "account_ownership",
+          "type": "quantitative",
+          "title": "Account Ownership (% of population 15+)",
+          "scale": {"domain": [0, 103]}
+        },
+        "y": {
+          "field": "gross_savings_GDP",
+          "type": "quantitative",
+          "title": "Gross National Savings (% of GDP)",
+          "scale": {"domain": [0, 50]}
+        },
+        "size": {
+          "field": "GDP_per_capita",
+          "type": "quantitative",
+          "title": "GDP per Capita (USD)",
+          "scale": {"range": [50, 1100]}
+        },
+        "color": {
+          "field": "region_clean",
+          "type": "nominal",
+          "title": "Region",
+          "scale": {"scheme": "observable10"}
+        },
+        "opacity": {
+          "condition": {"param": "region_highlight", "value": 0.65},
+          "value": 0.05
+        },
+        "tooltip": [
+          {"field": "country_name", "type": "nominal", "title": "Country"},
+          {"field": "region_clean", "type": "nominal", "title": "Region"},
+          {
+            "field": "gross_savings_GDP",
+            "type": "quantitative",
+            "title": "National savings (% GDP)",
+            "format": ".1f"
+          },
+          {
+            "field": "account_ownership",
+            "type": "quantitative",
+            "title": "Bank account ownership (%)",
+            "format": ".1f"
+          },
+          {
+            "field": "GDP_per_capita",
+            "type": "quantitative",
+            "title": "GDP per Capita",
+            "format": "$,.0f"
+          }
+        ]
+      },
+      "params": [
+        {"name": "grid", "select": "interval", "bind": "scales"},
+        {
+          "name": "region_highlight",
+          "select": {"type": "point", "fields": ["region_clean"]},
+          "bind": "legend"
+        }
+      ]
+    }
+  ],
+  "config": {
+    "view": {"stroke": null},
+    "axis": {"grid": true, "gridColor": "#eeeeee", "titleFontSize": 12}
+  }
+}
