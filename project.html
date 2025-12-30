@@ -214,6 +214,30 @@
 
     <div class="container">
 
+         <section>
+            <div class="layout-grid layout-left">
+                
+                <div class="text-content">
+                    <h3>Section 1</h3>
+                    <h2>Global benchmark</h2>
+                    <p>
+                        Aquí puedes escribir la descripción de tu primer gráfico. 
+                        Esta sección tiene configurada la clase <code>layout-left</code>, 
+                        por lo que el texto aparece a la izquierda y el gráfico a la derecha.
+                    </p>
+                    <p>
+                        Describe los hallazgos principales encontrados en el archivo <code>p2.json</code>.
+                    </p>
+                </div>
+
+                <div class="chart-content">
+                    <figure id="ProjectChart1"></figure>
+                    <p class="source">Source: <a href="https://www.cssf.lu/en/Document/full-data-set-sp-global-finlit-survey/">S&P Global Financial Literature Survey</a></p>
+                </div>
+
+            </div>
+        </section>
+        
         <section>
             <div class="layout-grid layout-right">
                 
@@ -296,11 +320,13 @@
 
     <script>
         // Definición de las rutas de tus archivos JSON
+        const specP1 = "project/p1/p1.json";
         const specP2 = "project/p2.json";
         const specP4 = "project/p4/p4.json";
         const specP3 = "project/p3/p3.json";
 
         // Renderizado en las figuras correspondientes
+        vegaEmbed('#ProjectChart1', specP1);
         vegaEmbed('#ProjectChart2', specP2);
         vegaEmbed('#ProjectChart4', specP4);
         vegaEmbed('#ProjectChart3', specP3);
