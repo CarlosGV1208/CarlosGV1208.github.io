@@ -1,0 +1,88 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Financial knowledge by country 2024",
+    "subtitle": [
+      "% of adults who have knowledge about a specific financial concept.",
+      "Source: OECD/INFE 2023 International Survey of Adult Financial Literacy."
+    ],
+    "anchor": "start",
+    "fontSize": 18,
+    "offset": 20
+  },
+  "width": 400,
+  "height": 550,
+  "data": {
+    "url": "https://raw.githubusercontent.com/CarlosGV1208/CarlosGV1208.github.io/refs/heads/main/project/p5/p5_long.csv"
+  },
+  "params": [
+    {"name": "highlight", "select": {"type": "point", "on": "mouseover"}}
+  ],
+  "transform": [
+    {
+      "joinaggregate": [{"op": "mean", "field": "Score", "as": "avg_score"}],
+      "groupby": ["Country"]
+    }
+  ],
+  "mark": {"type": "rect", "strokeWidth": 2},
+  "encoding": {
+    "y": {
+      "field": "Country",
+      "type": "nominal",
+      "sort": {"field": "avg_score", "order": "descending"},
+      "axis": {
+        "title": null,
+        "labelFontSize": 11,
+        "labelColor": {
+          "condition": {
+            "test": "datum.value == 'OECD Average' || datum.value == 'Overall Average'",
+            "value": "#d62728"
+          },
+          "value": "black"
+        },
+        "labelFontWeight": {
+          "condition": {
+            "test": "datum.value == 'OECD Average' || datum.value == 'Overall Average'",
+            "value": "bold"
+          },
+          "value": "normal"
+        }
+      }
+    },
+    "x": {
+      "field": "Concept",
+      "type": "nominal",
+      "axis": {
+        "title": null,
+        "orient": "top",
+        "labelAngle": 30,
+        "labelFontSize": 10,
+        "labelPadding": 5
+      },
+      "sort": [
+        "Inflation",
+        "Risk and return",
+        "Risk diversification",
+        "Simple interest",
+        "Compound interest",
+        "Simple and compound interest"
+      ]
+    },
+    "color": {
+      "field": "Score",
+      "type": "quantitative",
+      "scale": {"scheme": "lightgreyteal", "domain": [0, 100]},
+      "legend": {"title": "Score %"}
+    },
+    "stroke": {
+      "condition": {"param": "highlight", "value": "black"},
+      "value": null
+    },
+    "tooltip": [
+      {"field": "Country", "type": "nominal"},
+      {"field": "Concept", "type": "nominal"},
+      {"field": "Score", "type": "quantitative", "format": ".1f"}
+    ]
+  },
+  "config": {"view": {"stroke": null}, "axis": {"grid": false}}
+}
