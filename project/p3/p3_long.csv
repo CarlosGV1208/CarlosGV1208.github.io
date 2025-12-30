@@ -1,190 +1,190 @@
 Country,indicator,value,category
-Argentina,men,0.323732585,Gender
-Australia,men,0.715046048,Gender
-Brazil,men,0.411406189,Gender
-Canada,men,0.769015491,Gender
-China,men,0.290306389,Gender
-France,men,0.560353458,Gender
-Germany,men,0.716881096,Gender
-India,men,0.273291826,Gender
-Indonesia,men,0.393043667,Gender
-Italy,men,0.447242975,Gender
-Japan,men,0.415916741,Gender
-South Korea,men,0.371636868,Gender
-Mexico,men,0.292499542,Gender
-Russia,men,0.418580562,Gender
-Saudi Arabia,men,0.339242637,Gender
-South Africa,men,0.406521738,Gender
-Turkey,men,0.282419115,Gender
-United Kingdom,men,0.657735348,Gender
-United States,men,0.624578178,Gender
-European Union,men,0.521577547,Gender
-G20,men,0.4615514,Gender
-Argentina,women,0.240860447,Gender
-Australia,women,0.564370275,Gender
-Brazil,women,0.286027044,Gender
-Canada,women,0.603169084,Gender
-China,women,0.272360176,Gender
-France,women,0.475971967,Gender
-Germany,women,0.598923922,Gender
-India,women,0.197134435,Gender
-Indonesia,women,0.253391266,Gender
-Italy,women,0.297858775,Gender
-Japan,women,0.44318518,Gender
-South Korea,women,0.29801324,Gender
-Mexico,women,0.338160962,Gender
-Russia,women,0.35182637,Gender
-Saudi Arabia,women,0.277285039,Gender
-South Africa,women,0.426553905,Gender
-Turkey,women,0.190968543,Gender
-United Kingdom,women,0.683606267,Gender
-United States,women,0.524413824,Gender
-European Union,women,0.466329545,Gender
-G20,women,0.389520513,Gender
-Argentina,gender gap,0.082872137,Gender
-Australia,gender gap,0.150675774,Gender
-Brazil,gender gap,0.125379145,Gender
-Canada,gender gap,0.165846407,Gender
-China,gender gap,0.017946213,Gender
-France,gender gap,0.084381491,Gender
-Germany,gender gap,0.117957175,Gender
-India,gender gap,0.076157391,Gender
-Indonesia,gender gap,0.139652401,Gender
-Italy,gender gap,0.149384201,Gender
-Japan,gender gap,-0.02726844,Gender
-South Korea,gender gap,0.073623627,Gender
-Mexico,gender gap,-0.04566142,Gender
-Russia,gender gap,0.066754192,Gender
-Saudi Arabia,gender gap,0.061957598,Gender
-South Africa,gender gap,-0.020032167,Gender
-Turkey,gender gap,0.091450572,Gender
-United Kingdom,gender gap,-0.025870919,Gender
-United States,gender gap,0.100164354,Gender
-European Union,gender gap,0.055248002,Gender
-G20,gender gap,0.072030887,Gender
-Argentina,adults in the richest households,0.327491552,Wealth
-Australia,adults in the richest households,0.732664764,Wealth
-Brazil,adults in the richest households,0.381926507,Wealth
-Canada,adults in the richest households,0.729827166,Wealth
-China,adults in the richest households,0.324317992,Wealth
-France,adults in the richest households,0.549706578,Wealth
-Germany,adults in the richest households,0.725842118,Wealth
-India,adults in the richest households,0.25652653,Wealth
-Indonesia,adults in the richest households,0.375783652,Wealth
-Italy,adults in the richest households,0.441758573,Wealth
-Japan,adults in the richest households,0.451461226,Wealth
-South Korea,adults in the richest households,0.393502593,Wealth
-Mexico,adults in the richest households,0.355384737,Wealth
-Russia,adults in the richest households,0.416431546,Wealth
-Saudi Arabia,adults in the richest households,0.345932692,Wealth
-South Africa,adults in the richest households,0.45008409,Wealth
-Turkey,adults in the richest households,0.262465984,Wealth
-United Kingdom,adults in the richest households,0.697957039,Wealth
-United States,adults in the richest households,0.642534971,Wealth
-European Union,adults in the richest households,0.534319331,Wealth
-G20,adults in the richest households,0.469795982,Wealth
-Argentina,adults in the poorest households,0.208614707,Wealth
-Australia,adults in the poorest households,0.498374075,Wealth
-Brazil,adults in the poorest households,0.29455474,Wealth
-Canada,adults in the poorest households,0.613640845,Wealth
-China,adults in the poorest households,0.218519598,Wealth
-France,adults in the poorest households,0.466770232,Wealth
-Germany,adults in the poorest households,0.552862585,Wealth
-India,adults in the poorest households,0.204340145,Wealth
-Indonesia,adults in the poorest households,0.24257265,Wealth
-Italy,adults in the poorest households,0.269666195,Wealth
-Japan,adults in the poorest households,0.398771703,Wealth
-South Korea,adults in the poorest households,0.247797742,Wealth
-Mexico,adults in the poorest households,0.258430123,Wealth
-Russia,adults in the poorest households,0.329742521,Wealth
-Saudi Arabia,adults in the poorest households,0.270081878,Wealth
-South Africa,adults in the poorest households,0.369641632,Wealth
-Turkey,adults in the poorest households,0.200193256,Wealth
-United Kingdom,adults in the poorest households,0.63046056,Wealth
-United States,adults in the poorest households,0.472197503,Wealth
-European Union,adults in the poorest households,0.434283773,Wealth
-G20,adults in the poorest households,0.359075823,Wealth
-Argentina,wealth gap,0.118876845,Wealth
-Australia,wealth gap,0.234290689,Wealth
-Brazil,wealth gap,0.087371767,Wealth
-Canada,wealth gap,0.116186321,Wealth
-China,wealth gap,0.105798393,Wealth
-France,wealth gap,0.082936347,Wealth
-Germany,wealth gap,0.172979534,Wealth
-India,wealth gap,0.052186385,Wealth
-Indonesia,wealth gap,0.133211002,Wealth
-Italy,wealth gap,0.172092378,Wealth
-Japan,wealth gap,0.052689523,Wealth
-South Korea,wealth gap,0.145704851,Wealth
-Mexico,wealth gap,0.096954614,Wealth
-Russia,wealth gap,0.086689025,Wealth
-Saudi Arabia,wealth gap,0.075850815,Wealth
-South Africa,wealth gap,0.080442458,Wealth
-Turkey,wealth gap,0.062272727,Wealth
-United Kingdom,wealth gap,0.067496479,Wealth
-United States,wealth gap,0.170337468,Wealth
-European Union,wealth gap,0.100035558,Wealth
-G20,wealth gap,0.110720159,Wealth
-Argentina,age 35-54,0.305665821,Age
-Australia,age 35-54,0.673881531,Age
-Brazil,age 35-54,0.343546301,Age
-Canada,age 35-54,0.754425228,Age
-China,age 35-54,0.289595574,Age
-France,age 35-54,0.583721757,Age
-Germany,age 35-54,0.821767092,Age
-India,age 35-54,0.198754981,Age
-Indonesia,age 35-54,0.295569092,Age
-Italy,age 35-54,0.39456591,Age
-Japan,age 35-54,0.511972845,Age
-South Korea,age 35-54,0.339401066,Age
-Mexico,age 35-54,0.332788557,Age
-Russia,age 35-54,0.471577942,Age
-Saudi Arabia,age 35-54,0.299449921,Age
-South Africa,age 35-54,0.42498219,Age
-Turkey,age 35-54,0.226281464,Age
-United Kingdom,age 35-54,0.708667755,Age
-United States,age 35-54,0.64768815,Age
-European Union,age 35-54,0.52754579,Age
-G20,age 35-54,0.457592448,Age
-Argentina,age 15-34,0.313755542,Age
-Australia,age 15-34,0.63610816,Age
-Brazil,age 15-34,0.369456708,Age
-Canada,age 15-34,0.65787071,Age
-China,age 15-34,0.346463889,Age
-France,age 15-34,0.464998603,Age
-Germany,age 15-34,0.718194485,Age
-India,age 15-34,0.271199048,Age
-Indonesia,age 15-34,0.375393242,Age
-Italy,age 15-34,0.470106691,Age
-Japan,age 15-34,0.429041266,Age
-South Korea,age 15-34,0.47914651,Age
-Mexico,age 15-34,0.340147138,Age
-Russia,age 15-34,0.394497365,Age
-Saudi Arabia,age 15-34,0.317185223,Age
-South Africa,age 15-34,0.434872121,Age
-Turkey,age 15-34,0.284790009,Age
-United Kingdom,age 15-34,0.673937976,Age
-United States,age 15-34,0.57133007,Age
-European Union,age 15-34,0.510019352,Age
-G20,age 15-34,0.452925705,Age
-Argentina,age gap,-0.008089721,Age
-Australia,age gap,0.037773371,Age
-Brazil,age gap,-0.025910407,Age
-Canada,age gap,0.096554518,Age
-China,age gap,-0.056868315,Age
-France,age gap,0.118723154,Age
-Germany,age gap,0.103572607,Age
-India,age gap,-0.072444066,Age
-Indonesia,age gap,-0.07982415,Age
-Italy,age gap,-0.075540781,Age
-Japan,age gap,0.082931578,Age
-South Korea,age gap,-0.139745444,Age
-Mexico,age gap,-0.007358581,Age
-Russia,age gap,0.077080578,Age
-Saudi Arabia,age gap,-0.017735302,Age
-South Africa,age gap,-0.00988993,Age
-Turkey,age gap,-0.058508545,Age
-United Kingdom,age gap,0.034729779,Age
-United States,age gap,0.07635808,Age
-European Union,age gap,0.017526438,Age
-G20,age gap,0.004666743,Age
+Argentina,men,32%,Gender
+Australia,men,72%,Gender
+Brazil,men,41%,Gender
+Canada,men,77%,Gender
+China,men,29%,Gender
+France,men,56%,Gender
+Germany,men,72%,Gender
+India,men,27%,Gender
+Indonesia,men,39%,Gender
+Italy,men,45%,Gender
+Japan,men,42%,Gender
+South Korea,men,37%,Gender
+Mexico,men,29%,Gender
+Russia,men,42%,Gender
+Saudi Arabia,men,34%,Gender
+South Africa,men,41%,Gender
+Turkey,men,28%,Gender
+United Kingdom,men,66%,Gender
+United States,men,62%,Gender
+European Union,men,52%,Gender
+G20,men,46%,Gender
+Argentina,women,24%,Gender
+Australia,women,56%,Gender
+Brazil,women,29%,Gender
+Canada,women,60%,Gender
+China,women,27%,Gender
+France,women,48%,Gender
+Germany,women,60%,Gender
+India,women,20%,Gender
+Indonesia,women,25%,Gender
+Italy,women,30%,Gender
+Japan,women,44%,Gender
+South Korea,women,30%,Gender
+Mexico,women,34%,Gender
+Russia,women,35%,Gender
+Saudi Arabia,women,28%,Gender
+South Africa,women,43%,Gender
+Turkey,women,19%,Gender
+United Kingdom,women,68%,Gender
+United States,women,52%,Gender
+European Union,women,47%,Gender
+G20,women,39%,Gender
+Argentina,gender gap,8%,Gender
+Australia,gender gap,15%,Gender
+Brazil,gender gap,13%,Gender
+Canada,gender gap,17%,Gender
+China,gender gap,2%,Gender
+France,gender gap,8%,Gender
+Germany,gender gap,12%,Gender
+India,gender gap,8%,Gender
+Indonesia,gender gap,14%,Gender
+Italy,gender gap,15%,Gender
+Japan,gender gap,-3%,Gender
+South Korea,gender gap,7%,Gender
+Mexico,gender gap,-5%,Gender
+Russia,gender gap,7%,Gender
+Saudi Arabia,gender gap,6%,Gender
+South Africa,gender gap,-2%,Gender
+Turkey,gender gap,9%,Gender
+United Kingdom,gender gap,-3%,Gender
+United States,gender gap,10%,Gender
+European Union,gender gap,6%,Gender
+G20,gender gap,7%,Gender
+Argentina,adults in the richest households,33%,Wealth
+Australia,adults in the richest households,73%,Wealth
+Brazil,adults in the richest households,38%,Wealth
+Canada,adults in the richest households,73%,Wealth
+China,adults in the richest households,32%,Wealth
+France,adults in the richest households,55%,Wealth
+Germany,adults in the richest households,73%,Wealth
+India,adults in the richest households,26%,Wealth
+Indonesia,adults in the richest households,38%,Wealth
+Italy,adults in the richest households,44%,Wealth
+Japan,adults in the richest households,45%,Wealth
+South Korea,adults in the richest households,39%,Wealth
+Mexico,adults in the richest households,36%,Wealth
+Russia,adults in the richest households,42%,Wealth
+Saudi Arabia,adults in the richest households,35%,Wealth
+South Africa,adults in the richest households,45%,Wealth
+Turkey,adults in the richest households,26%,Wealth
+United Kingdom,adults in the richest households,70%,Wealth
+United States,adults in the richest households,64%,Wealth
+European Union,adults in the richest households,53%,Wealth
+G20,adults in the richest households,47%,Wealth
+Argentina,adults in the poorest households,21%,Wealth
+Australia,adults in the poorest households,50%,Wealth
+Brazil,adults in the poorest households,29%,Wealth
+Canada,adults in the poorest households,61%,Wealth
+China,adults in the poorest households,22%,Wealth
+France,adults in the poorest households,47%,Wealth
+Germany,adults in the poorest households,55%,Wealth
+India,adults in the poorest households,20%,Wealth
+Indonesia,adults in the poorest households,24%,Wealth
+Italy,adults in the poorest households,27%,Wealth
+Japan,adults in the poorest households,40%,Wealth
+South Korea,adults in the poorest households,25%,Wealth
+Mexico,adults in the poorest households,26%,Wealth
+Russia,adults in the poorest households,33%,Wealth
+Saudi Arabia,adults in the poorest households,27%,Wealth
+South Africa,adults in the poorest households,37%,Wealth
+Turkey,adults in the poorest households,20%,Wealth
+United Kingdom,adults in the poorest households,63%,Wealth
+United States,adults in the poorest households,47%,Wealth
+European Union,adults in the poorest households,43%,Wealth
+G20,adults in the poorest households,36%,Wealth
+Argentina,wealth gap,12%,Wealth
+Australia,wealth gap,23%,Wealth
+Brazil,wealth gap,9%,Wealth
+Canada,wealth gap,12%,Wealth
+China,wealth gap,11%,Wealth
+France,wealth gap,8%,Wealth
+Germany,wealth gap,17%,Wealth
+India,wealth gap,5%,Wealth
+Indonesia,wealth gap,13%,Wealth
+Italy,wealth gap,17%,Wealth
+Japan,wealth gap,5%,Wealth
+South Korea,wealth gap,15%,Wealth
+Mexico,wealth gap,10%,Wealth
+Russia,wealth gap,9%,Wealth
+Saudi Arabia,wealth gap,8%,Wealth
+South Africa,wealth gap,8%,Wealth
+Turkey,wealth gap,6%,Wealth
+United Kingdom,wealth gap,7%,Wealth
+United States,wealth gap,17%,Wealth
+European Union,wealth gap,10%,Wealth
+G20,wealth gap,11%,Wealth
+Argentina,age 35-54,31%,Age
+Australia,age 35-54,67%,Age
+Brazil,age 35-54,34%,Age
+Canada,age 35-54,75%,Age
+China,age 35-54,29%,Age
+France,age 35-54,58%,Age
+Germany,age 35-54,82%,Age
+India,age 35-54,20%,Age
+Indonesia,age 35-54,30%,Age
+Italy,age 35-54,39%,Age
+Japan,age 35-54,51%,Age
+South Korea,age 35-54,34%,Age
+Mexico,age 35-54,33%,Age
+Russia,age 35-54,47%,Age
+Saudi Arabia,age 35-54,30%,Age
+South Africa,age 35-54,42%,Age
+Turkey,age 35-54,23%,Age
+United Kingdom,age 35-54,71%,Age
+United States,age 35-54,65%,Age
+European Union,age 35-54,53%,Age
+G20,age 35-54,46%,Age
+Argentina,age 15-34,31%,Age
+Australia,age 15-34,64%,Age
+Brazil,age 15-34,37%,Age
+Canada,age 15-34,66%,Age
+China,age 15-34,35%,Age
+France,age 15-34,46%,Age
+Germany,age 15-34,72%,Age
+India,age 15-34,27%,Age
+Indonesia,age 15-34,38%,Age
+Italy,age 15-34,47%,Age
+Japan,age 15-34,43%,Age
+South Korea,age 15-34,48%,Age
+Mexico,age 15-34,34%,Age
+Russia,age 15-34,39%,Age
+Saudi Arabia,age 15-34,32%,Age
+South Africa,age 15-34,43%,Age
+Turkey,age 15-34,28%,Age
+United Kingdom,age 15-34,67%,Age
+United States,age 15-34,57%,Age
+European Union,age 15-34,51%,Age
+G20,age 15-34,45%,Age
+Argentina,age gap,-1%,Age
+Australia,age gap,4%,Age
+Brazil,age gap,-3%,Age
+Canada,age gap,10%,Age
+China,age gap,-6%,Age
+France,age gap,12%,Age
+Germany,age gap,10%,Age
+India,age gap,-7%,Age
+Indonesia,age gap,-8%,Age
+Italy,age gap,-8%,Age
+Japan,age gap,8%,Age
+South Korea,age gap,-14%,Age
+Mexico,age gap,-1%,Age
+Russia,age gap,8%,Age
+Saudi Arabia,age gap,-2%,Age
+South Africa,age gap,-1%,Age
+Turkey,age gap,-6%,Age
+United Kingdom,age gap,3%,Age
+United States,age gap,8%,Age
+European Union,age gap,2%,Age
+G20,age gap,0%,Age
