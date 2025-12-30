@@ -1,64 +1,64 @@
 ﻿Country Name,Country Code,Series Name,value,Demographic,Type,Location
-Europe & Central Asia (excluding high income),ECA,Saved any money  (% age 15+),40.64295937,Total population (% age 15+),Total saving,Region
-Europe & Central Asia (excluding high income),ECA,"Saved any money, men (% age 15+)",43.30631077,Male (% age 15+),Total saving,Region
-Europe & Central Asia (excluding high income),ECA,"Saved any money, women (% age 15+)",38.12536624,Female (% age 15+),Total saving,Region
-Europe & Central Asia (excluding high income),ECA,"Saved any money, young (% ages 15-24)",34.55812761,Young (% ages 15-24),Total saving,Region
-Europe & Central Asia (excluding high income),ECA,Saved at a bank or similar financial institution  (% age 15+),22.06634222,Total population (% age 15+),Formal saving,Region
-Europe & Central Asia (excluding high income),ECA,"Saved at a bank or similar financial institution, men (% age 15+)",26.44119141,Male (% age 15+),Formal saving,Region
-Europe & Central Asia (excluding high income),ECA,"Saved at a bank or similar financial institution, women (% age 15+)",17.93091712,Female (% age 15+),Formal saving,Region
-Europe & Central Asia (excluding high income),ECA,"Saved at a bank or similar financial institution, young (% ages 15-24)",17.23214293,Young (% ages 15-24),Formal saving,Region
-Europe & Central Asia (excluding high income),ECA,Informal savings (% age 15+),18.57661715,Total population (% age 15+),Informal saving,Region
-Europe & Central Asia (excluding high income),ECA,"Informal savings, men (% age 15+)",16.86511937,Male (% age 15+),Informal saving,Region
-Europe & Central Asia (excluding high income),ECA,"Informal savings, women (% age 15+)",20.19444912,Female (% age 15+),Informal saving,Region
-Europe & Central Asia (excluding high income),ECA,"Informal savings, young (% age 15+)",17.32598468,Young (% ages 15-24),Informal saving,Region
-Latin America & Caribbean (excluding high income),LAC,Saved any money  (% age 15+),45.42499949,Total population (% age 15+),Total saving,Region
-Latin America & Caribbean (excluding high income),LAC,"Saved any money, men (% age 15+)",52.08786236,Male (% age 15+),Total saving,Region
-Latin America & Caribbean (excluding high income),LAC,"Saved any money, women (% age 15+)",39.27839507,Female (% age 15+),Total saving,Region
-Latin America & Caribbean (excluding high income),LAC,"Saved any money, young (% ages 15-24)",59.30011225,Young (% ages 15-24),Total saving,Region
-Latin America & Caribbean (excluding high income),LAC,Saved at a bank or similar financial institution  (% age 15+),24.16242492,Total population (% age 15+),Formal saving,Region
-Latin America & Caribbean (excluding high income),LAC,"Saved at a bank or similar financial institution, men (% age 15+)",30.33288501,Male (% age 15+),Formal saving,Region
-Latin America & Caribbean (excluding high income),LAC,"Saved at a bank or similar financial institution, women (% age 15+)",18.47007044,Female (% age 15+),Formal saving,Region
-Latin America & Caribbean (excluding high income),LAC,"Saved at a bank or similar financial institution, young (% ages 15-24)",27.24162198,Young (% ages 15-24),Formal saving,Region
-Latin America & Caribbean (excluding high income),LAC,Informal savings (% age 15+),21.26257458,Total population (% age 15+),Informal saving,Region
-Latin America & Caribbean (excluding high income),LAC,"Informal savings, men (% age 15+)",21.75497735,Male (% age 15+),Informal saving,Region
-Latin America & Caribbean (excluding high income),LAC,"Informal savings, women (% age 15+)",20.80832463,Female (% age 15+),Informal saving,Region
-Latin America & Caribbean (excluding high income),LAC,"Informal savings, young (% age 15+)",32.05849027,Young (% ages 15-24),Informal saving,Region
-Middle East & North Africa (excluding high income),MNA,Saved any money  (% age 15+),35.12518413,Total population (% age 15+),Total saving,Region
-Middle East & North Africa (excluding high income),MNA,"Saved any money, men (% age 15+)",39.55125654,Male (% age 15+),Total saving,Region
-Middle East & North Africa (excluding high income),MNA,"Saved any money, women (% age 15+)",30.63780858,Female (% age 15+),Total saving,Region
-Middle East & North Africa (excluding high income),MNA,"Saved any money, young (% ages 15-24)",37.83324536,Young (% ages 15-24),Total saving,Region
-Middle East & North Africa (excluding high income),MNA,Saved at a bank or similar financial institution  (% age 15+),14.46862591,Total population (% age 15+),Formal saving,Region
-Middle East & North Africa (excluding high income),MNA,"Saved at a bank or similar financial institution, men (% age 15+)",18.70391487,Male (% age 15+),Formal saving,Region
-Middle East & North Africa (excluding high income),MNA,"Saved at a bank or similar financial institution, women (% age 15+)",10.17467624,Female (% age 15+),Formal saving,Region
-Middle East & North Africa (excluding high income),MNA,"Saved at a bank or similar financial institution, young (% ages 15-24)",14.7074934,Young (% ages 15-24),Formal saving,Region
-Middle East & North Africa (excluding high income),MNA,Informal savings (% age 15+),20.65655822,Total population (% age 15+),Informal saving,Region
-Middle East & North Africa (excluding high income),MNA,"Informal savings, men (% age 15+)",20.84734167,Male (% age 15+),Informal saving,Region
-Middle East & North Africa (excluding high income),MNA,"Informal savings, women (% age 15+)",20.46313234,Female (% age 15+),Informal saving,Region
-Middle East & North Africa (excluding high income),MNA,"Informal savings, young (% age 15+)",23.12575196,Young (% ages 15-24),Informal saving,Region
-Sub-Saharan Africa (excluding high income),SSA,Saved any money  (% age 15+),60.74968408,Total population (% age 15+),Total saving,Region
-Sub-Saharan Africa (excluding high income),SSA,"Saved any money, men (% age 15+)",62.60605021,Male (% age 15+),Total saving,Region
-Sub-Saharan Africa (excluding high income),SSA,"Saved any money, women (% age 15+)",58.98169549,Female (% age 15+),Total saving,Region
-Sub-Saharan Africa (excluding high income),SSA,"Saved any money, young (% ages 15-24)",56.74864042,Young (% ages 15-24),Total saving,Region
-Sub-Saharan Africa (excluding high income),SSA,Saved at a bank or similar financial institution  (% age 15+),19.70193198,Total population (% age 15+),Formal saving,Region
-Sub-Saharan Africa (excluding high income),SSA,"Saved at a bank or similar financial institution, men (% age 15+)",23.09221643,Male (% age 15+),Formal saving,Region
-Sub-Saharan Africa (excluding high income),SSA,"Saved at a bank or similar financial institution, women (% age 15+)",16.47305158,Female (% age 15+),Formal saving,Region
-Sub-Saharan Africa (excluding high income),SSA,"Saved at a bank or similar financial institution, young (% ages 15-24)",13.87664805,Young (% ages 15-24),Formal saving,Region
-Sub-Saharan Africa (excluding high income),SSA,Informal savings (% age 15+),41.0477521,Total population (% age 15+),Informal saving,Region
-Sub-Saharan Africa (excluding high income),SSA,"Informal savings, men (% age 15+)",39.51383378,Male (% age 15+),Informal saving,Region
-Sub-Saharan Africa (excluding high income),SSA,"Informal savings, women (% age 15+)",42.50864391,Female (% age 15+),Informal saving,Region
-Sub-Saharan Africa (excluding high income),SSA,"Informal savings, young (% age 15+)",42.87199237,Young (% ages 15-24),Informal saving,Region
-East Asia & Pacific (excluding high income),EAP,Saved any money  (% age 15+),71.17214396,Total population (% age 15+),Total saving,Region
-East Asia & Pacific (excluding high income),EAP,"Saved any money, men (% age 15+)",71.42905431,Male (% age 15+),Total saving,Region
-East Asia & Pacific (excluding high income),EAP,"Saved any money, women (% age 15+)",70.90609981,Female (% age 15+),Total saving,Region
-East Asia & Pacific (excluding high income),EAP,"Saved any money, young (% ages 15-24)",70.41810868,Young (% ages 15-24),Total saving,Region
-East Asia & Pacific (excluding high income),EAP,Saved at a bank or similar financial institution  (% age 15+),57.5928009,Total population (% age 15+),Formal saving,Region
-East Asia & Pacific (excluding high income),EAP,"Saved at a bank or similar financial institution, men (% age 15+)",58.400731,Male (% age 15+),Formal saving,Region
-East Asia & Pacific (excluding high income),EAP,"Saved at a bank or similar financial institution, women (% age 15+)",56.75614687,Female (% age 15+),Formal saving,Region
-East Asia & Pacific (excluding high income),EAP,"Saved at a bank or similar financial institution, young (% ages 15-24)",52.18427509,Young (% ages 15-24),Formal saving,Region
-East Asia & Pacific (excluding high income),EAP,Informal savings (% age 15+),13.57934306,Total population (% age 15+),Informal saving,Region
-East Asia & Pacific (excluding high income),EAP,"Informal savings, men (% age 15+)",13.02832331,Male (% age 15+),Informal saving,Region
-East Asia & Pacific (excluding high income),EAP,"Informal savings, women (% age 15+)",14.14995294,Female (% age 15+),Informal saving,Region
-East Asia & Pacific (excluding high income),EAP,"Informal savings, young (% age 15+)",18.23383359,Young (% ages 15-24),Informal saving,Region
+Europe & Central Asia,ECA,Saved any money  (% age 15+),40.64295937,Total population (% age 15+),Total saving,Region
+Europe & Central Asia,ECA,"Saved any money, men (% age 15+)",43.30631077,Male (% age 15+),Total saving,Region
+Europe & Central Asia,ECA,"Saved any money, women (% age 15+)",38.12536624,Female (% age 15+),Total saving,Region
+Europe & Central Asia,ECA,"Saved any money, young (% ages 15-24)",34.55812761,Young (% ages 15-24),Total saving,Region
+Europe & Central Asia,ECA,Saved at a bank or similar financial institution  (% age 15+),22.06634222,Total population (% age 15+),Formal saving,Region
+Europe & Central Asia,ECA,"Saved at a bank or similar financial institution, men (% age 15+)",26.44119141,Male (% age 15+),Formal saving,Region
+Europe & Central Asia,ECA,"Saved at a bank or similar financial institution, women (% age 15+)",17.93091712,Female (% age 15+),Formal saving,Region
+Europe & Central Asia,ECA,"Saved at a bank or similar financial institution, young (% ages 15-24)",17.23214293,Young (% ages 15-24),Formal saving,Region
+Europe & Central Asia,ECA,Informal savings (% age 15+),18.57661715,Total population (% age 15+),Informal saving,Region
+Europe & Central Asia,ECA,"Informal savings, men (% age 15+)",16.86511937,Male (% age 15+),Informal saving,Region
+Europe & Central Asia,ECA,"Informal savings, women (% age 15+)",20.19444912,Female (% age 15+),Informal saving,Region
+Europe & Central Asia,ECA,"Informal savings, young (% age 15+)",17.32598468,Young (% ages 15-24),Informal saving,Region
+Latin America & Caribbean,LAC,Saved any money  (% age 15+),45.42499949,Total population (% age 15+),Total saving,Region
+Latin America & Caribbean,LAC,"Saved any money, men (% age 15+)",52.08786236,Male (% age 15+),Total saving,Region
+Latin America & Caribbean,LAC,"Saved any money, women (% age 15+)",39.27839507,Female (% age 15+),Total saving,Region
+Latin America & Caribbean,LAC,"Saved any money, young (% ages 15-24)",59.30011225,Young (% ages 15-24),Total saving,Region
+Latin America & Caribbean,LAC,Saved at a bank or similar financial institution  (% age 15+),24.16242492,Total population (% age 15+),Formal saving,Region
+Latin America & Caribbean,LAC,"Saved at a bank or similar financial institution, men (% age 15+)",30.33288501,Male (% age 15+),Formal saving,Region
+Latin America & Caribbean,LAC,"Saved at a bank or similar financial institution, women (% age 15+)",18.47007044,Female (% age 15+),Formal saving,Region
+Latin America & Caribbean,LAC,"Saved at a bank or similar financial institution, young (% ages 15-24)",27.24162198,Young (% ages 15-24),Formal saving,Region
+Latin America & Caribbean,LAC,Informal savings (% age 15+),21.26257458,Total population (% age 15+),Informal saving,Region
+Latin America & Caribbean,LAC,"Informal savings, men (% age 15+)",21.75497735,Male (% age 15+),Informal saving,Region
+Latin America & Caribbean,LAC,"Informal savings, women (% age 15+)",20.80832463,Female (% age 15+),Informal saving,Region
+Latin America & Caribbean,LAC,"Informal savings, young (% age 15+)",32.05849027,Young (% ages 15-24),Informal saving,Region
+Middle East & North Africa,MNA,Saved any money  (% age 15+),35.12518413,Total population (% age 15+),Total saving,Region
+Middle East & North Africa,MNA,"Saved any money, men (% age 15+)",39.55125654,Male (% age 15+),Total saving,Region
+Middle East & North Africa,MNA,"Saved any money, women (% age 15+)",30.63780858,Female (% age 15+),Total saving,Region
+Middle East & North Africa,MNA,"Saved any money, young (% ages 15-24)",37.83324536,Young (% ages 15-24),Total saving,Region
+Middle East & North Africa,MNA,Saved at a bank or similar financial institution  (% age 15+),14.46862591,Total population (% age 15+),Formal saving,Region
+Middle East & North Africa,MNA,"Saved at a bank or similar financial institution, men (% age 15+)",18.70391487,Male (% age 15+),Formal saving,Region
+Middle East & North Africa,MNA,"Saved at a bank or similar financial institution, women (% age 15+)",10.17467624,Female (% age 15+),Formal saving,Region
+Middle East & North Africa,MNA,"Saved at a bank or similar financial institution, young (% ages 15-24)",14.7074934,Young (% ages 15-24),Formal saving,Region
+Middle East & North Africa,MNA,Informal savings (% age 15+),20.65655822,Total population (% age 15+),Informal saving,Region
+Middle East & North Africa,MNA,"Informal savings, men (% age 15+)",20.84734167,Male (% age 15+),Informal saving,Region
+Middle East & North Africa,MNA,"Informal savings, women (% age 15+)",20.46313234,Female (% age 15+),Informal saving,Region
+Middle East & North Africa,MNA,"Informal savings, young (% age 15+)",23.12575196,Young (% ages 15-24),Informal saving,Region
+Sub-Saharan Africa,SSA,Saved any money  (% age 15+),60.74968408,Total population (% age 15+),Total saving,Region
+Sub-Saharan Africa,SSA,"Saved any money, men (% age 15+)",62.60605021,Male (% age 15+),Total saving,Region
+Sub-Saharan Africa,SSA,"Saved any money, women (% age 15+)",58.98169549,Female (% age 15+),Total saving,Region
+Sub-Saharan Africa,SSA,"Saved any money, young (% ages 15-24)",56.74864042,Young (% ages 15-24),Total saving,Region
+Sub-Saharan Africa,SSA,Saved at a bank or similar financial institution  (% age 15+),19.70193198,Total population (% age 15+),Formal saving,Region
+Sub-Saharan Africa,SSA,"Saved at a bank or similar financial institution, men (% age 15+)",23.09221643,Male (% age 15+),Formal saving,Region
+Sub-Saharan Africa,SSA,"Saved at a bank or similar financial institution, women (% age 15+)",16.47305158,Female (% age 15+),Formal saving,Region
+Sub-Saharan Africa,SSA,"Saved at a bank or similar financial institution, young (% ages 15-24)",13.87664805,Young (% ages 15-24),Formal saving,Region
+Sub-Saharan Africa,SSA,Informal savings (% age 15+),41.0477521,Total population (% age 15+),Informal saving,Region
+Sub-Saharan Africa,SSA,"Informal savings, men (% age 15+)",39.51383378,Male (% age 15+),Informal saving,Region
+Sub-Saharan Africa,SSA,"Informal savings, women (% age 15+)",42.50864391,Female (% age 15+),Informal saving,Region
+Sub-Saharan Africa,SSA,"Informal savings, young (% age 15+)",42.87199237,Young (% ages 15-24),Informal saving,Region
+East Asia & Pacific,EAP,Saved any money  (% age 15+),71.17214396,Total population (% age 15+),Total saving,Region
+East Asia & Pacific,EAP,"Saved any money, men (% age 15+)",71.42905431,Male (% age 15+),Total saving,Region
+East Asia & Pacific,EAP,"Saved any money, women (% age 15+)",70.90609981,Female (% age 15+),Total saving,Region
+East Asia & Pacific,EAP,"Saved any money, young (% ages 15-24)",70.41810868,Young (% ages 15-24),Total saving,Region
+East Asia & Pacific,EAP,Saved at a bank or similar financial institution  (% age 15+),57.5928009,Total population (% age 15+),Formal saving,Region
+East Asia & Pacific,EAP,"Saved at a bank or similar financial institution, men (% age 15+)",58.400731,Male (% age 15+),Formal saving,Region
+East Asia & Pacific,EAP,"Saved at a bank or similar financial institution, women (% age 15+)",56.75614687,Female (% age 15+),Formal saving,Region
+East Asia & Pacific,EAP,"Saved at a bank or similar financial institution, young (% ages 15-24)",52.18427509,Young (% ages 15-24),Formal saving,Region
+East Asia & Pacific,EAP,Informal savings (% age 15+),13.57934306,Total population (% age 15+),Informal saving,Region
+East Asia & Pacific,EAP,"Informal savings, men (% age 15+)",13.02832331,Male (% age 15+),Informal saving,Region
+East Asia & Pacific,EAP,"Informal savings, women (% age 15+)",14.14995294,Female (% age 15+),Informal saving,Region
+East Asia & Pacific,EAP,"Informal savings, young (% age 15+)",18.23383359,Young (% ages 15-24),Informal saving,Region
 South Asia,SAS,Saved any money  (% age 15+),35.66691628,Total population (% age 15+),Total saving,Region
 South Asia,SAS,"Saved any money, men (% age 15+)",39.29536948,Male (% age 15+),Total saving,Region
 South Asia,SAS,"Saved any money, women (% age 15+)",31.99974876,Female (% age 15+),Total saving,Region
