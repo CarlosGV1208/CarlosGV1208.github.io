@@ -16,7 +16,15 @@
     "url": "https://raw.githubusercontent.com/CarlosGV1208/CarlosGV1208.github.io/refs/heads/main/project/p5/p5_long.csv"
   },
   "params": [
-    {"name": "highlight", "select": {"type": "point", "on": "mouseover"}}
+    {
+      "name": "highlight",
+      "select": {
+        "type": "point", 
+        "on": "mouseover", 
+        "clear": "mouseout",
+        "toggle": false
+      }
+    }
   ],
   "transform": [
     {
@@ -71,11 +79,15 @@
     "color": {
       "field": "Score",
       "type": "quantitative",
-      "scale": {"scheme": "lightgreyteal", "domain": [0, 100]},
+      "scale": {"scheme": "greenblue", "domain": [0, 100]},
       "legend": {"title": "Score %"}
     },
     "stroke": {
-      "condition": {"param": "highlight", "value": "black"},
+      "condition": {
+        "param": "highlight", 
+        "empty": false, 
+        "value": "black"
+      },
       "value": null
     },
     "tooltip": [
@@ -84,5 +96,8 @@
       {"field": "Score", "type": "quantitative", "format": ".1f"}
     ]
   },
-  "config": {"view": {"stroke": null}, "axis": {"grid": false}}
+  "config": {
+    "view": {"stroke": null},
+    "axis": {"grid": false}
+  }
 }
