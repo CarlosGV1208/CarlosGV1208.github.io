@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carlos | Final Project</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+    
+    <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+
+    <style>
+        :root {
+            --bg-canvas: #ffffff;
+            --text-main: #1d1d1f;
+            --text-secondary: #6e6e73;
+            --card-bg: #f8f9fa;
+            --border-light: #e5e5e5;
+            
+            /* COLORES DEL PROYECTO (AZUL DOMINANTE) */
+            --project-blue: #0071e3;      /* Azul del Home */
+            --accent-pink: #FF3B30;       /* Acento secundario conservado del portafolio */
+            --shadow-color: #0071e3;      /* Sombra azul vibrante */
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg-canvas);
+            color: var(--text-main);
+            margin: 0;
+            line-height: 1.6;
+        }
+
+        /* --- HEADER --- */
+        header {
+            padding: 80px 5% 40px 5%;
+            border-bottom: 1px solid var(--border-light);
+        }
+
+        header h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(2.5rem, 7vw, 4.5rem);
+            margin: 15px 0;
+            line-height: 1;
+            text-transform: uppercase;
+            color: var(--text-main);
+        }
+
+        header .subtitle {
+            font-size: 1rem;
+            color: var(--project-blue); /* Azul */
+            font-weight: 600;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+
+        /* --- NAVEGACIÓN --- */
+        .links { margin-top: 25px; }
+        .links a {
+            color: var(--text-main);
+            text-decoration: none;
+            font-weight: 600;
+            margin-right: 25px;
+            border-bottom: 2px solid var(--project-blue);
+            transition: 0.3s;
+        }
+        .links a:hover { 
+            background: var(--project-blue); 
+            color: white; 
+        }
+
+        /* --- CONTENEDOR PRINCIPAL --- */
+        .intro-box {
+            max-width: 1150px;
+            margin: 40px auto;
+            padding: 0 25px;
+        }
+
+        .intro-text {
+            font-size: 1.2rem;
+            color: var(--text-secondary);
+            border-left: 3px solid var(--project-blue);
+            padding-left: 20px;
+            max-width: 800px;
+            font-style: italic;
+        }
+
+        .container {
+            max-width: 1150px;
+            margin: 60px auto;
+            padding: 0 25px;
+        }
+
+        /* --- SECCIONES FLEXIBLES --- */
+        section {
+            margin-bottom: 100px;
+            border-bottom: 1px solid var(--border-light);
+            padding-bottom: 60px;
+        }
+
+        section:last-of-type {
+            border-bottom: none;
+        }
+
+        /* Estilos de Texto */
+        .text-content h3 {
+            font-size: 0.85rem;
+            color: var(--project-blue);
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            margin: 0 0 10px 0;
+        }
+
+        .text-content h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2rem;
+            margin: 0 0 20px 0;
+            line-height: 1.1;
+        }
+
+        .text-content p {
+            color: var(--text-secondary);
+            margin-bottom: 20px;
+        }
+
+        /* Estilos de Gráficos */
+        figure {
+            margin: 0;
+            background: var(--card-bg);
+            padding: 20px;
+            border-radius: 8px;
+            width: 100%; 
+            border: 1px solid var(--border-light);
+            /* Sombra Azul */
+            box-shadow: 10px 10px 0px var(--shadow-color); 
+        }
+
+        /* --- SISTEMA DE LAYOUT (IZQUIERDA, DERECHA, ARRIBA) --- */
+        
+        .layout-grid {
+            display: flex;
+            gap: 50px;
+            align-items: center;
+        }
+
+        /* Opción 1: Texto a la Izquierda (Default) */
+        .layout-left {
+            flex-direction: row;
+        }
+        .layout-left .text-content { flex: 1; }
+        .layout-left .chart-content { flex: 1.5; }
+
+        /* Opción 2: Texto a la Derecha */
+        .layout-right {
+            flex-direction: row-reverse; /* Invierte el orden */
+        }
+        .layout-right .text-content { flex: 1; }
+        .layout-right .chart-content { flex: 1.5; }
+
+        /* Opción 3: Texto Arriba */
+        .layout-top {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+        .layout-top .text-content { 
+            width: 100%; 
+            max-width: 800px; 
+            margin-bottom: 30px; 
+        }
+        .layout-top .chart-content { 
+            width: 100%; 
+        }
+
+        /* Responsividad: En móviles siempre columna */
+        @media (max-width: 900px) {
+            .layout-grid, .layout-left, .layout-right {
+                flex-direction: column;
+            }
+            .layout-left .chart-content, 
+            .layout-right .chart-content { 
+                width: 100%; 
+            }
+        }
+
+        /* --- FOOTER --- */
+        footer {
+            background: var(--text-main);
+            color: #e5e5e5;
+            padding: 60px 20px;
+            text-align: center;
+            font-family: 'Playfair Display', serif;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <span class="subtitle">PP434 - Final Assignment</span>
+        <h1>Data Visualization<br>Project</h1>
+        <div class="links">
+            <a href="index.html">Home</a> <a href="portfolio.html">Portfolio</a>
+            <a href="https://github.com/CarlosGV1208" target="_blank">GitHub</a>
+        </div>
+    </header>
+
+    <div class="intro-box">
+        <p class="intro-text">
+            This page presents the final project for the PP434 course. The analysis focuses on [Insert Your Topic Here], utilizing advanced data visualization techniques to uncover policy insights.
+        </p>
+    </div>
+
+    <div class="container">
+
+        <section>
+            <div class="layout-grid layout-right">
+                
+                <div class="text-content">
+                    <h3>Section 2</h3>
+                    <h2>Inclusión vs Savings</h2>
+                    <p>
+                        Aquí puedes escribir la descripción de tu primer gráfico. 
+                        Esta sección tiene configurada la clase <code>layout-left</code>, 
+                        por lo que el texto aparece a la izquierda y el gráfico a la derecha.
+                    </p>
+                    <p>
+                        Describe los hallazgos principales encontrados en el archivo <code>p2.json</code>.
+                    </p>
+                </div>
+
+                <div class="chart-content">
+                    <figure id="ProjectChart2"></figure>
+                    <p class="source">Source: <a href="https://data.worldbank.org/indicator">World Bank API</a></p>
+                </div>
+
+            </div>
+        </section>
+
+
+        <section>
+            <div class="layout-grid layout-left">
+                
+                <div class="text-content">
+                    <h3>Section 3</h3>
+                    <h2>Some gaps</h2>
+                    <p>
+                        Esta sección tiene configurada la clase <code>layout-top</code>. 
+                        El texto abarca todo el ancho superior, ideal para introducciones largas 
+                        o conclusiones antes de mostrar un gráfico grande o ancho.
+                    </p>
+                    <p>
+                        Visualización final usando <code>p3.json</code>.
+                    </p>
+                </div>
+
+                <div class="chart-content">
+                    <figure id="ProjectChart3"></figure>
+                    <p class="source">Source: <a href="https://www.cssf.lu/en/Document/full-data-set-sp-global-finlit-survey/">S&P Global Financial Literature Survey</a></p>
+                </div>
+
+            </div>
+        </section>
+
+
+                <section>
+            <div class="layout-grid layout-right">
+                
+                <div class="text-content">
+                    <h3>Section 4</h3>
+                    <h2>Saving Behaviour</h2>
+                    <p>
+                        Esta sección tiene configurada la clase <code>layout-right</code>. 
+                        Observa cómo el texto ahora aparece a la derecha del gráfico.
+                        Es útil para variar el ritmo de lectura visual.
+                    </p>
+                    <p>
+                        Análisis correspondiente al gráfico <code>p4.json</code>.
+                    </p>
+                </div>
+
+                <div class="chart-content">
+                    <figure id="ProjectChart4"></figure>
+                    <p class="source">Source: <a href="https://databank.worldbank.org/source/global-findex-database">World Bank, Global Findex Database</a></p>
+                </div>
+
+            </div>
+        </section>
+
+    </div>
+
+    <footer>
+        Created by Carlos Levi Gallegos Viza - LSE-MPA-DSPP 2025
+    </footer>
+
+    <script>
+        // Definición de las rutas de tus archivos JSON
+        const specP2 = "project/p2.json";
+        const specP4 = "project/p4/p4.json";
+        const specP3 = "project/p3/p3.json";
+
+        // Renderizado en las figuras correspondientes
+        vegaEmbed('#ProjectChart2', specP2);
+        vegaEmbed('#ProjectChart4', specP4);
+        vegaEmbed('#ProjectChart3', specP3);
+    </script>
+
+</body>
+</html>
