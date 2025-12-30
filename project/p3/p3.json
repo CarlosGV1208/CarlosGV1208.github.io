@@ -1,0 +1,148 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "G20 Countries Financial Literacy: The Knowledge Gap",
+    "subtitle": [
+      "% of adults understanding at least 3 of 4 concepts (risk, interest, compounding, inflation).",
+      "Source: S&P Financial Literacy Survey (2014)."
+    ],
+    "anchor": "start",
+    "fontSize": 18,
+    "subtitleFontSize": 13,
+    "offset": 25
+  },
+  "width": 500,
+  "height": 550,
+  "data": {
+    "url": "https://raw.githubusercontent.com/CarlosGV1208/CarlosGV1208.github.io/refs/heads/main/project/p3/p3_long.csv"
+  },
+  "params": [
+    {
+      "name": "GapSelect",
+      "value": "Gender",
+      "bind": {
+        "input": "select",
+        "options": ["Gender", "Wealth", "Age"],
+        "labels": [
+          "Gender Gap (Men vs Women)",
+          "Wealth Gap (60% Richest vs 40% Poorest)",
+          "Age Gap (35-54 vs 15-34)"
+        ],
+        "name": "Select group: "
+      }
+    }
+  ],
+  "transform": [
+    {"filter": "datum.category == GapSelect"},
+    {"calculate": "toNumber(replace(datum.value, '%', ''))", "as": "val_num"},
+    {
+      "comment": "Filtramos las filas de 'gap' para que no interfieran con las líneas",
+      "filter": "!test(/gap/, datum.indicator)"
+    },
+    {
+      "calculate": "(datum.indicator == 'men' && GapSelect == 'Gender') || (datum.indicator == 'adults in the richest households' && GapSelect == 'Wealth') || (datum.indicator == 'age 35-54' && GapSelect == 'Age') ? datum.val_num : -1",
+      "as": "sort_val"
+    },
+    {
+      "joinaggregate": [
+        {"op": "max", "field": "sort_val", "as": "country_order"},
+        {"op": "min", "field": "val_num", "as": "min_val"},
+        {"op": "max", "field": "val_num", "as": "max_val"}
+      ],
+      "groupby": ["Country"]
+    }
+  ],
+  "layer": [
+    {
+      "description": "CAPA 1: Líneas de referencia vertical del G20 (Benchmark)",
+      "transform": [{"filter": "datum.Country == 'G20'"}],
+      "mark": {"type": "rule", "strokeDash": [4, 4], "opacity": 0.5, "size": 2},
+      "encoding": {
+        "x": {"field": "val_num", "type": "quantitative"},
+        "color": {
+          "field": "indicator",
+          "type": "nominal",
+          "scale": {
+            "scheme": {
+              "expr": "GapSelect == 'Gender' ? 'observable10' : GapSelect == 'Wealth' ? 'set2' : 'set1'"
+            }
+          }
+        },
+        "tooltip": [
+          {"field": "Country", "title": "Reference"},
+          {"field": "indicator", "title": "Group"},
+          {"field": "val_num", "title": "G20 Average (%)"}
+        ]
+      }
+    },
+    {
+      "description": "CAPA 2: Líneas grises horizontales (Dumbbell connectors)",
+      "mark": {"type": "rule", "color": "#e0e0e0", "size": 2.5},
+      "encoding": {
+        "y": {
+          "field": "Country",
+          "type": "nominal",
+          "sort": {"field": "country_order", "order": "descending"},
+          "axis": {"title": null, "labelFontSize": 13}
+        },
+        "x": {"field": "min_val", "type": "quantitative"},
+        "x2": {"field": "max_val"}
+      }
+    },
+    {
+      "description": "CAPA 3: Puntos de datos",
+      "params": [
+        {
+          "name": "highlight",
+          "select": {"type": "point", "fields": ["indicator"]},
+          "bind": "legend"
+        }
+      ],
+      "mark": {"type": "point", "size": 140, "filled": true, "opacity": 1},
+      "encoding": {
+        "y": {
+          "field": "Country",
+          "type": "nominal",
+          "sort": {"field": "country_order", "order": "descending"}
+        },
+        "x": {
+          "field": "val_num",
+          "type": "quantitative",
+          "title": "% of Adults with Financial Literacy",
+          "scale": {"domain": [15, 85]}
+        },
+        "color": {
+          "field": "indicator",
+          "type": "nominal",
+          "title": null,
+          "scale": {
+            "scheme": {
+              "expr": "GapSelect == 'Gender' ? 'dark2' : GapSelect == 'Wealth' ? 'dark2' : 'tableau10'"
+            }
+          },
+          "legend": {
+            "orient": "top",
+            "direction": "horizontal",
+            "symbolType": "circle",
+            "offset": 10,
+            "labelFontSize": 11,
+            "columnPadding": 180
+          }
+        },
+        "opacity": {
+          "condition": {"param": "highlight", "value": 1},
+          "value": 0.15
+        },
+        "tooltip": [
+          {"field": "Country", "title": "Country"},
+          {"field": "indicator", "title": "Group"},
+          {"field": "val_num", "title": "Literacy Rate (%)"}
+        ]
+      }
+    }
+  ],
+  "config": {
+    "view": {"stroke": null},
+    "axis": {"grid": true, "gridDash": [2, 2], "gridColor": "#f0f0f0"}
+  }
+}
