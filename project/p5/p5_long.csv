@@ -13,7 +13,6 @@ Germany,Time value of money,90.31205773
 Greece,Time value of money,62.1619761
 Hong Kong (China),Time value of money,92.34405756
 Hungary ,Time value of money,86.60243154
-Indonesia ,Time value of money,46.29999995
 Ireland ,Time value of money,68.87795925
 Italy ,Time value of money,58.0840826
 Jordan,Time value of money,73.78393412
@@ -22,7 +21,6 @@ Latvia ,Time value of money,60.65062881
 Lithuania,Time value of money,65.07490873
 Luxembourg ,Time value of money,77.63233781
 Malaysia ,Time value of money,44.62599754
-Malta ,Time value of money,24.57711399
 Mexico ,Time value of money,72.10786343
 Netherlands,Time value of money,62.3369813
 Panama,Time value of money,42.35264063
@@ -54,7 +52,6 @@ Germany,Interest on a loan,93.47565174
 Greece,Interest on a loan,84.27229524
 Hong Kong (China),Interest on a loan,99.60359335
 Hungary ,Interest on a loan,94.53679919
-Indonesia ,Interest on a loan,46.20000124
 Ireland ,Interest on a loan,90.54911137
 Italy ,Interest on a loan,76.43179297
 Jordan,Interest on a loan,53.42194438
@@ -63,7 +60,6 @@ Latvia ,Interest on a loan,75.87066293
 Lithuania,Interest on a loan,73.12734127
 Luxembourg ,Interest on a loan,85.76537967
 Malaysia ,Interest on a loan,74.07407165
-Malta ,Interest on a loan,89.05472755
 Mexico ,Interest on a loan,86.97289228
 Netherlands,Interest on a loan,86.14726067
 Panama,Interest on a loan,90.51620364
@@ -95,7 +91,6 @@ Germany,Simple interest calculation,81.44342303
 Greece,Simple interest calculation,59.11622643
 Hong Kong (China),Simple interest calculation,94.32474971
 Hungary ,Simple interest calculation,66.01500511
-Indonesia ,Simple interest calculation,25.09999871
 Ireland ,Simple interest calculation,63.18461895
 Italy ,Simple interest calculation,53.10927033
 Jordan,Simple interest calculation,43.75
@@ -104,7 +99,6 @@ Latvia ,Simple interest calculation,57.28412271
 Lithuania,Simple interest calculation,55.71160913
 Luxembourg ,Simple interest calculation,70.25318146
 Malaysia ,Simple interest calculation,65.10530114
-Malta ,Simple interest calculation,83.28357935
 Mexico ,Simple interest calculation,16.32913798
 Netherlands,Simple interest calculation,68.93768311
 Panama,Simple interest calculation,8.553726971
@@ -136,7 +130,6 @@ Germany,Compound interest calculation,73.34899306
 Greece,Compound interest calculation,43.75115633
 Hong Kong (China),Compound interest calculation,79.17643189
 Hungary ,Compound interest calculation,32.89882243
-Indonesia ,Compound interest calculation,8.69999975
 Ireland ,Compound interest calculation,44.64083016
 Italy ,Compound interest calculation,28.33032608
 Jordan,Compound interest calculation,33.54072273
@@ -145,7 +138,6 @@ Latvia ,Compound interest calculation,25.87470412
 Lithuania,Compound interest calculation,30.14981151
 Luxembourg ,Compound interest calculation,50.66814423
 Malaysia ,Compound interest calculation,42.91939139
-Malta ,Compound interest calculation,41.89054668
 Mexico ,Compound interest calculation,35.44996381
 Netherlands,Compound interest calculation,53.03218365
 Panama,Compound interest calculation,38.28520775
@@ -177,7 +169,6 @@ Germany,Simple and compound interest,66.41757488
 Greece,Simple and compound interest,35.66427231
 Hong Kong (China),Simple and compound interest,77.99033523
 Hungary ,Simple and compound interest,23.19248319
-Indonesia ,Simple and compound interest,7.999999821
 Ireland ,Simple and compound interest,31.68427646
 Italy ,Simple and compound interest,17.18734056
 Jordan,Simple and compound interest,23.4445706
@@ -186,7 +177,6 @@ Latvia ,Simple and compound interest,18.21999848
 Lithuania,Simple and compound interest,20.22471875
 Luxembourg ,Simple and compound interest,45.40095031
 Malaysia ,Simple and compound interest,35.54829359
-Malta ,Simple and compound interest,38.40796053
 Mexico ,Simple and compound interest,5.938183516
 Netherlands,Simple and compound interest,46.2072134
 Panama,Simple and compound interest,2.2664655
@@ -218,7 +208,6 @@ Germany,Risk and return,84.03922319
 Greece,Risk and return,74.14295673
 Hong Kong (China),Risk and return,92.06821322
 Hungary ,Risk and return,89.76166248
-Indonesia ,Risk and return,70.70000172
 Ireland ,Risk and return,88.80363107
 Italy ,Risk and return,59.65856314
 Jordan,Risk and return,54.89253402
@@ -227,7 +216,6 @@ Latvia ,Risk and return,68.62421036
 Lithuania,Risk and return,54.77527976
 Luxembourg ,Risk and return,73.67646694
 Malaysia ,Risk and return,87.29121089
-Malta ,Risk and return,
 Mexico ,Risk and return,79.45877314
 Netherlands,Risk and return,65.97428322
 Panama,Risk and return,82.05165863
@@ -259,7 +247,6 @@ Germany,Definition of inflation,96.71272039
 Greece,Definition of inflation,90.47937989
 Hong Kong (China),Definition of inflation,98.31728935
 Hungary ,Definition of inflation,92.63455272
-Indonesia ,Definition of inflation,70.70000172
 Ireland ,Definition of inflation,97.8087306
 Italy ,Definition of inflation,67.86733866
 Jordan,Definition of inflation,78.67646813
@@ -268,7 +255,6 @@ Latvia ,Definition of inflation,86.58357263
 Lithuania,Definition of inflation,63.48314881
 Luxembourg ,Definition of inflation,87.4956429
 Malaysia ,Definition of inflation,82.57080317
-Malta ,Definition of inflation,
 Mexico ,Definition of inflation,86.94120646
 Netherlands,Definition of inflation,79.17535305
 Panama,Definition of inflation,88.9598608
@@ -300,7 +286,6 @@ Germany,Risk diversification,84.05210376
 Greece,Risk diversification,48.47944975
 Hong Kong (China),Risk diversification,82.94374347
 Hungary ,Risk diversification,65.89677334
-Indonesia ,Risk diversification,
 Ireland ,Risk diversification,62.36268282
 Italy ,Risk diversification,37.07406819
 Jordan,Risk diversification,64.45135474
@@ -309,7 +294,6 @@ Latvia ,Risk diversification,37.73486018
 Lithuania,Risk diversification,46.25468254
 Luxembourg ,Risk diversification,59.93224382
 Malaysia ,Risk diversification,52.28758454
-Malta ,Risk diversification,
 Mexico ,Risk diversification,61.99541092
 Netherlands,Risk diversification,48.75122905
 Panama,Risk diversification,65.68148136
