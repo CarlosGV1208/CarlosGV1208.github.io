@@ -1,0 +1,329 @@
+Country,Concept,Score
+Albania,Time value of money,71.10076547
+Brazil,Time value of money,54.40000296
+Cambodia ,Time value of money,23.05101752
+Chile,Time value of money,62.046206
+Costa Rica,Time value of money,53.41880322
+Croatia ,Time value of money,77.22705603
+Cyprus ,Time value of money,84.18626189
+Estonia,Time value of money,89.47855234
+Finland ,Time value of money,65.9458518
+France ,Time value of money,65.27783275
+Germany,Time value of money,90.31205773
+Greece,Time value of money,62.1619761
+Hong Kong (China),Time value of money,92.34405756
+Hungary ,Time value of money,86.60243154
+Indonesia ,Time value of money,46.29999995
+Ireland ,Time value of money,68.87795925
+Italy ,Time value of money,58.0840826
+Jordan,Time value of money,73.78393412
+Korea,Time value of money,78.2730937
+Latvia ,Time value of money,60.65062881
+Lithuania,Time value of money,65.07490873
+Luxembourg ,Time value of money,77.63233781
+Malaysia ,Time value of money,44.62599754
+Malta ,Time value of money,24.57711399
+Mexico ,Time value of money,72.10786343
+Netherlands,Time value of money,62.3369813
+Panama,Time value of money,42.35264063
+Paraguay ,Time value of money,57.3333323
+Peru,Time value of money,55.13376594
+Philippines,Time value of money,58.44923854
+Poland ,Time value of money,77.89999843
+Portugal ,Time value of money,56.14392161
+Romania ,Time value of money,43.38308573
+Saudi Arabia ,Time value of money,49.65855777
+Spain,Time value of money,65.19922614
+Sweden ,Time value of money,72.09533453
+Thailand,Time value of money,70.83535194
+Uruguay ,Time value of money,60.58374047
+Yemen,Time value of money,55.64468503
+Overall Average,Time value of money,63.45104239
+OECD Average,Time value of money,69.48100239
+Albania,Interest on a loan,87.35602498
+Brazil,Interest on a loan,83.85000229
+Cambodia ,Interest on a loan,74.60760474
+Chile,Interest on a loan,94.96699572
+Costa Rica,Interest on a loan,92.05127954
+Croatia ,Interest on a loan,85.91122031
+Cyprus ,Interest on a loan,92.33911633
+Estonia,Interest on a loan,89.6936357
+Finland ,Interest on a loan,78.53039503
+France ,Interest on a loan,77.58684754
+Germany,Interest on a loan,93.47565174
+Greece,Interest on a loan,84.27229524
+Hong Kong (China),Interest on a loan,99.60359335
+Hungary ,Interest on a loan,94.53679919
+Indonesia ,Interest on a loan,46.20000124
+Ireland ,Interest on a loan,90.54911137
+Italy ,Interest on a loan,76.43179297
+Jordan,Interest on a loan,53.42194438
+Korea,Interest on a loan,93.7669754
+Latvia ,Interest on a loan,75.87066293
+Lithuania,Interest on a loan,73.12734127
+Luxembourg ,Interest on a loan,85.76537967
+Malaysia ,Interest on a loan,74.07407165
+Malta ,Interest on a loan,89.05472755
+Mexico ,Interest on a loan,86.97289228
+Netherlands,Interest on a loan,86.14726067
+Panama,Interest on a loan,90.51620364
+Paraguay ,Interest on a loan,91.16666913
+Peru,Interest on a loan,93.09304357
+Philippines,Interest on a loan,60.28235555
+Poland ,Interest on a loan,88.09999824
+Portugal ,Interest on a loan,92.46435761
+Romania ,Interest on a loan,76.41791105
+Saudi Arabia ,Interest on a loan,48.33367467
+Spain,Interest on a loan,97.57815003
+Sweden ,Interest on a loan,85.9980166
+Thailand,Interest on a loan,82.68021345
+Uruguay ,Interest on a loan,90.58313966
+Yemen,Interest on a loan,83.90408158
+Overall Average,Interest on a loan,83.10978046
+OECD Average,Interest on a loan,86.89429194
+Albania,Simple interest calculation,51.01294518
+Brazil,Simple interest calculation,14.35000002
+Cambodia ,Simple interest calculation,18.17883998
+Chile,Simple interest calculation,26.07260644
+Costa Rica,Simple interest calculation,14.10256475
+Croatia ,Simple interest calculation,58.78326297
+Cyprus ,Simple interest calculation,76.82213783
+Estonia,Simple interest calculation,75.54697394
+Finland ,Simple interest calculation,57.20244646
+France ,Simple interest calculation,51.879251
+Germany,Simple interest calculation,81.44342303
+Greece,Simple interest calculation,59.11622643
+Hong Kong (China),Simple interest calculation,94.32474971
+Hungary ,Simple interest calculation,66.01500511
+Indonesia ,Simple interest calculation,25.09999871
+Ireland ,Simple interest calculation,63.18461895
+Italy ,Simple interest calculation,53.10927033
+Jordan,Simple interest calculation,43.75
+Korea,Simple interest calculation,75.92634559
+Latvia ,Simple interest calculation,57.28412271
+Lithuania,Simple interest calculation,55.71160913
+Luxembourg ,Simple interest calculation,70.25318146
+Malaysia ,Simple interest calculation,65.10530114
+Malta ,Simple interest calculation,83.28357935
+Mexico ,Simple interest calculation,16.32913798
+Netherlands,Simple interest calculation,68.93768311
+Panama,Simple interest calculation,8.553726971
+Paraguay ,Simple interest calculation,10.49999967
+Peru,Simple interest calculation,21.35389149
+Philippines,Simple interest calculation,22.63614088
+Poland ,Simple interest calculation,68.80000234
+Portugal ,Simple interest calculation,39.98642266
+Romania ,Simple interest calculation,49.35323298
+Saudi Arabia ,Simple interest calculation,55.50726056
+Spain,Simple interest calculation,49.64116216
+Sweden ,Simple interest calculation,63.15789223
+Thailand,Simple interest calculation,77.55200863
+Uruguay ,Simple interest calculation,21.75006717
+Yemen,Simple interest calculation,11.34233251
+Overall Average,Simple interest calculation,49.30665184
+OECD Average,Simple interest calculation,55.68499729
+Albania,Compound interest calculation,19.55535859
+Brazil,Compound interest calculation,46.59999907
+Cambodia ,Compound interest calculation,48.44889343
+Chile,Compound interest calculation,39.8514837
+Costa Rica,Compound interest calculation,53.67521644
+Croatia ,Compound interest calculation,32.18390644
+Cyprus ,Compound interest calculation,32.80655444
+Estonia,Compound interest calculation,50.97109079
+Finland ,Compound interest calculation,49.40720201
+France ,Compound interest calculation,39.67637718
+Germany,Compound interest calculation,73.34899306
+Greece,Compound interest calculation,43.75115633
+Hong Kong (China),Compound interest calculation,79.17643189
+Hungary ,Compound interest calculation,32.89882243
+Indonesia ,Compound interest calculation,8.69999975
+Ireland ,Compound interest calculation,44.64083016
+Italy ,Compound interest calculation,28.33032608
+Jordan,Compound interest calculation,33.54072273
+Korea,Compound interest calculation,50.6262362
+Latvia ,Compound interest calculation,25.87470412
+Lithuania,Compound interest calculation,30.14981151
+Luxembourg ,Compound interest calculation,50.66814423
+Malaysia ,Compound interest calculation,42.91939139
+Malta ,Compound interest calculation,41.89054668
+Mexico ,Compound interest calculation,35.44996381
+Netherlands,Compound interest calculation,53.03218365
+Panama,Compound interest calculation,38.28520775
+Paraguay ,Compound interest calculation,38.74999881
+Peru,Compound interest calculation,40.08635581
+Philippines,Compound interest calculation,34.16092992
+Poland ,Compound interest calculation,41.10000134
+Portugal ,Compound interest calculation,47.72573113
+Romania ,Compound interest calculation,23.28358144
+Saudi Arabia ,Compound interest calculation,52.68734694
+Spain,Compound interest calculation,41.27007127
+Sweden ,Compound interest calculation,58.3912611
+Thailand,Compound interest calculation,37.65521646
+Uruguay ,Compound interest calculation,58.41718316
+Yemen,Compound interest calculation,26.19699836
+Overall Average,Compound interest calculation,41.69703153
+OECD Average,Compound interest calculation,44.54198033
+Albania,Simple and compound interest,11.40025929
+Brazil,Simple and compound interest,6.100000069
+Cambodia ,Simple and compound interest,10.78294292
+Chile,Simple and compound interest,10.31353101
+Costa Rica,Simple and compound interest,13.50427419
+Croatia ,Simple and compound interest,24.71219301
+Cyprus ,Simple and compound interest,27.72008777
+Estonia,Simple and compound interest,46.76567614
+Finland ,Simple and compound interest,39.26541805
+France ,Simple and compound interest,30.52921593
+Germany,Simple and compound interest,66.41757488
+Greece,Simple and compound interest,35.66427231
+Hong Kong (China),Simple and compound interest,77.99033523
+Hungary ,Simple and compound interest,23.19248319
+Indonesia ,Simple and compound interest,7.999999821
+Ireland ,Simple and compound interest,31.68427646
+Italy ,Simple and compound interest,17.18734056
+Jordan,Simple and compound interest,23.4445706
+Korea,Simple and compound interest,41.41582549
+Latvia ,Simple and compound interest,18.21999848
+Lithuania,Simple and compound interest,20.22471875
+Luxembourg ,Simple and compound interest,45.40095031
+Malaysia ,Simple and compound interest,35.54829359
+Malta ,Simple and compound interest,38.40796053
+Mexico ,Simple and compound interest,5.938183516
+Netherlands,Simple and compound interest,46.2072134
+Panama,Simple and compound interest,2.2664655
+Paraguay ,Simple and compound interest,4.250000045
+Peru,Simple and compound interest,7.516967505
+Philippines,Simple and compound interest,7.594230771
+Poland ,Simple and compound interest,33.19999874
+Portugal ,Simple and compound interest,24.71147329
+Romania ,Simple and compound interest,16.91542268
+Saudi Arabia ,Simple and compound interest,41.74638093
+Spain,Simple and compound interest,21.84310108
+Sweden ,Simple and compound interest,48.75868857
+Thailand,Simple and compound interest,35.27656794
+Uruguay ,Simple and compound interest,19.24999356
+Yemen,Simple and compound interest,2.401651815
+Overall Average,Simple and compound interest,26.19919328
+OECD Average,Simple and compound interest,31.02221072
+Albania,Risk and return,64.14139867
+Brazil,Risk and return,72.50000238
+Cambodia ,Risk and return,65.60493112
+Chile,Risk and return,88.11880946
+Costa Rica,Risk and return,87.60683537
+Croatia ,Risk and return,75.81466436
+Cyprus ,Risk and return,88.7388885
+Estonia,Risk and return,83.6522758
+Finland ,Risk and return,82.57684708
+France ,Risk and return,80.81430793
+Germany,Risk and return,84.03922319
+Greece,Risk and return,74.14295673
+Hong Kong (China),Risk and return,92.06821322
+Hungary ,Risk and return,89.76166248
+Indonesia ,Risk and return,70.70000172
+Ireland ,Risk and return,88.80363107
+Italy ,Risk and return,59.65856314
+Jordan,Risk and return,54.89253402
+Korea,Risk and return,88.2214427
+Latvia ,Risk and return,68.62421036
+Lithuania,Risk and return,54.77527976
+Luxembourg ,Risk and return,73.67646694
+Malaysia ,Risk and return,87.29121089
+Malta ,Risk and return,
+Mexico ,Risk and return,79.45877314
+Netherlands,Risk and return,65.97428322
+Panama,Risk and return,82.05165863
+Paraguay ,Risk and return,80.83333373
+Peru,Risk and return,82.18970299
+Philippines,Risk and return,69.88591552
+Poland ,Risk and return,86.50000095
+Portugal ,Risk and return,73.86286259
+Romania ,Risk and return,58.30845833
+Saudi Arabia ,Risk and return,64.59600329
+Spain,Risk and return,84.84534621
+Sweden ,Risk and return,79.64250445
+Thailand,Risk and return,79.148525
+Uruguay ,Risk and return,89.7490859
+Yemen,Risk and return,56.11799955
+Overall Average,Risk and return,76.56286343
+OECD Average,Risk and return,78.73781413
+Albania,Definition of inflation,67.58676767
+Brazil,Definition of inflation,84.75000262
+Cambodia ,Definition of inflation,57.22205043
+Chile,Definition of inflation,94.05940771
+Costa Rica,Definition of inflation,91.2820518
+Croatia ,Definition of inflation,94.55657601
+Cyprus ,Definition of inflation,87.99152374
+Estonia,Definition of inflation,93.25493574
+Finland ,Definition of inflation,85.02640724
+France ,Definition of inflation,84.51814055
+Germany,Definition of inflation,96.71272039
+Greece,Definition of inflation,90.47937989
+Hong Kong (China),Definition of inflation,98.31728935
+Hungary ,Definition of inflation,92.63455272
+Indonesia ,Definition of inflation,70.70000172
+Ireland ,Definition of inflation,97.8087306
+Italy ,Definition of inflation,67.86733866
+Jordan,Definition of inflation,78.67646813
+Korea,Definition of inflation,80.79978824
+Latvia ,Definition of inflation,86.58357263
+Lithuania,Definition of inflation,63.48314881
+Luxembourg ,Definition of inflation,87.4956429
+Malaysia ,Definition of inflation,82.57080317
+Malta ,Definition of inflation,
+Mexico ,Definition of inflation,86.94120646
+Netherlands,Definition of inflation,79.17535305
+Panama,Definition of inflation,88.9598608
+Paraguay ,Definition of inflation,83.58333111
+Peru,Definition of inflation,83.6032927
+Philippines,Definition of inflation,77.34533548
+Poland ,Definition of inflation,88.70000243
+Portugal ,Definition of inflation,90.90291858
+Romania ,Definition of inflation,65.77114463
+Saudi Arabia ,Definition of inflation,72.47889638
+Spain,Definition of inflation,89.54460025
+Sweden ,Definition of inflation,83.81330967
+Thailand,Definition of inflation,73.96387458
+Uruguay ,Definition of inflation,91.83290005
+Yemen,Definition of inflation,82.8369379
+Overall Average,Definition of inflation,83.52184907
+OECD Average,Definition of inflation,86.55416042
+Albania,Risk diversification,50.59005618
+Brazil,Risk diversification,55.19999862
+Cambodia ,Risk diversification,41.18614197
+Chile,Risk diversification,56.18811846
+Costa Rica,Risk diversification,62.13675141
+Croatia ,Risk diversification,73.57459068
+Cyprus ,Risk diversification,51.18758678
+Estonia,Risk diversification,71.03918791
+Finland ,Risk diversification,74.66076612
+France ,Risk diversification,70.3012526
+Germany,Risk diversification,84.05210376
+Greece,Risk diversification,48.47944975
+Hong Kong (China),Risk diversification,82.94374347
+Hungary ,Risk diversification,65.89677334
+Indonesia ,Risk diversification,
+Ireland ,Risk diversification,62.36268282
+Italy ,Risk diversification,37.07406819
+Jordan,Risk diversification,64.45135474
+Korea,Risk diversification,70.41387558
+Latvia ,Risk diversification,37.73486018
+Lithuania,Risk diversification,46.25468254
+Luxembourg ,Risk diversification,59.93224382
+Malaysia ,Risk diversification,52.28758454
+Malta ,Risk diversification,
+Mexico ,Risk diversification,61.99541092
+Netherlands,Risk diversification,48.75122905
+Panama,Risk diversification,65.68148136
+Paraguay ,Risk diversification,61.33333445
+Peru,Risk diversification,56.1622858
+Philippines,Risk diversification,40.50154686
+Poland ,Risk diversification,66.20000005
+Portugal ,Risk diversification,46.5716213
+Romania ,Risk diversification,34.92537439
+Saudi Arabia ,Risk diversification,69.1714108
+Spain,Risk diversification,52.03179121
+Sweden ,Risk diversification,70.10923624
+Thailand,Risk diversification,68.11804771
+Uruguay ,Risk diversification,60.91611981
+Yemen,Risk diversification,57.03299642
+Overall Average,Risk diversification,58.84999351
+OECD Average,Risk diversification,59.60930526
