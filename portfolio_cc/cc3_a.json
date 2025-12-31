@@ -15,8 +15,8 @@
   "data": {
     "url": "https://raw.githubusercontent.com/CarlosGV1208/CarlosGV1208.github.io/refs/heads/main/portfolio_cc/oecd.csv"
   },
-  "width": 800,
-  "height": 400,
+  "width": 785,
+  "height": 350,
   "config": {"view": {"stroke": null}, "axis": {"gridColor": "#f0f0f0"}},
   "encoding": {
     "x": {

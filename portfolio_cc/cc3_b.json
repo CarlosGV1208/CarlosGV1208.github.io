@@ -19,8 +19,8 @@
     {"filter": "datum.time_period >= 2000"},
     {"filter": "datum.time_period <= 2024"}
   ],
-  "width": 800,
-  "height": 400,
+  "width": 785,
+  "height": 350,
   "config": {"view": {"stroke": null}, "axis": {"gridColor": "#f0f0f0"}},
   "encoding": {
     "x": {
