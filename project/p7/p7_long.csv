@@ -1,0 +1,411 @@
+Country,Concept,Score
+Albania,Keeps track of money in the short term,64.45422173
+Brazil,Keeps track of money in the short term,79.54999804
+Cambodia ,Keeps track of money in the short term,35.36159694
+Chile,Keeps track of money in the short term,55.03300428
+Costa Rica,Keeps track of money in the short term,59.05982852
+Croatia ,Keeps track of money in the short term,62.05583811
+Cyprus ,Keeps track of money in the short term,68.36799383
+Estonia,Keeps track of money in the short term,63.08250427
+Finland ,Keeps track of money in the short term,67.74748564
+France ,Keeps track of money in the short term,79.01880145
+Germany,Keeps track of money in the short term,79.06365991
+Greece,Keeps track of money in the short term,83.74138474
+Hong Kong (China),Keeps track of money in the short term,72.79450297
+Hungary ,Keeps track of money in the short term,24.72489178
+Indonesia ,Keeps track of money in the short term,18.19999963
+Ireland ,Keeps track of money in the short term,90.37740231
+Italy ,Keeps track of money in the short term,75.85732341
+Jordan,Keeps track of money in the short term,84.38913822
+Korea,Keeps track of money in the short term,80.62429428
+Latvia ,Keeps track of money in the short term,55.36943674
+Lithuania,Keeps track of money in the short term,70.78651786
+Luxembourg ,Keeps track of money in the short term,57.04959035
+Malaysia ,Keeps track of money in the short term,74.61873889
+Malta ,Keeps track of money in the short term,61.69154048
+Mexico ,Keeps track of money in the short term,81.14781976
+Netherlands,Keeps track of money in the short term,66.01976752
+Panama,Keeps track of money in the short term,68.89644265
+Paraguay ,Keeps track of money in the short term,46.66666687
+Peru,Keeps track of money in the short term,53.73928547
+Philippines,Keeps track of money in the short term,86.43472195
+Poland ,Keeps track of money in the short term,57.99999833
+Portugal ,Keeps track of money in the short term,53.5641551
+Romania ,Keeps track of money in the short term,47.76119292
+Saudi Arabia ,Keeps track of money in the short term,75.8169353
+Spain,Keeps track of money in the short term,21.68444991
+Sweden ,Keeps track of money in the short term,83.2174778
+Thailand,Keeps track of money in the short term,50.01612902
+Uruguay ,Keeps track of money in the short term,67.1661377
+Yemen,Keeps track of money in the short term,41.92487001
+Overall Average,Keeps track of money in the short term,63.20707038
+OECD Average,Keeps track of money in the short term,65.2584897
+Albania,Actively saves,81.20056987
+Brazil,Actively saves,67.40000248
+Cambodia ,Actively saves,71.86565399
+Chile,Actively saves,36.96369529
+Costa Rica,Actively saves,42.56410301
+Croatia ,Actively saves,51.65631771
+Cyprus ,Actively saves,84.45584178
+Estonia,Actively saves,72.75551558
+Finland ,Actively saves,75.48651099
+France ,Actively saves,65.30928612
+Germany,Actively saves,88.29555511
+Greece,Actively saves,41.70305431
+Hong Kong (China),Actively saves,92.09697247
+Hungary ,Actively saves,47.39346206
+Indonesia ,Actively saves,91.90000296
+Ireland ,Actively saves,83.06151628
+Italy ,Actively saves,78.31560969
+Jordan,Actively saves,53.61990929
+Korea,Actively saves,97.8065908
+Latvia ,Actively saves,59.00253654
+Lithuania,Actively saves,89.9812758
+Luxembourg ,Actively saves,86.04640961
+Malaysia ,Actively saves,85.18518806
+Malta ,Actively saves,83.08457732
+Mexico ,Actively saves,69.51537132
+Netherlands,Actively saves,85.81722379
+Panama,Actively saves,31.58940673
+Paraguay ,Actively saves,16.75000042
+Peru,Actively saves,41.5222615
+Philippines,Actively saves,89.97170329
+Poland ,Actively saves,84.89999771
+Portugal ,Actively saves,54.78615165
+Romania ,Actively saves,61.09452844
+Saudi Arabia ,Actively saves,96.88569307
+Spain,Actively saves,69.89406347
+Sweden ,Actively saves,88.5799408
+Thailand,Actively saves,87.53426671
+Uruguay ,Actively saves,31.49882555
+Yemen,Actively saves,25.1590699
+Overall Average,Actively saves,68.2730426
+OECD Average,Actively saves,70.9088935
+Albania,Did not borrow to make ends meet,64.90898132
+Brazil,Did not borrow to make ends meet,91.44999981
+Cambodia ,Did not borrow to make ends meet,73.52846861
+Chile,Did not borrow to make ends meet,37.37623692
+Costa Rica,Did not borrow to make ends meet,50.7692337
+Croatia ,Did not borrow to make ends meet,81.22199774
+Cyprus ,Did not borrow to make ends meet,72.91153669
+Estonia,Did not borrow to make ends meet,85.07760763
+Finland ,Did not borrow to make ends meet,72.84107804
+France ,Did not borrow to make ends meet,78.75839472
+Germany,Did not borrow to make ends meet,91.72220826
+Greece,Did not borrow to make ends meet,63.43519092
+Hong Kong (China),Did not borrow to make ends meet,94.87144947
+Hungary ,Did not borrow to make ends meet,89.61890936
+Indonesia ,Did not borrow to make ends meet,88.40000033
+Ireland ,Did not borrow to make ends meet,90.05852342
+Italy ,Did not borrow to make ends meet,91.94924831
+Jordan,Did not borrow to make ends meet,33.48416388
+Korea,Did not borrow to make ends meet,89.21335936
+Latvia ,Did not borrow to make ends meet,88.43664527
+Lithuania,Did not borrow to make ends meet,87.35954762
+Luxembourg ,Did not borrow to make ends meet,88.89379501
+Malaysia ,Did not borrow to make ends meet,92.41104126
+Malta ,Did not borrow to make ends meet,65.97014666
+Mexico ,Did not borrow to make ends meet,71.50444984
+Netherlands,Did not borrow to make ends meet,92.43680835
+Panama,Did not borrow to make ends meet,65.5482769
+Paraguay ,Did not borrow to make ends meet,56.08333349
+Peru,Did not borrow to make ends meet,42.84176826
+Philippines,Did not borrow to make ends meet,51.58219934
+Poland ,Did not borrow to make ends meet,87.99999952
+Portugal ,Did not borrow to make ends meet,97.3523438
+Romania ,Did not borrow to make ends meet,70.54726481
+Saudi Arabia ,Did not borrow to make ends meet,91.51295424
+Spain,Did not borrow to make ends meet,86.18283272
+Sweden ,Did not borrow to make ends meet,78.15293074
+Thailand,Did not borrow to make ends meet,64.1186893
+Uruguay ,Did not borrow to make ends meet,55.91715574
+Yemen,Did not borrow to make ends meet,52.31201053
+Overall Average,Did not borrow to make ends meet,75.0964303
+OECD Average,Did not borrow to make ends meet,80.95696718
+Albania,Compared financial products across providers,23.98234606
+Brazil,Compared financial products across providers,28.24999988
+Cambodia ,Compared financial products across providers,22.61178643
+Chile,Compared financial products across providers,30.85808456
+Costa Rica,Compared financial products across providers,24.18803424
+Croatia ,Compared financial products across providers,23.82678241
+Cyprus ,Compared financial products across providers,30.39390445
+Estonia,Compared financial products across providers,30.43461144
+Finland ,Compared financial products across providers,25.78411102
+France ,Compared financial products across providers,15.13792574
+Germany,Compared financial products across providers,35.58360934
+Greece,Compared financial products across providers,20.85984349
+Hong Kong (China),Compared financial products across providers,10.25885716
+Hungary ,Compared financial products across providers,7.838756591
+Indonesia ,Compared financial products across providers,54.19999957
+Ireland ,Compared financial products across providers,42.87069142
+Italy ,Compared financial products across providers,8.522071689
+Jordan,Compared financial products across providers,46.97398245
+Korea,Compared financial products across providers,26.38926804
+Latvia ,Compared financial products across providers,26.87591314
+Lithuania,Compared financial products across providers,36.23595536
+Luxembourg ,Compared financial products across providers,30.13534546
+Malaysia ,Compared financial products across providers,33.11546743
+Malta ,Compared financial products across providers,9.651741385
+Mexico ,Compared financial products across providers,18.96243095
+Netherlands,Compared financial products across providers,19.80386376
+Panama,Compared financial products across providers,18.24235171
+Paraguay ,Compared financial products across providers,6.333333254
+Peru,Compared financial products across providers,26.96689963
+Philippines,Compared financial products across providers,45.00397444
+Poland ,Compared financial products across providers,28.40000093
+Portugal ,Compared financial products across providers,40.73319733
+Romania ,Compared financial products across providers,39.60199058
+Saudi Arabia ,Compared financial products across providers,31.43696487
+Spain,Compared financial products across providers,18.5490638
+Sweden ,Compared financial products across providers,22.04568088
+Thailand,Compared financial products across providers,37.98580766
+Uruguay ,Compared financial products across providers,24.75151122
+Yemen,Compared financial products across providers,3.3624731
+Overall Average,Compared financial products across providers,26.33740084
+OECD Average,Compared financial products across providers,25.51042296
+Albania,Sought advice from non-independent source(s),0.209482596
+Brazil,Sought advice from non-independent source(s),9.449999779
+Cambodia ,Sought advice from non-independent source(s),13.6523813
+Chile,Sought advice from non-independent source(s),27.72277296
+Costa Rica,Sought advice from non-independent source(s),28.2051295
+Croatia ,Sought advice from non-independent source(s),31.3590765
+Cyprus ,Sought advice from non-independent source(s),10.43988839
+Estonia,Sought advice from non-independent source(s),10.74318886
+Finland ,Sought advice from non-independent source(s),13.3119747
+France ,Sought advice from non-independent source(s),15.46512544
+Germany,Sought advice from non-independent source(s),10.09809449
+Greece,Sought advice from non-independent source(s),17.76062399
+Hong Kong (China),Sought advice from non-independent source(s),6.910024583
+Hungary ,Sought advice from non-independent source(s),8.557988703
+Indonesia ,Sought advice from non-independent source(s),47.69999981
+Ireland ,Sought advice from non-independent source(s),29.04169559
+Italy ,Sought advice from non-independent source(s),10.30980274
+Jordan,Sought advice from non-independent source(s),26.18778348
+Korea,Sought advice from non-independent source(s),25.76513886
+Latvia ,Sought advice from non-independent source(s),31.91654384
+Lithuania,Sought advice from non-independent source(s),19.38202232
+Luxembourg ,Sought advice from non-independent source(s),27.87954509
+Malaysia ,Sought advice from non-independent source(s),40.55918753
+Malta ,Sought advice from non-independent source(s),
+Mexico ,Sought advice from non-independent source(s),10.33117473
+Netherlands,Sought advice from non-independent source(s),10.1461947
+Panama,Sought advice from non-independent source(s),26.78137124
+Paraguay ,Sought advice from non-independent source(s),7.75000006
+Peru,Sought advice from non-independent source(s),21.30124271
+Philippines,Sought advice from non-independent source(s),15.54218084
+Poland ,Sought advice from non-independent source(s),18.19999963
+Portugal ,Sought advice from non-independent source(s),77.39307284
+Romania ,Sought advice from non-independent source(s),38.00995052
+Saudi Arabia ,Sought advice from non-independent source(s),4.1472096
+Spain,Sought advice from non-independent source(s),29.49451506
+Sweden ,Sought advice from non-independent source(s),9.831181914
+Thailand,Sought advice from non-independent source(s),51.48363113
+Uruguay ,Sought advice from non-independent source(s),26.33412182
+Yemen,Sought advice from non-independent source(s),2.908285893
+Overall Average,Sought advice from non-independent source(s),21.37583168
+OECD Average,Sought advice from non-independent source(s),21.5777893
+Albania,Sought advice from independent source(s),0.0
+Brazil,Sought advice from independent source(s),32.15000033
+Cambodia ,Sought advice from independent source(s),20.79260796
+Chile,Sought advice from independent source(s),21.69966996
+Costa Rica,Sought advice from independent source(s),18.03418845
+Croatia ,Sought advice from independent source(s),17.49706715
+Cyprus ,Sought advice from independent source(s),28.63786817
+Estonia,Sought advice from independent source(s),30.9443295
+Finland ,Sought advice from independent source(s),24.85137731
+France ,Sought advice from independent source(s),16.66498929
+Germany,Sought advice from independent source(s),36.68764532
+Greece,Sought advice from independent source(s),20.58199495
+Hong Kong (China),Sought advice from independent source(s),7.641470432
+Hungary ,Sought advice from independent source(s),6.311600655
+Indonesia ,Sought advice from independent source(s),52.30000019
+Ireland ,Sought advice from independent source(s),34.32584107
+Italy ,Sought advice from independent source(s),11.31376177
+Jordan,Sought advice from independent source(s),41.23303294
+Korea,Sought advice from independent source(s),37.78753281
+Latvia ,Sought advice from independent source(s),17.6827088
+Lithuania,Sought advice from independent source(s),39.51310813
+Luxembourg ,Sought advice from independent source(s),30.55650592
+Malaysia ,Sought advice from independent source(s),16.52142406
+Malta ,Sought advice from independent source(s),
+Mexico ,Sought advice from independent source(s),25.17207861
+Netherlands,Sought advice from independent source(s),18.94724071
+Panama,Sought advice from independent source(s),13.0022049
+Paraguay ,Sought advice from independent source(s),4.916666821
+Peru,Sought advice from independent source(s),22.02340811
+Philippines,Sought advice from independent source(s),52.18789577
+Poland ,Sought advice from independent source(s),31.29999936
+Portugal ,Sought advice from independent source(s),15.41072577
+Romania ,Sought advice from independent source(s),27.46268511
+Saudi Arabia ,Sought advice from independent source(s),55.78935146
+Spain,Sought advice from independent source(s),11.39215827
+Sweden ,Sought advice from independent source(s),20.75471729
+Thailand,Sought advice from independent source(s),23.78648669
+Uruguay ,Sought advice from independent source(s),15.91685563
+Yemen,Sought advice from independent source(s),4.112736136
+Overall Average,Sought advice from independent source(s),23.83957726
+OECD Average,Sought advice from independent source(s),23.4966087
+Albania,Closely watches personal financial affairs,56.19237423
+Brazil,Closely watches personal financial affairs,74.59999919
+Cambodia ,Closely watches personal financial affairs,50.65125227
+Chile,Closely watches personal financial affairs,73.18481803
+Costa Rica,Closely watches personal financial affairs,71.62393332
+Croatia ,Closely watches personal financial affairs,67.75896549
+Cyprus ,Closely watches personal financial affairs,22.14353085
+Estonia,Closely watches personal financial affairs,61.99380159
+Finland ,Closely watches personal financial affairs,72.84250259
+France ,Closely watches personal financial affairs,76.38622522
+Germany,Closely watches personal financial affairs,86.04443073
+Greece,Closely watches personal financial affairs,89.20813799
+Hong Kong (China),Closely watches personal financial affairs,71.05873823
+Hungary ,Closely watches personal financial affairs,54.8666656
+Indonesia ,Closely watches personal financial affairs,72.6000011
+Ireland ,Closely watches personal financial affairs,78.46875191
+Italy ,Closely watches personal financial affairs,50.10442734
+Jordan,Closely watches personal financial affairs,68.26922894
+Korea,Closely watches personal financial affairs,55.6566298
+Latvia ,Closely watches personal financial affairs,79.08862233
+Lithuania,Closely watches personal financial affairs,52.24719048
+Luxembourg ,Closely watches personal financial affairs,77.89167762
+Malaysia ,Closely watches personal financial affairs,61.90994978
+Malta ,Closely watches personal financial affairs,82.98507333
+Mexico ,Closely watches personal financial affairs,58.56076479
+Netherlands,Closely watches personal financial affairs,80.64893484
+Panama,Closely watches personal financial affairs,68.796134
+Paraguay ,Closely watches personal financial affairs,61.91666722
+Peru,Closely watches personal financial affairs,60.24903655
+Philippines,Closely watches personal financial affairs,59.00459886
+Poland ,Closely watches personal financial affairs,60.1000011
+Portugal ,Closely watches personal financial affairs,78.47929597
+Romania ,Closely watches personal financial affairs,47.3631829
+Saudi Arabia ,Closely watches personal financial affairs,84.85796452
+Spain,Closely watches personal financial affairs,79.38672304
+Sweden ,Closely watches personal financial affairs,67.52730608
+Thailand,Closely watches personal financial affairs,84.09127593
+Uruguay ,Closely watches personal financial affairs,78.3326745
+Yemen,Closely watches personal financial affairs,67.21746922
+Overall Average,Closely watches personal financial affairs,67.80279378
+OECD Average,Closely watches personal financial affairs,70.21554202
+Albania,Sets long-term financial goals,9.23550576
+Brazil,Sets long-term financial goals,57.30000138
+Cambodia ,Sets long-term financial goals,47.57317007
+Chile,Sets long-term financial goals,52.14521289
+Costa Rica,Sets long-term financial goals,57.69230723
+Croatia ,Sets long-term financial goals,47.17565775
+Cyprus ,Sets long-term financial goals,31.61612153
+Estonia,Sets long-term financial goals,30.23262024
+Finland ,Sets long-term financial goals,48.05600047
+France ,Sets long-term financial goals,45.36705315
+Germany,Sets long-term financial goals,59.58027244
+Greece,Sets long-term financial goals,42.97966957
+Hong Kong (China),Sets long-term financial goals,50.19684434
+Hungary ,Sets long-term financial goals,36.76280677
+Indonesia ,Sets long-term financial goals,71.39999866
+Ireland ,Sets long-term financial goals,49.14173484
+Italy ,Sets long-term financial goals,30.93430996
+Jordan,Sets long-term financial goals,61.56674027
+Korea,Sets long-term financial goals,48.02975655
+Latvia ,Sets long-term financial goals,43.62926781
+Lithuania,Sets long-term financial goals,39.32584226
+Luxembourg ,Sets long-term financial goals,55.09263873
+Malaysia ,Sets long-term financial goals,55.66448569
+Malta ,Sets long-term financial goals,65.87064862
+Mexico ,Sets long-term financial goals,57.05136061
+Netherlands,Sets long-term financial goals,50.32326579
+Panama,Sets long-term financial goals,62.31971979
+Paraguay ,Sets long-term financial goals,48.75000119
+Peru,Sets long-term financial goals,57.77187347
+Philippines,Sets long-term financial goals,51.76762342
+Poland ,Sets long-term financial goals,39.70000148
+Portugal ,Sets long-term financial goals,37.47454286
+Romania ,Sets long-term financial goals,40.99502563
+Saudi Arabia ,Sets long-term financial goals,69.81222034
+Spain,Sets long-term financial goals,47.28050828
+Sweden ,Sets long-term financial goals,39.52333629
+Thailand,Sets long-term financial goals,71.77874446
+Uruguay ,Sets long-term financial goals,57.50047565
+Yemen,Sets long-term financial goals,82.77169466
+Overall Average,Sets long-term financial goals,50.03561695
+OECD Average,Sets long-term financial goals,45.51612541
+Albania,Makes considered purchases,82.11321831
+Brazil,Makes considered purchases,81.40000105
+Cambodia ,Makes considered purchases,67.30479598
+Chile,Makes considered purchases,80.19801974
+Costa Rica,Makes considered purchases,84.27350521
+Croatia ,Makes considered purchases,70.23088336
+Cyprus ,Makes considered purchases,20.11920959
+Estonia,Makes considered purchases,66.27536416
+Finland ,Makes considered purchases,70.3193903
+France ,Makes considered purchases,65.4484868
+Germany,Makes considered purchases,76.94562078
+Greece,Makes considered purchases,91.14407897
+Hong Kong (China),Makes considered purchases,60.38651466
+Hungary ,Makes considered purchases,57.91136622
+Indonesia ,Makes considered purchases,75.3000021
+Ireland ,Makes considered purchases,71.739012
+Italy ,Makes considered purchases,44.79804933
+Jordan,Makes considered purchases,87.13235259
+Korea,Makes considered purchases,50.3010571
+Latvia ,Makes considered purchases,72.72136211
+Lithuania,Makes considered purchases,53.27715278
+Luxembourg ,Makes considered purchases,64.86800909
+Malaysia ,Makes considered purchases,66.08569622
+Malta ,Makes considered purchases,77.51243711
+Mexico ,Makes considered purchases,78.50906253
+Netherlands,Makes considered purchases,67.57388115
+Panama,Makes considered purchases,78.41128707
+Paraguay ,Makes considered purchases,82.58333206
+Peru,Makes considered purchases,75.16502142
+Philippines,Makes considered purchases,73.63387346
+Poland ,Makes considered purchases,52.3999989
+Portugal ,Makes considered purchases,71.89409137
+Romania ,Makes considered purchases,65.07462859
+Saudi Arabia ,Makes considered purchases,68.90646815
+Spain,Makes considered purchases,86.01789474
+Sweden ,Makes considered purchases,50.94339848
+Thailand,Makes considered purchases,88.97758722
+Uruguay ,Makes considered purchases,87.49997616
+Yemen,Makes considered purchases,67.79271364
+Overall Average,Makes considered purchases,70.08176412
+OECD Average,Makes considered purchases,67.87794009
+Albania,Pays bills on time,77.66162157
+Brazil,Pays bills on time,81.80000186
+Cambodia ,Pays bills on time,68.20639372
+Chile,Pays bills on time,81.76567554
+Costa Rica,Pays bills on time,85.04273295
+Croatia ,Pays bills on time,86.06947064
+Cyprus ,Pays bills on time,24.77271408
+Estonia,Pays bills on time,96.26566768
+Finland ,Pays bills on time,82.60022998
+France ,Pays bills on time,82.19407797
+Germany,Pays bills on time,96.07599974
+Greece,Pays bills on time,86.70429587
+Hong Kong (China),Pays bills on time,86.23808622
+Hungary ,Pays bills on time,74.11701083
+Indonesia ,Pays bills on time,68.09999943
+Ireland ,Pays bills on time,94.79150772
+Italy ,Pays bills on time,62.13974953
+Jordan,Pays bills on time,74.17986393
+Korea,Pays bills on time,68.61466169
+Latvia ,Pays bills on time,80.91209531
+Lithuania,Pays bills on time,73.31460714
+Luxembourg ,Pays bills on time,80.40536642
+Malaysia ,Pays bills on time,62.59985566
+Malta ,Pays bills on time,91.34328365
+Mexico ,Pays bills on time,86.27915978
+Netherlands,Pays bills on time,88.57731819
+Panama,Pays bills on time,80.36657572
+Paraguay ,Pays bills on time,76.58333182
+Peru,Pays bills on time,77.90157199
+Philippines,Pays bills on time,66.84855223
+Poland ,Pays bills on time,70.20000219
+Portugal ,Pays bills on time,87.37270832
+Romania ,Pays bills on time,75.52238703
+Saudi Arabia ,Pays bills on time,67.40659475
+Spain,Pays bills on time,93.21554303
+Sweden ,Pays bills on time,88.67924809
+Thailand,Pays bills on time,85.81680655
+Uruguay ,Pays bills on time,78.83492112
+Yemen,Pays bills on time,23.29301983
+Overall Average,Pays bills on time,77.25160794
+OECD Average,Pays bills on time,82.9633829
