@@ -17,46 +17,56 @@
   "layer": [
     {
       "description": "Layer 1: Scatter plot of countries",
-      "params": [{"name": "grid", "select": "interval", "bind": "scales"}],
-      "mark": {"type": "point", "filled": true, "size": 100, "opacity": 0.6},
+      "params": [
+        {
+          "name": "grid",
+          "select": "interval",
+          "bind": "scales"
+        },
+        {
+          "name": "select_country",
+          "select": {"type": "point", "fields": ["Country"]},
+          "bind": {
+            "input": "select",
+            "options": [
+              null,
+              "Brazil", "Chile", "Colombia", "Guatemala", "Ecuador", "Uruguay", "Costa Rica", "Mexico", "Peru", "United Kingdom"
+            ],
+            "labels": ["Show All", "Brazil", "Chile", "Colombia", "Guatemala", "Ecuador", "Uruguay", "Costa Rica", "Mexico", "Peru", "United Kingdom"],
+            "name": "Select Country: "
+          }
+        }
+      ],
+      "mark": {"type": "point", "filled": true, "size": 100},
       "encoding": {
         "x": {
           "field": "Account_Ownership_Std",
           "type": "quantitative",
-          "title": "Bank Account Ownership (% of population 15+)"
+          "title": "Bank Account Ownership (Standardized)"
         },
         "y": {
           "field": "Inflation_Std",
           "type": "quantitative",
-          "title": "Annual Inflation Rate"
+          "title": "Annual Inflation Rate (Standardized)"
         },
-        "color": {"value": "#5A9E97"},
+        "color": {
+          "condition": {
+            "param": "select_country",
+            "empty": false,
+            "value": "#8FB3AB"
+          },
+          "value": "#5A9E97"
+        },
+        "opacity": {
+          "condition": {"param": "select_country", "value": 1},
+          "value": 0.5
+        },
         "tooltip": [
           {"field": "Country", "type": "nominal", "title": "Country"},
-          {
-            "field": "Real_Account_Ownership",
-            "type": "quantitative",
-            "format": ".2f",
-            "title": "Account Ownership (%)"
-          },
-          {
-            "field": "Real_Inflation",
-            "type": "quantitative",
-            "format": ".2f",
-            "title": "Inflation Rate (%)"
-          },
-          {
-            "field": "Account_Ownership_Std",
-            "type": "quantitative",
-            "format": ".2f",
-            "title": "X (Standardized)"
-          },
-          {
-            "field": "Inflation_Std",
-            "type": "quantitative",
-            "format": ".2f",
-            "title": "y (Standardized)"
-          }
+          {"field": "Real_Account_Ownership", "type": "quantitative", "format": ".2f", "title": "Account Ownership (%)"},
+          {"field": "Real_Inflation", "type": "quantitative", "format": ".2f", "title": "Inflation Rate (%)"},
+          {"field": "Account_Ownership_Std", "type": "quantitative", "format": ".2f", "title": "X (Standardized)"},
+          {"field": "Inflation_Std", "type": "quantitative", "format": ".2f", "title": "y (Standardized)"}
         ]
       }
     },

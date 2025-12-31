@@ -1,8 +1,12 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
-    "text": "Global Savings: 2024 Demographic Analysis",
-    "subtitle": "Comparison of formal and informal saving behaviors across world regions and emerging markets. Source: World Bank 2025.",
+    "text": "Formal vs informal savings by demographic groups.",
+    "subtitle": [
+      "% of people who saved in a financial institution vs. those who saved outside the financial system.",
+    
+      "Source: World Bank, Global Findex 2025 ."
+    ],
     "anchor": "start",
     "fontSize": 18,
     "subtitleFontSize": 13,
@@ -25,27 +29,38 @@
       }
     },
     {
-      "name": "TypeSelect",
-      "value": "Informal saving",
+      "name": "DemoSelect",
+      "value": "Total population (% age 15+)",
       "bind": {
         "input": "select",
-        "options": ["Total saving", "Formal saving", "Informal saving"],
-        "labels": ["Total Savings", "Formal savings", "Informal savings"],
-        "name": "   2. Saving Type: "
+        "options": [
+          "Total population (% age 15+)",
+          "Male (% age 15+)",
+          "Female (% age 15+)",
+          "Young (% ages 15-24)"
+        ],
+        "labels": ["Total Population", "Male", "Female", "Young"],
+        "name": "   2. Group: "
       }
     },
     {
       "name": "highlight",
-      "select": {"type": "point", "fields": ["Demographic"]},
+      "select": {"type": "point", "fields": ["Type"]},
       "bind": "legend"
     }
   ],
   "transform": [
     {
-      "filter": "datum.Type == TypeSelect"
+      "comment": "Filter by the selected view (Region or Market)",
+      "filter": "datum.Location == LocationSelect"
     },
     {
-      "filter": "datum.Location == LocationSelect"
+      "comment": "Filter by the selected demographic group",
+      "filter": "datum.Demographic == DemoSelect"
+    },
+    {
+      "comment": "Only show Formal and Informal saving types",
+      "filter": "datum.Type != 'Total saving'"
     }
   ],
   "mark": {
@@ -61,36 +76,24 @@
       "title": null,
       "axis": {
         "labelAngle": 0,
-        "labelFontSize": 11,
-        "titleFontSize": 11
+        "labelFontSize": 11
       }
     },
     "y": {
       "field": "value",
       "type": "quantitative",
-      "title": "% of Population (Age 15+)",
+      "title": "% of Population",
       "scale": {"zero": true}
     },
     "xOffset": {
-      "field": "Demographic",
-      "sort": [
-        "Total population (% age 15+)",
-        "Male (% age 15+)",
-        "Female (% age 15+)",
-        "Young (% ages 15-24)"
-      ]
+      "field": "Type",
+      "sort": ["Formal savings", "Informal savings"]
     },
     "color": {
-      "field": "Demographic",
+      "field": "Type",
       "type": "nominal",
       "scale": {
-        "scheme": "observable10",
-        "domain": [
-          "Total population (% age 15+)",
-          "Male (% age 15+)",
-          "Female (% age 15+)",
-          "Young (% ages 15-24)"
-        ]
+        "scheme": "set2"
       },
       "legend": {
         "orient": "top",
