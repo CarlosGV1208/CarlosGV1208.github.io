@@ -1,0 +1,104 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Financial habits by country 2024",
+    "subtitle": [
+      "% of adults who report specific financial behaviors.",
+      "Source: OECD/INFE 2023 International Survey of Adult Financial Literacy."
+    ],
+    "anchor": "start",
+    "fontSize": 18,
+    "offset": 20
+  },
+  "width": 550,
+  "height": 700,
+  "data": {
+    "url": "https://raw.githubusercontent.com/CarlosGV1208/CarlosGV1208.github.io/refs/heads/main/project/p7/p7_long.csv"
+  },
+  "params": [
+    {
+      "name": "highlight",
+      "select": {
+        "type": "point",
+        "on": "mouseover",
+        "clear": "mouseout",
+        "toggle": false
+      }
+    }
+  ],
+  "transform": [
+    {
+      "joinaggregate": [{"op": "mean", "field": "Score", "as": "avg_score"}],
+      "groupby": ["Country"]
+    },
+    {
+      "calculate": "datum.Concept == 'Keeps track of money in the short term' ? 'Track Money' : datum.Concept == 'Actively saves' ? 'Actively Saves' : datum.Concept == 'Did not borrow to make ends meet' ? 'No Borrowing' : datum.Concept == 'Compared financial products across providers' ? 'Compare Products' : datum.Concept == 'Sought advice from independent source(s)' ? 'Indep. Advice' : datum.Concept == 'Sought advice from non-independent source(s)' ? 'Non-Indep. Advice' : datum.Concept == 'Closely watches personal financial affairs' ? 'Watch Affairs' : datum.Concept == 'Sets long-term financial goals' ? 'Long-term Goals' : datum.Concept == 'Makes considered purchases' ? 'Considered Purchase' : datum.Concept == 'Pays bills on time' ? 'Bills on Time' : datum.Concept",
+      "as": "ShortConcept"
+    }
+  ],
+  "mark": {"type": "rect", "strokeWidth": 2},
+  "encoding": {
+    "y": {
+      "field": "Country",
+      "type": "nominal",
+      "sort": {"field": "avg_score", "order": "descending"},
+      "axis": {
+        "title": null,
+        "labelFontSize": 11,
+        "labelColor": {
+          "condition": {
+            "test": "datum.value == 'OECD Average' || datum.value == 'Overall Average'",
+            "value": "#d62728"
+          },
+          "value": "black"
+        },
+        "labelFontWeight": {
+          "condition": {
+            "test": "datum.value == 'OECD Average' || datum.value == 'Overall Average'",
+            "value": "bold"
+          },
+          "value": "normal"
+        }
+      }
+    },
+    "x": {
+      "field": "ShortConcept",
+      "type": "nominal",
+      "axis": {
+        "title": null,
+        "orient": "top",
+        "labelAngle": 30,
+        "labelFontSize": 11,
+        "labelPadding": 10
+      },
+      "sort": [
+        "Track Money",
+        "Actively Saves",
+        "No Borrowing",
+        "Compare Products",
+        "Indep. Advice",
+        "Non-Indep. Advice",
+        "Watch Affairs",
+        "Long-term Goals",
+        "Considered Purchase",
+        "Bills on Time"
+      ]
+    },
+    "color": {
+      "field": "Score",
+      "type": "quantitative",
+      "scale": {"scheme": "redpurple", "domain": [0, 100]},
+      "legend": {"title": "% of adults"}
+    },
+    "stroke": {
+      "condition": {"param": "highlight", "empty": false, "value": "black"},
+      "value": null
+    },
+    "tooltip": [
+      {"field": "Country", "type": "nominal"},
+      {"field": "Concept", "type": "nominal", "title": "Original Concept"},
+      {"field": "Score", "type": "quantitative", "format": ".1f"}
+    ]
+  },
+  "config": {"view": {"stroke": null}, "axis": {"grid": false}}
+}
