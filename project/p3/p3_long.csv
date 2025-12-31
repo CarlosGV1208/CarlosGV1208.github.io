@@ -1,190 +1,361 @@
 Country,indicator,value,category
-Argentina,men,32%,Gender
-Australia,men,72%,Gender
-Brazil,men,41%,Gender
-Canada,men,77%,Gender
-China,men,29%,Gender
-France,men,56%,Gender
-Germany,men,72%,Gender
-India,men,27%,Gender
-Indonesia,men,39%,Gender
-Italy,men,45%,Gender
-Japan,men,42%,Gender
-South Korea,men,37%,Gender
-Mexico,men,29%,Gender
-Russia,men,42%,Gender
-Saudi Arabia,men,34%,Gender
-South Africa,men,41%,Gender
-Turkey,men,28%,Gender
-United Kingdom,men,66%,Gender
-United States,men,62%,Gender
-European Union,men,52%,Gender
-G20,men,46%,Gender
-Argentina,women,24%,Gender
-Australia,women,56%,Gender
-Brazil,women,29%,Gender
-Canada,women,60%,Gender
-China,women,27%,Gender
-France,women,48%,Gender
-Germany,women,60%,Gender
-India,women,20%,Gender
-Indonesia,women,25%,Gender
-Italy,women,30%,Gender
-Japan,women,44%,Gender
-South Korea,women,30%,Gender
-Mexico,women,34%,Gender
-Russia,women,35%,Gender
-Saudi Arabia,women,28%,Gender
-South Africa,women,43%,Gender
-Turkey,women,19%,Gender
-United Kingdom,women,68%,Gender
-United States,women,52%,Gender
-European Union,women,47%,Gender
-G20,women,39%,Gender
-Argentina,gender gap,8%,Gender
-Australia,gender gap,15%,Gender
-Brazil,gender gap,13%,Gender
-Canada,gender gap,17%,Gender
-China,gender gap,2%,Gender
-France,gender gap,8%,Gender
-Germany,gender gap,12%,Gender
-India,gender gap,8%,Gender
-Indonesia,gender gap,14%,Gender
-Italy,gender gap,15%,Gender
-Japan,gender gap,-3%,Gender
-South Korea,gender gap,7%,Gender
-Mexico,gender gap,-5%,Gender
-Russia,gender gap,7%,Gender
-Saudi Arabia,gender gap,6%,Gender
-South Africa,gender gap,-2%,Gender
-Turkey,gender gap,9%,Gender
-United Kingdom,gender gap,-3%,Gender
-United States,gender gap,10%,Gender
-European Union,gender gap,6%,Gender
-G20,gender gap,7%,Gender
-Argentina,adults in the richest households,33%,Wealth
-Australia,adults in the richest households,73%,Wealth
-Brazil,adults in the richest households,38%,Wealth
-Canada,adults in the richest households,73%,Wealth
-China,adults in the richest households,32%,Wealth
-France,adults in the richest households,55%,Wealth
-Germany,adults in the richest households,73%,Wealth
-India,adults in the richest households,26%,Wealth
-Indonesia,adults in the richest households,38%,Wealth
-Italy,adults in the richest households,44%,Wealth
-Japan,adults in the richest households,45%,Wealth
-South Korea,adults in the richest households,39%,Wealth
-Mexico,adults in the richest households,36%,Wealth
-Russia,adults in the richest households,42%,Wealth
-Saudi Arabia,adults in the richest households,35%,Wealth
-South Africa,adults in the richest households,45%,Wealth
-Turkey,adults in the richest households,26%,Wealth
-United Kingdom,adults in the richest households,70%,Wealth
-United States,adults in the richest households,64%,Wealth
-European Union,adults in the richest households,53%,Wealth
-G20,adults in the richest households,47%,Wealth
-Argentina,adults in the poorest households,21%,Wealth
-Australia,adults in the poorest households,50%,Wealth
-Brazil,adults in the poorest households,29%,Wealth
-Canada,adults in the poorest households,61%,Wealth
-China,adults in the poorest households,22%,Wealth
-France,adults in the poorest households,47%,Wealth
-Germany,adults in the poorest households,55%,Wealth
-India,adults in the poorest households,20%,Wealth
-Indonesia,adults in the poorest households,24%,Wealth
-Italy,adults in the poorest households,27%,Wealth
-Japan,adults in the poorest households,40%,Wealth
-South Korea,adults in the poorest households,25%,Wealth
-Mexico,adults in the poorest households,26%,Wealth
-Russia,adults in the poorest households,33%,Wealth
-Saudi Arabia,adults in the poorest households,27%,Wealth
-South Africa,adults in the poorest households,37%,Wealth
-Turkey,adults in the poorest households,20%,Wealth
-United Kingdom,adults in the poorest households,63%,Wealth
-United States,adults in the poorest households,47%,Wealth
-European Union,adults in the poorest households,43%,Wealth
-G20,adults in the poorest households,36%,Wealth
-Argentina,wealth gap,12%,Wealth
-Australia,wealth gap,23%,Wealth
-Brazil,wealth gap,9%,Wealth
-Canada,wealth gap,12%,Wealth
-China,wealth gap,11%,Wealth
-France,wealth gap,8%,Wealth
-Germany,wealth gap,17%,Wealth
-India,wealth gap,5%,Wealth
-Indonesia,wealth gap,13%,Wealth
-Italy,wealth gap,17%,Wealth
-Japan,wealth gap,5%,Wealth
-South Korea,wealth gap,15%,Wealth
-Mexico,wealth gap,10%,Wealth
-Russia,wealth gap,9%,Wealth
-Saudi Arabia,wealth gap,8%,Wealth
-South Africa,wealth gap,8%,Wealth
-Turkey,wealth gap,6%,Wealth
-United Kingdom,wealth gap,7%,Wealth
-United States,wealth gap,17%,Wealth
-European Union,wealth gap,10%,Wealth
-G20,wealth gap,11%,Wealth
-Argentina,age 35-54,31%,Age
-Australia,age 35-54,67%,Age
-Brazil,age 35-54,34%,Age
-Canada,age 35-54,75%,Age
-China,age 35-54,29%,Age
-France,age 35-54,58%,Age
-Germany,age 35-54,82%,Age
-India,age 35-54,20%,Age
-Indonesia,age 35-54,30%,Age
-Italy,age 35-54,39%,Age
-Japan,age 35-54,51%,Age
-South Korea,age 35-54,34%,Age
-Mexico,age 35-54,33%,Age
-Russia,age 35-54,47%,Age
-Saudi Arabia,age 35-54,30%,Age
-South Africa,age 35-54,42%,Age
-Turkey,age 35-54,23%,Age
-United Kingdom,age 35-54,71%,Age
-United States,age 35-54,65%,Age
-European Union,age 35-54,53%,Age
-G20,age 35-54,46%,Age
-Argentina,age 15-34,31%,Age
-Australia,age 15-34,64%,Age
-Brazil,age 15-34,37%,Age
-Canada,age 15-34,66%,Age
-China,age 15-34,35%,Age
-France,age 15-34,46%,Age
-Germany,age 15-34,72%,Age
-India,age 15-34,27%,Age
-Indonesia,age 15-34,38%,Age
-Italy,age 15-34,47%,Age
-Japan,age 15-34,43%,Age
-South Korea,age 15-34,48%,Age
-Mexico,age 15-34,34%,Age
-Russia,age 15-34,39%,Age
-Saudi Arabia,age 15-34,32%,Age
-South Africa,age 15-34,43%,Age
-Turkey,age 15-34,28%,Age
-United Kingdom,age 15-34,67%,Age
-United States,age 15-34,57%,Age
-European Union,age 15-34,51%,Age
-G20,age 15-34,45%,Age
-Argentina,age gap,-1%,Age
-Australia,age gap,4%,Age
-Brazil,age gap,-3%,Age
-Canada,age gap,10%,Age
-China,age gap,-6%,Age
-France,age gap,12%,Age
-Germany,age gap,10%,Age
-India,age gap,-7%,Age
-Indonesia,age gap,-8%,Age
-Italy,age gap,-8%,Age
-Japan,age gap,8%,Age
-South Korea,age gap,-14%,Age
-Mexico,age gap,-1%,Age
-Russia,age gap,8%,Age
-Saudi Arabia,age gap,-2%,Age
-South Africa,age gap,-1%,Age
-Turkey,age gap,-6%,Age
-United Kingdom,age gap,3%,Age
-United States,age gap,8%,Age
-European Union,age gap,2%,Age
-G20,age gap,0%,Age
+Albania,men,62.76,Gender
+Brazil,men,56.56,Gender
+Cambodia ,men,42.32,Gender
+Chile,men,64.57,Gender
+Costa Rica,men,60.24,Gender
+Croatia ,men,71.7,Gender
+Cyprus ,men,74.07,Gender
+Estonia,men,84.95,Gender
+Finland ,men,75.3,Gender
+France ,men,70.13,Gender
+Germany,men,89.23,Gender
+Greece,men,72.68,Gender
+Hong Kong (China),men,93.75,Gender
+Hungary ,men,76.06,Gender
+Indonesia ,men,38.76,Gender
+Ireland ,men,75.83,Gender
+Italy ,men,55.29,Gender
+Jordan,men,58.4,Gender
+Korea,men,77.01,Gender
+Latvia ,men,58.52,Gender
+Lithuania,men,55.33,Gender
+Luxembourg ,men,80.12,Gender
+Malaysia ,men,65.49,Gender
+Malta ,men,60.98,Gender
+Mexico ,men,61.56,Gender
+Netherlands,men,69.67,Gender
+Panama,men,54.87,Gender
+Paraguay ,men,56.69,Gender
+Peru,men,58.98,Gender
+Philippines,men,49.17,Gender
+Poland ,men,73.31,Gender
+Portugal ,men,64.94,Gender
+Romania ,men,49.36,Gender
+Saudi Arabia ,men,68.18,Gender
+Spain,men,71.06,Gender
+Sweden ,men,78.6,Gender
+Uruguay ,men,66.71,Gender
+Yemen,men,65.17,Gender
+Overall Average,men,66.15,Gender
+OECD Average,men,70.72,Gender
+Albania,women,52.58,Gender
+Brazil,women,49.87,Gender
+Cambodia ,women,40.79,Gender
+Chile,women,59.32,Gender
+Costa Rica,women,58.07,Gender
+Croatia ,women,68.56,Gender
+Cyprus ,women,71.44,Gender
+Estonia,women,73.56,Gender
+Finland ,women,63.43,Gender
+France ,women,61.95,Gender
+Germany,women,81.19,Gender
+Greece,women,57.38,Gender
+Hong Kong (China),women,88.91,Gender
+Hungary ,women,72.26,Gender
+Indonesia ,women,37.51,Gender
+Ireland ,women,67.78,Gender
+Italy ,women,50.35,Gender
+Jordan,women,48.12,Gender
+Korea,women,74.05,Gender
+Latvia ,women,57.27,Gender
+Lithuania,women,52.91,Gender
+Luxembourg ,women,62.43,Gender
+Malaysia ,women,60.63,Gender
+Malta ,women,56.47,Gender
+Mexico ,women,55.71,Gender
+Netherlands,women,61.23,Gender
+Panama,women,53.82,Gender
+Paraguay ,women,54.65,Gender
+Peru,women,55.03,Gender
+Philippines,women,47.01,Gender
+Poland ,women,72.26,Gender
+Portugal ,women,56.85,Gender
+Romania ,women,49.23,Gender
+Saudi Arabia ,women,43.65,Gender
+Spain,women,60.71,Gender
+Sweden ,women,66.1,Gender
+Uruguay ,women,58.52,Gender
+Yemen,women,59.28,Gender
+Overall Average,women,59.73,Gender
+OECD Average,women,63.24,Gender
+Albania,gender gap,10.18,Gender
+Brazil,gender gap,6.69,Gender
+Cambodia ,gender gap,1.53,Gender
+Chile,gender gap,5.25,Gender
+Costa Rica,gender gap,2.17,Gender
+Croatia ,gender gap,3.14,Gender
+Cyprus ,gender gap,2.63,Gender
+Estonia,gender gap,11.39,Gender
+Finland ,gender gap,11.86,Gender
+France ,gender gap,8.18,Gender
+Germany,gender gap,8.04,Gender
+Greece,gender gap,15.3,Gender
+Hong Kong (China),gender gap,4.84,Gender
+Hungary ,gender gap,3.8,Gender
+Indonesia ,gender gap,1.26,Gender
+Ireland ,gender gap,8.05,Gender
+Italy ,gender gap,4.94,Gender
+Jordan,gender gap,10.28,Gender
+Korea,gender gap,2.96,Gender
+Latvia ,gender gap,1.25,Gender
+Lithuania,gender gap,2.43,Gender
+Luxembourg ,gender gap,17.69,Gender
+Malaysia ,gender gap,4.86,Gender
+Malta ,gender gap,4.51,Gender
+Mexico ,gender gap,5.84,Gender
+Netherlands,gender gap,8.44,Gender
+Panama,gender gap,1.06,Gender
+Paraguay ,gender gap,2.05,Gender
+Peru,gender gap,3.95,Gender
+Philippines,gender gap,2.16,Gender
+Poland ,gender gap,1.05,Gender
+Portugal ,gender gap,8.09,Gender
+Romania ,gender gap,0.13,Gender
+Saudi Arabia ,gender gap,24.53,Gender
+Spain,gender gap,10.35,Gender
+Sweden ,gender gap,12.5,Gender
+Uruguay ,gender gap,8.19,Gender
+Yemen,gender gap,5.89,Gender
+Overall Average,gender gap,6.42,Gender
+OECD Average,gender gap,7.48,Gender
+Albania,high income,70.33,Other
+Brazil,high income,57.61,Other
+Cambodia ,high income,44.45,Other
+Chile,high income,68.79,Other
+Costa Rica,high income,64.13,Other
+Croatia ,high income,73.61,Other
+Cyprus ,high income,76.35,Other
+Estonia,high income,84.64,Other
+Finland ,high income,78.9,Other
+France ,high income,70.62,Other
+Germany,high income,89.84,Other
+Greece,high income,72.49,Other
+Hong Kong (China),high income,96.42,Other
+Hungary ,high income,80.95,Other
+Indonesia ,high income,43.35,Other
+Ireland ,high income,79.84,Other
+Italy ,high income,63.14,Other
+Jordan,high income,74.14,Other
+Korea,high income,78.82,Other
+Latvia ,high income,65.29,Other
+Lithuania,high income,59.35,Other
+Luxembourg ,high income,81.81,Other
+Malaysia ,high income,68.05,Other
+Malta ,high income,61.76,Other
+Mexico ,high income,66.65,Other
+Netherlands,high income,80.44,Other
+Panama,high income,56.68,Other
+Paraguay ,high income,59.83,Other
+Peru,high income,65.62,Other
+Philippines,high income,56.2,Other
+Poland ,high income,80.48,Other
+Portugal ,high income,74.06,Other
+Romania ,high income,68.47,Other
+Saudi Arabia ,high income,57.11,Other
+Spain,high income,79.78,Other
+Sweden ,high income,85.26,Other
+Uruguay ,high income,72.17,Other
+Yemen,high income,56.75,Other
+Overall Average,high income,70.11,Other
+OECD Average,high income,75.26,Other
+Albania,low income,46.57,Other
+Brazil,low income,50.01,Other
+Cambodia ,low income,40.24,Other
+Chile,low income,58.17,Other
+Costa Rica,low income,56.23,Other
+Croatia ,low income,64.89,Other
+Cyprus ,low income,63.34,Other
+Estonia,low income,71.24,Other
+Finland ,low income,63.2,Other
+France ,low income,60.25,Other
+Germany,low income,76.09,Other
+Greece,low income,52.82,Other
+Hong Kong (China),low income,83.07,Other
+Hungary ,low income,69.59,Other
+Indonesia ,low income,34.27,Other
+Ireland ,low income,65.74,Other
+Italy ,low income,54.67,Other
+Jordan,low income,49.69,Other
+Korea,low income,62.74,Other
+Latvia ,low income,54.76,Other
+Lithuania,low income,44.47,Other
+Luxembourg ,low income,60.27,Other
+Malaysia ,low income,53.42,Other
+Malta ,low income,55.25,Other
+Mexico ,low income,55.17,Other
+Netherlands,low income,60.85,Other
+Panama,low income,51.8,Other
+Paraguay ,low income,52.8,Other
+Peru,low income,49.28,Other
+Philippines,low income,45.62,Other
+Poland ,low income,64.16,Other
+Portugal ,low income,52.52,Other
+Romania ,low income,43.16,Other
+Saudi Arabia ,low income,63.73,Other
+Spain,low income,55.69,Other
+Sweden ,low income,62.53,Other
+Uruguay ,low income,55.87,Other
+Yemen,low income,49.22,Other
+Overall Average,low income,56.67,Other
+OECD Average,low income,60.06,Other
+Albania,wealth gap,23.76,Wealth
+Brazil,wealth gap,7.6,Wealth
+Cambodia ,wealth gap,4.21,Wealth
+Chile,wealth gap,10.62,Wealth
+Costa Rica,wealth gap,7.9,Wealth
+Croatia ,wealth gap,8.72,Wealth
+Cyprus ,wealth gap,13.01,Wealth
+Estonia,wealth gap,13.41,Wealth
+Finland ,wealth gap,15.71,Wealth
+France ,wealth gap,10.36,Wealth
+Germany,wealth gap,13.76,Wealth
+Greece,wealth gap,19.67,Wealth
+Hong Kong (China),wealth gap,13.35,Wealth
+Hungary ,wealth gap,11.36,Wealth
+Indonesia ,wealth gap,9.08,Wealth
+Ireland ,wealth gap,14.11,Wealth
+Italy ,wealth gap,8.47,Wealth
+Jordan,wealth gap,24.45,Wealth
+Korea,wealth gap,16.08,Wealth
+Latvia ,wealth gap,10.52,Wealth
+Lithuania,wealth gap,14.88,Wealth
+Luxembourg ,wealth gap,21.54,Wealth
+Malaysia ,wealth gap,14.63,Wealth
+Malta ,wealth gap,6.51,Wealth
+Mexico ,wealth gap,11.48,Wealth
+Netherlands,wealth gap,19.58,Wealth
+Panama,wealth gap,4.88,Wealth
+Paraguay ,wealth gap,7.04,Wealth
+Peru,wealth gap,16.34,Wealth
+Philippines,wealth gap,10.58,Wealth
+Poland ,wealth gap,16.32,Wealth
+Portugal ,wealth gap,21.54,Wealth
+Romania ,wealth gap,25.3,Wealth
+Saudi Arabia ,wealth gap,-6.62,Wealth
+Spain,wealth gap,24.09,Wealth
+Sweden ,wealth gap,22.73,Wealth
+Uruguay ,wealth gap,16.3,Wealth
+Yemen,wealth gap,7.53,Wealth
+Overall Average,wealth gap,13.44,Wealth
+OECD Average,wealth gap,15.2,Wealth
+Albania,age 30-59,59.4,Other
+Brazil,age 30-59,53.66,Other
+Cambodia ,age 30-59,41.98,Other
+Chile,age 30-59,62.86,Other
+Costa Rica,age 30-59,59.96,Other
+Croatia ,age 30-59,71.63,Other
+Cyprus ,age 30-59,75.67,Other
+Estonia,age 30-59,79.24,Other
+Finland ,age 30-59,69.97,Other
+France ,age 30-59,62.8,Other
+Germany,age 30-59,87.73,Other
+Greece,age 30-59,68.43,Other
+Hong Kong (China),age 30-59,92.6,Other
+Hungary ,age 30-59,76.43,Other
+Indonesia ,age 30-59,37.92,Other
+Ireland ,age 30-59,74.48,Other
+Italy ,age 30-59,56.45,Other
+Jordan,age 30-59,56.03,Other
+Korea,age 30-59,78.21,Other
+Latvia ,age 30-59,59.7,Other
+Lithuania,age 30-59,57.33,Other
+Luxembourg ,age 30-59,72.5,Other
+Malaysia ,age 30-59,63.42,Other
+Malta ,age 30-59,56.82,Other
+Mexico ,age 30-59,59.7,Other
+Netherlands,age 30-59,65.94,Other
+Panama,age 30-59,55.08,Other
+Paraguay ,age 30-59,56.16,Other
+Peru,age 30-59,58.02,Other
+Philippines,age 30-59,49.4,Other
+Poland ,age 30-59,75.26,Other
+Portugal ,age 30-59,67.88,Other
+Romania ,age 30-59,53.27,Other
+Saudi Arabia ,age 30-59,57.67,Other
+Spain,age 30-59,67.84,Other
+Sweden ,age 30-59,72.82,Other
+Uruguay ,age 30-59,63.04,Other
+Yemen,age 30-59,50.18,Other
+Overall Average,age 30-59,64.17,Other
+OECD Average,age 30-59,68.78,Other
+Albania,age 18-29,66.33,Other
+Brazil,age 18-29,54.38,Other
+Cambodia ,age 18-29,43.16,Other
+Chile,age 18-29,57.91,Other
+Costa Rica,age 18-29,58.27,Other
+Croatia ,age 18-29,70.46,Other
+Cyprus ,age 18-29,66.4,Other
+Estonia,age 18-29,81.17,Other
+Finland ,age 18-29,50.63,Other
+France ,age 18-29,57.04,Other
+Germany,age 18-29,81.34,Other
+Greece,age 18-29,71.15,Other
+Hong Kong (China),age 18-29,93.26,Other
+Hungary ,age 18-29,74.32,Other
+Indonesia ,age 18-29,39.3,Other
+Ireland ,age 18-29,68.97,Other
+Italy ,age 18-29,44.34,Other
+Jordan,age 18-29,52.88,Other
+Korea,age 18-29,74.89,Other
+Latvia ,age 18-29,53.32,Other
+Lithuania,age 18-29,50.62,Other
+Luxembourg ,age 18-29,56.92,Other
+Malaysia ,age 18-29,63.95,Other
+Malta ,age 18-29,56.41,Other
+Mexico ,age 18-29,58.23,Other
+Netherlands,age 18-29,59.68,Other
+Panama,age 18-29,54.13,Other
+Paraguay ,age 18-29,56.82,Other
+Peru,age 18-29,57.45,Other
+Philippines,age 18-29,45.83,Other
+Poland ,age 18-29,74.63,Other
+Portugal ,age 18-29,62.51,Other
+Romania ,age 18-29,59.0,Other
+Saudi Arabia ,age 18-29,56.72,Other
+Spain,age 18-29,62.66,Other
+Sweden ,age 18-29,55.57,Other
+Uruguay ,age 18-29,57.47,Other
+Yemen,age 18-29,51.11,Other
+Overall Average,age 18-29,60.95,Other
+OECD Average,age 18-29,62.71,Other
+Albania,age gap,-6.93,Age
+Brazil,age gap,-0.72,Age
+Cambodia ,age gap,-1.17,Age
+Chile,age gap,4.95,Age
+Costa Rica,age gap,1.69,Age
+Croatia ,age gap,1.17,Age
+Cyprus ,age gap,9.27,Age
+Estonia,age gap,-1.93,Age
+Finland ,age gap,19.33,Age
+France ,age gap,5.76,Age
+Germany,age gap,6.39,Age
+Greece,age gap,-2.71,Age
+Hong Kong (China),age gap,-0.67,Age
+Hungary ,age gap,2.11,Age
+Indonesia ,age gap,-1.38,Age
+Ireland ,age gap,5.51,Age
+Italy ,age gap,12.11,Age
+Jordan,age gap,3.14,Age
+Korea,age gap,3.32,Age
+Latvia ,age gap,6.38,Age
+Lithuania,age gap,6.71,Age
+Luxembourg ,age gap,15.59,Age
+Malaysia ,age gap,-0.53,Age
+Malta ,age gap,0.41,Age
+Mexico ,age gap,1.47,Age
+Netherlands,age gap,6.26,Age
+Panama,age gap,0.96,Age
+Paraguay ,age gap,-0.66,Age
+Peru,age gap,0.57,Age
+Philippines,age gap,3.57,Age
+Poland ,age gap,0.62,Age
+Portugal ,age gap,5.38,Age
+Romania ,age gap,-5.73,Age
+Saudi Arabia ,age gap,0.95,Age
+Spain,age gap,5.18,Age
+Sweden ,age gap,17.26,Age
+Uruguay ,age gap,5.57,Age
+Yemen,age gap,-0.93,Age
+Overall Average,age gap,3.21,Age
+OECD Average,age gap,6.07,Age
