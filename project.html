@@ -363,6 +363,31 @@
             </div>
         </section>
 
+
+          <section>
+            <div class="layout-grid layout-left">
+                
+                <div class="text-content">
+                    <h3>Section 7</h3>
+                    <h2>Financial behaviour</h2>
+                    <p>
+                        Aquí puedes escribir la descripción de tu primer gráfico. 
+                        Esta sección tiene configurada la clase <code>layout-left</code>, 
+                        por lo que el texto aparece a la izquierda y el gráfico a la derecha.
+                    </p>
+                    <p>
+                        Describe los hallazgos principales encontrados en el archivo <code>p7.json</code>.
+                    </p>
+                </div>
+
+                <div class="chart-content">
+                    <figure id="ProjectChart7"></figure>
+                    <p class="source">Source: <a href="https://www.oecd.org/en/publications/oecd-infe-2023-international-survey-of-adult-financial-literacy_56003a32-en.html">OECD/INFE 2023 International Survey of Adult Financial Literacy</a></p>
+                </div>
+
+            </div>
+        </section>
+
     </div>
 
     <footer>
@@ -377,6 +402,7 @@
         const specP3 = "project/p3/p3.json";
         const specP5 = "project/p5/p5.json";
         const specP6 = "project/p6/p6.json";
+        const specP7 = "project/p7/p7.json";
 
         // Renderizado en las figuras correspondientes
         vegaEmbed('#ProjectChart1', specP1);
@@ -385,6 +411,7 @@
         vegaEmbed('#ProjectChart3', specP3);
         vegaEmbed('#ProjectChart5', specP5);
         vegaEmbed('#ProjectChart6', specP6);
+        vegaEmbed('#ProjectChart7', specP7);
     </script>
 
 </body>
