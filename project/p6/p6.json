@@ -1,0 +1,81 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Regression Analysis: Financial Inclusion & Inflation 2024",
+    "subtitle": [
+      "Standardized Linear Regression (Excludes inflation > 10%).",
+      "Source: World Bank"
+    ],
+    "anchor": "start",
+    "fontSize": 16
+  },
+  "width": 500,
+  "height": 400,
+  "data": {
+    "url": "https://raw.githubusercontent.com/CarlosGV1208/CarlosGV1208.github.io/refs/heads/main/project/p6/p6_data.csv"
+  },
+  "layer": [
+    {
+      "description": "Layer 1: Scatter plot of countries",
+      "params": [{"name": "grid", "select": "interval", "bind": "scales"}],
+      "mark": {"type": "point", "filled": true, "size": 100, "opacity": 0.6},
+      "encoding": {
+        "x": {
+          "field": "Account_Ownership_Std",
+          "type": "quantitative",
+          "title": "Bank Account Ownership (% of population 15+)"
+        },
+        "y": {
+          "field": "Inflation_Std",
+          "type": "quantitative",
+          "title": "Annual Inflation Rate"
+        },
+        "color": {"value": "#5A9E97"},
+        "tooltip": [
+          {"field": "Country", "type": "nominal", "title": "Country"},
+          {
+            "field": "Real_Account_Ownership",
+            "type": "quantitative",
+            "format": ".2f",
+            "title": "Account Ownership (%)"
+          },
+          {
+            "field": "Real_Inflation",
+            "type": "quantitative",
+            "format": ".2f",
+            "title": "Inflation Rate (%)"
+          },
+          {
+            "field": "Account_Ownership_Std",
+            "type": "quantitative",
+            "format": ".2f",
+            "title": "X (Standardized)"
+          },
+          {
+            "field": "Inflation_Std",
+            "type": "quantitative",
+            "format": ".2f",
+            "title": "y (Standardized)"
+          }
+        ]
+      }
+    },
+    {
+      "description": "Layer 2: Regression Line",
+      "mark": {
+        "type": "line",
+        "color": "#e31a1c",
+        "strokeWidth": 2,
+        "strokeDash": [8, 4]
+      },
+      "encoding": {
+        "x": {"field": "Account_Ownership_Std", "type": "quantitative"},
+        "y": {"field": "Regression_Line", "type": "quantitative"}
+      }
+    }
+  ],
+  "config": {
+    "view": {"stroke": null},
+    "axis": {"grid": true, "gridDash": [2, 2]}
+  }
+}
