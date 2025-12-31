@@ -213,8 +213,9 @@
     </div>
 
     <div class="container">
-
-         <section>
+        
+        
+        <section>
             <div class="layout-grid layout-left">
                 
                 <div class="text-content">
@@ -233,6 +234,30 @@
                 <div class="chart-content">
                     <figure id="ProjectChart1"></figure>
                     <p class="source">Source: <a href="https://www.cssf.lu/en/Document/full-data-set-sp-global-finlit-survey/">S&P Global Financial Literature Survey</a></p>
+                </div>
+
+            </div>
+        </section>
+
+        <section>
+            <div class="layout-grid layout-left">
+                
+                <div class="text-content">
+                    <h3>Section 6</h3>
+                    <h2>Inflation vs Financial inclusion</h2>
+                    <p>
+                        Aquí puedes escribir la descripción de tu primer gráfico. 
+                        Esta sección tiene configurada la clase <code>layout-left</code>, 
+                        por lo que el texto aparece a la izquierda y el gráfico a la derecha.
+                    </p>
+                    <p>
+                        Describe los hallazgos principales encontrados en el archivo <code>p6.json</code>.
+                    </p>
+                </div>
+
+                <div class="chart-content">
+                    <figure id="ProjectChart6"></figure>
+                    <p class="source">Source: <a href="https://data.worldbank.org/indicator">World Bank API</a></p>
                 </div>
 
             </div>
@@ -349,6 +374,7 @@
         const specP4 = "project/p4/p4.json";
         const specP3 = "project/p3/p3.json";
         const specP5 = "project/p5/p5.json";
+        const specP6 = "project/p6/p6.json";
 
         // Renderizado en las figuras correspondientes
         vegaEmbed('#ProjectChart1', specP1);
@@ -356,6 +382,7 @@
         vegaEmbed('#ProjectChart4', specP4);
         vegaEmbed('#ProjectChart3', specP3);
         vegaEmbed('#ProjectChart5', specP5);
+        vegaEmbed('#ProjectChart6', specP6);
     </script>
 
 </body>
