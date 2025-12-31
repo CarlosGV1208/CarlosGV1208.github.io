@@ -10,8 +10,8 @@
     "fontSize": 18,
     "offset": 20
   },
-  "width": 550,
-  "height": 700,
+  "width": 400,
+  "height": 550,
   "data": {
     "url": "https://raw.githubusercontent.com/CarlosGV1208/CarlosGV1208.github.io/refs/heads/main/project/p7/p7_long.csv"
   },
