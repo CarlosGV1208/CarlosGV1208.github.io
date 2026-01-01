@@ -53,13 +53,13 @@
           "condition": {
             "param": "select_country",
             "empty": false,
-            "value": "#8FB3AB"
+            "value": "#E69138"
           },
           "value": "#5A9E97"
         },
         "opacity": {
           "condition": {"param": "select_country", "value": 1},
-          "value": 0.5
+          "value": 0.50
         },
         "tooltip": [
           {"field": "Country", "type": "nominal", "title": "Country"},
