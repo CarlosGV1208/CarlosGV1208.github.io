@@ -11,8 +11,8 @@
     "subtitleFontSize": 12,
     "offset": 20
   },
-  "width": 800,
-  "height": 450,
+  "width": 600,
+  "height": 350,
   "projection": {"type": "equalEarth"},
   "data": {
     "url": "https://raw.githubusercontent.com/vega/vega/master/docs/data/world-110m.json",
