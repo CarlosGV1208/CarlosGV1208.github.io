@@ -11,8 +11,8 @@
     "subtitleFontSize": 13,
     "offset": 25
   },
-  "width": 500,
-  "height": 600,
+  "width": 450,
+  "height": 500,
   "data": {
     "url": "https://raw.githubusercontent.com/CarlosGV1208/CarlosGV1208.github.io/refs/heads/main/project/p3/p3_long.csv"
   },

@@ -7,8 +7,8 @@
     "fontSize": 16,
     "subtitleFontSize": 12
   },
-  "width": 350,
-  "height": 350,
+  "width": 450,
+  "height": 450,
   "data": {
     "url": "https://raw.githubusercontent.com/CarlosGV1208/CarlosGV1208.github.io/refs/heads/main/project/ownership_savings.csv"
   },
