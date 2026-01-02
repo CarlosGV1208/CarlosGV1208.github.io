@@ -3,6 +3,11 @@
   "title": {
     "text": "National Savings Capacity vs. Financial Inclusion",
     "subtitle": "Analysis of Gross National Savings and Account Ownership (2024). Source: World Bank.",
+    "subtitle": [
+      "Analysis of Gross National Savings and Account Ownership (2024).",
+    
+      "Source: World Bank."
+    ],
     "anchor": "start",
     "fontSize": 16,
     "subtitleFontSize": 12
